@@ -15,6 +15,11 @@ import java.util.List;
  * @Description TODO
  * @Author liuxh
  * @Date 2020/6/28 16:45
+ * 1、根据配置文件的信息创建Connection对象，注册驱动
+ * 2、获取预处理对象PreparedStatment，此时需要SQL 语句
+ * 3、执行查询 ResultSet res = PreparedStatement.executeQuery();
+ * 4、遍历结果集用于封装
+ * 5、返回封装的list集合
  **/
 public class MybatisDemo01 {
     /**
