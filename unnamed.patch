@@ -1,0 +1,1409 @@
+Index: day01-demo01/pom.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- day01-demo01/pom.xml	(date 1593333569178)
++++ day01-demo01/pom.xml	(date 1593333569178)
+@@ -0,0 +1,33 @@
++<?xml version="1.0" encoding="UTF-8"?>
++<project xmlns="http://maven.apache.org/POM/4.0.0"
++         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
++         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
++    <modelVersion>4.0.0</modelVersion>
++
++    <groupId>com.fengfang</groupId>
++    <artifactId>day01-demo01</artifactId>
++    <version>1.0-SNAPSHOT</version>
++    <packaging>jar</packaging>
++    <dependencies>
++        <dependency>
++            <groupId>org.mybatis</groupId>
++            <artifactId>mybatis</artifactId>
++            <version>3.5.5</version>
++        </dependency>
++        <dependency>
++            <groupId>mysql</groupId>
++            <artifactId>mysql-connector-java</artifactId>
++            <version>8.0.20</version>
++        </dependency>
++        <dependency>
++            <groupId>log4j</groupId>
++            <artifactId>log4j</artifactId>
++            <version>1.2.17</version>
++        </dependency>
++        <dependency>
++            <groupId>junit</groupId>
++            <artifactId>junit</artifactId>
++            <version>4.13</version>
++        </dependency>
++    </dependencies>
++</project>
+\ No newline at end of file
+Index: day01-demo02-anno/pom.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- day01-demo02-anno/pom.xml	(date 1593334309785)
++++ day01-demo02-anno/pom.xml	(date 1593334309785)
+@@ -0,0 +1,34 @@
++<?xml version="1.0" encoding="UTF-8"?>
++<project xmlns="http://maven.apache.org/POM/4.0.0"
++         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
++         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
++    <modelVersion>4.0.0</modelVersion>
++
++    <groupId>com.fengfang</groupId>
++    <artifactId>day01-demo02-anno</artifactId>
++    <version>1.0-SNAPSHOT</version>
++    <packaging>jar</packaging>
++    <dependencies>
++        <dependency>
++            <groupId>org.mybatis</groupId>
++            <artifactId>mybatis</artifactId>
++            <version>3.5.5</version>
++        </dependency>
++        <dependency>
++            <groupId>mysql</groupId>
++            <artifactId>mysql-connector-java</artifactId>
++            <version>8.0.20</version>
++        </dependency>
++        <dependency>
++            <groupId>log4j</groupId>
++            <artifactId>log4j</artifactId>
++            <version>1.2.17</version>
++        </dependency>
++        <dependency>
++            <groupId>junit</groupId>
++            <artifactId>junit</artifactId>
++            <version>4.13</version>
++        </dependency>
++    </dependencies>
++
++</project>
+\ No newline at end of file
+Index: .idea/$CACHE_FILE$
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- .idea/$CACHE_FILE$	(date 1593333350227)
++++ .idea/$CACHE_FILE$	(date 1593333350227)
+@@ -0,0 +1,6 @@
++<?xml version="1.0" encoding="UTF-8"?>
++<project version="4">
++  <component name="YarnPnpManager">
++    <pnp-files />
++  </component>
++</project>
+\ No newline at end of file
+Index: day01-demo02-anno/day01-demo02-anno.iml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- day01-demo02-anno/day01-demo02-anno.iml	(date 1593334359974)
++++ day01-demo02-anno/day01-demo02-anno.iml	(date 1593334359974)
+@@ -0,0 +1,21 @@
++<?xml version="1.0" encoding="UTF-8"?>
++<module org.jetbrains.idea.maven.project.MavenProjectsManager.isMavenModule="true" type="JAVA_MODULE" version="4">
++  <component name="NewModuleRootManager" LANGUAGE_LEVEL="JDK_1_5">
++    <output url="file://$MODULE_DIR$/target/classes" />
++    <output-test url="file://$MODULE_DIR$/target/test-classes" />
++    <content url="file://$MODULE_DIR$">
++      <sourceFolder url="file://$MODULE_DIR$/src/main/java" isTestSource="false" />
++      <sourceFolder url="file://$MODULE_DIR$/src/main/resources" type="java-resource" />
++      <sourceFolder url="file://$MODULE_DIR$/src/test/java" isTestSource="true" />
++      <excludeFolder url="file://$MODULE_DIR$/target" />
++    </content>
++    <orderEntry type="jdk" jdkName="1.8" jdkType="JavaSDK" />
++    <orderEntry type="sourceFolder" forTests="false" />
++    <orderEntry type="library" name="Maven: org.mybatis:mybatis:3.5.5" level="project" />
++    <orderEntry type="library" name="Maven: mysql:mysql-connector-java:8.0.20" level="project" />
++    <orderEntry type="library" name="Maven: com.google.protobuf:protobuf-java:3.6.1" level="project" />
++    <orderEntry type="library" name="Maven: log4j:log4j:1.2.17" level="project" />
++    <orderEntry type="library" name="Maven: junit:junit:4.13" level="project" />
++    <orderEntry type="library" name="Maven: org.hamcrest:hamcrest-core:1.3" level="project" />
++  </component>
++</module>
+\ No newline at end of file
+Index: day01-demo02-anno/src/test/java/com/fengfang/test/MybatisDemo02.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- day01-demo02-anno/src/test/java/com/fengfang/test/MybatisDemo02.java	(date 1593334416051)
++++ day01-demo02-anno/src/test/java/com/fengfang/test/MybatisDemo02.java	(date 1593334416051)
+@@ -0,0 +1,42 @@
++package com.fengfang.test;
++
++import com.fengfang.dao.IAccountDao;
++import com.fengfang.domain.Account;
++import org.apache.ibatis.io.Resources;
++import org.apache.ibatis.session.SqlSession;
++import org.apache.ibatis.session.SqlSessionFactory;
++import org.apache.ibatis.session.SqlSessionFactoryBuilder;
++
++import java.io.IOException;
++import java.io.InputStream;
++import java.util.List;
++
++/**
++ * @Description TODO
++ * @Author liuxh
++ * @Date 2020/6/28 16:45
++ **/
++public class MybatisDemo02 {
++    /**
++     * 入门案例测试
++     * @param args
++     */
++    public static void main(String[] args) throws IOException {
++        //读取配置文件
++        InputStream inputStream = Resources.getResourceAsStream("mybatisConfig.xml");
++        //创建SqlSessionFactory
++        SqlSessionFactory factory = new SqlSessionFactoryBuilder().build(inputStream);
++        //创建SqlSession
++        SqlSession session = factory.openSession();
++        //创建代理理
++        IAccountDao accountDao = session.getMapper(IAccountDao.class);
++        //调用方法查询数据
++        List<Account> accounts = accountDao.findAll();
++        for(Account account :accounts){
++            System.out.println(account);
++        }
++        //释放资源
++        session.close();
++        inputStream.close();
++    }
++}
+Index: day01-demo02-anno/src/main/resources/mybatisConfig.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- day01-demo02-anno/src/main/resources/mybatisConfig.xml	(date 1593334379368)
++++ day01-demo02-anno/src/main/resources/mybatisConfig.xml	(date 1593334379368)
+@@ -0,0 +1,20 @@
++<?xml version="1.0" encoding="UTF-8" ?>
++<!DOCTYPE configuration
++        PUBLIC "-//mybatis.org//DTD Config 3.0//EN"
++        "http://mybatis.org/dtd/mybatis-3-config.dtd">
++<configuration>
++    <environments default="mysql">
++        <environment id="mysql">
++            <transactionManager type="JDBC"></transactionManager>
++            <dataSource type="POOLED">
++                <property name="driver" value="com.mysql.cj.jdbc.Driver"/>
++                <property name="url" value="jdbc:mysql://localhost:3306/eesy_mybatis"/>
++                <property name="username" value="root"/>
++                <property name="password" value="123456"/>
++            </dataSource>
++        </environment>
++    </environments>
++    <mappers>
++        <mapper class="com.fengfang.dao.IAccountDao"></mapper>
++    </mappers>
++</configuration>
+\ No newline at end of file
+Index: .idea/.gitignore
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- .idea/.gitignore	(date 1593336296996)
++++ .idea/.gitignore	(date 1593336296996)
+@@ -0,0 +1,2 @@
++# Default ignored files
++/workspace.xml
+\ No newline at end of file
+Index: day01-demo01/target/classes/mybatisConfig.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- day01-demo01/target/classes/mybatisConfig.xml	(date 1593333864521)
++++ day01-demo01/target/classes/mybatisConfig.xml	(date 1593333864521)
+@@ -0,0 +1,20 @@
++<?xml version="1.0" encoding="UTF-8" ?>
++<!DOCTYPE configuration
++        PUBLIC "-//mybatis.org//DTD Config 3.0//EN"
++        "http://mybatis.org/dtd/mybatis-3-config.dtd">
++<configuration>
++    <environments default="mysql">
++        <environment id="mysql">
++            <transactionManager type="JDBC"></transactionManager>
++            <dataSource type="POOLED">
++                <property name="driver" value="com.mysql.cj.jdbc.Driver"/>
++                <property name="url" value="jdbc:mysql://localhost:3306/eesy_mybatis"/>
++                <property name="username" value="root"/>
++                <property name="password" value="123456"/>
++            </dataSource>
++        </environment>
++    </environments>
++    <mappers>
++        <mapper resource="com/fengfang/dao/IAccountDao.xml"></mapper>
++    </mappers>
++</configuration>
+\ No newline at end of file
+Index: .idea/modules.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- .idea/modules.xml	(date 1593335717674)
++++ .idea/modules.xml	(date 1593335717674)
+@@ -0,0 +1,10 @@
++<?xml version="1.0" encoding="UTF-8"?>
++<project version="4">
++  <component name="ProjectModuleManager">
++    <modules>
++      <module fileurl="file://$PROJECT_DIR$/day01-demo01/day01-demo01.iml" filepath="$PROJECT_DIR$/day01-demo01/day01-demo01.iml" />
++      <module fileurl="file://$PROJECT_DIR$/day01-demo02-anno/day01-demo02-anno.iml" filepath="$PROJECT_DIR$/day01-demo02-anno/day01-demo02-anno.iml" />
++      <module fileurl="file://$PROJECT_DIR$/day01-demo03-mybatisdao/day01-demo03-mybatisdao.iml" filepath="$PROJECT_DIR$/day01-demo03-mybatisdao/day01-demo03-mybatisdao.iml" />
++    </modules>
++  </component>
++</project>
+\ No newline at end of file
+Index: .idea/uiDesigner.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- .idea/uiDesigner.xml	(date 1593334416186)
++++ .idea/uiDesigner.xml	(date 1593334416186)
+@@ -0,0 +1,124 @@
++<?xml version="1.0" encoding="UTF-8"?>
++<project version="4">
++  <component name="Palette2">
++    <group name="Swing">
++      <item class="com.intellij.uiDesigner.HSpacer" tooltip-text="Horizontal Spacer" icon="/com/intellij/uiDesigner/icons/hspacer.png" removable="false" auto-create-binding="false" can-attach-label="false">
++        <default-constraints vsize-policy="1" hsize-policy="6" anchor="0" fill="1" />
++      </item>
++      <item class="com.intellij.uiDesigner.VSpacer" tooltip-text="Vertical Spacer" icon="/com/intellij/uiDesigner/icons/vspacer.png" removable="false" auto-create-binding="false" can-attach-label="false">
++        <default-constraints vsize-policy="6" hsize-policy="1" anchor="0" fill="2" />
++      </item>
++      <item class="javax.swing.JPanel" icon="/com/intellij/uiDesigner/icons/panel.png" removable="false" auto-create-binding="false" can-attach-label="false">
++        <default-constraints vsize-policy="3" hsize-policy="3" anchor="0" fill="3" />
++      </item>
++      <item class="javax.swing.JScrollPane" icon="/com/intellij/uiDesigner/icons/scrollPane.png" removable="false" auto-create-binding="false" can-attach-label="true">
++        <default-constraints vsize-policy="7" hsize-policy="7" anchor="0" fill="3" />
++      </item>
++      <item class="javax.swing.JButton" icon="/com/intellij/uiDesigner/icons/button.png" removable="false" auto-create-binding="true" can-attach-label="false">
++        <default-constraints vsize-policy="0" hsize-policy="3" anchor="0" fill="1" />
++        <initial-values>
++          <property name="text" value="Button" />
++        </initial-values>
++      </item>
++      <item class="javax.swing.JRadioButton" icon="/com/intellij/uiDesigner/icons/radioButton.png" removable="false" auto-create-binding="true" can-attach-label="false">
++        <default-constraints vsize-policy="0" hsize-policy="3" anchor="8" fill="0" />
++        <initial-values>
++          <property name="text" value="RadioButton" />
++        </initial-values>
++      </item>
++      <item class="javax.swing.JCheckBox" icon="/com/intellij/uiDesigner/icons/checkBox.png" removable="false" auto-create-binding="true" can-attach-label="false">
++        <default-constraints vsize-policy="0" hsize-policy="3" anchor="8" fill="0" />
++        <initial-values>
++          <property name="text" value="CheckBox" />
++        </initial-values>
++      </item>
++      <item class="javax.swing.JLabel" icon="/com/intellij/uiDesigner/icons/label.png" removable="false" auto-create-binding="false" can-attach-label="false">
++        <default-constraints vsize-policy="0" hsize-policy="0" anchor="8" fill="0" />
++        <initial-values>
++          <property name="text" value="Label" />
++        </initial-values>
++      </item>
++      <item class="javax.swing.JTextField" icon="/com/intellij/uiDesigner/icons/textField.png" removable="false" auto-create-binding="true" can-attach-label="true">
++        <default-constraints vsize-policy="0" hsize-policy="6" anchor="8" fill="1">
++          <preferred-size width="150" height="-1" />
++        </default-constraints>
++      </item>
++      <item class="javax.swing.JPasswordField" icon="/com/intellij/uiDesigner/icons/passwordField.png" removable="false" auto-create-binding="true" can-attach-label="true">
++        <default-constraints vsize-policy="0" hsize-policy="6" anchor="8" fill="1">
++          <preferred-size width="150" height="-1" />
++        </default-constraints>
++      </item>
++      <item class="javax.swing.JFormattedTextField" icon="/com/intellij/uiDesigner/icons/formattedTextField.png" removable="false" auto-create-binding="true" can-attach-label="true">
++        <default-constraints vsize-policy="0" hsize-policy="6" anchor="8" fill="1">
++          <preferred-size width="150" height="-1" />
++        </default-constraints>
++      </item>
++      <item class="javax.swing.JTextArea" icon="/com/intellij/uiDesigner/icons/textArea.png" removable="false" auto-create-binding="true" can-attach-label="true">
++        <default-constraints vsize-policy="6" hsize-policy="6" anchor="0" fill="3">
++          <preferred-size width="150" height="50" />
++        </default-constraints>
++      </item>
++      <item class="javax.swing.JTextPane" icon="/com/intellij/uiDesigner/icons/textPane.png" removable="false" auto-create-binding="true" can-attach-label="true">
++        <default-constraints vsize-policy="6" hsize-policy="6" anchor="0" fill="3">
++          <preferred-size width="150" height="50" />
++        </default-constraints>
++      </item>
++      <item class="javax.swing.JEditorPane" icon="/com/intellij/uiDesigner/icons/editorPane.png" removable="false" auto-create-binding="true" can-attach-label="true">
++        <default-constraints vsize-policy="6" hsize-policy="6" anchor="0" fill="3">
++          <preferred-size width="150" height="50" />
++        </default-constraints>
++      </item>
++      <item class="javax.swing.JComboBox" icon="/com/intellij/uiDesigner/icons/comboBox.png" removable="false" auto-create-binding="true" can-attach-label="true">
++        <default-constraints vsize-policy="0" hsize-policy="2" anchor="8" fill="1" />
++      </item>
++      <item class="javax.swing.JTable" icon="/com/intellij/uiDesigner/icons/table.png" removable="false" auto-create-binding="true" can-attach-label="false">
++        <default-constraints vsize-policy="6" hsize-policy="6" anchor="0" fill="3">
++          <preferred-size width="150" height="50" />
++        </default-constraints>
++      </item>
++      <item class="javax.swing.JList" icon="/com/intellij/uiDesigner/icons/list.png" removable="false" auto-create-binding="true" can-attach-label="false">
++        <default-constraints vsize-policy="6" hsize-policy="2" anchor="0" fill="3">
++          <preferred-size width="150" height="50" />
++        </default-constraints>
++      </item>
++      <item class="javax.swing.JTree" icon="/com/intellij/uiDesigner/icons/tree.png" removable="false" auto-create-binding="true" can-attach-label="false">
++        <default-constraints vsize-policy="6" hsize-policy="6" anchor="0" fill="3">
++          <preferred-size width="150" height="50" />
++        </default-constraints>
++      </item>
++      <item class="javax.swing.JTabbedPane" icon="/com/intellij/uiDesigner/icons/tabbedPane.png" removable="false" auto-create-binding="true" can-attach-label="false">
++        <default-constraints vsize-policy="3" hsize-policy="3" anchor="0" fill="3">
++          <preferred-size width="200" height="200" />
++        </default-constraints>
++      </item>
++      <item class="javax.swing.JSplitPane" icon="/com/intellij/uiDesigner/icons/splitPane.png" removable="false" auto-create-binding="false" can-attach-label="false">
++        <default-constraints vsize-policy="3" hsize-policy="3" anchor="0" fill="3">
++          <preferred-size width="200" height="200" />
++        </default-constraints>
++      </item>
++      <item class="javax.swing.JSpinner" icon="/com/intellij/uiDesigner/icons/spinner.png" removable="false" auto-create-binding="true" can-attach-label="true">
++        <default-constraints vsize-policy="0" hsize-policy="6" anchor="8" fill="1" />
++      </item>
++      <item class="javax.swing.JSlider" icon="/com/intellij/uiDesigner/icons/slider.png" removable="false" auto-create-binding="true" can-attach-label="false">
++        <default-constraints vsize-policy="0" hsize-policy="6" anchor="8" fill="1" />
++      </item>
++      <item class="javax.swing.JSeparator" icon="/com/intellij/uiDesigner/icons/separator.png" removable="false" auto-create-binding="false" can-attach-label="false">
++        <default-constraints vsize-policy="6" hsize-policy="6" anchor="0" fill="3" />
++      </item>
++      <item class="javax.swing.JProgressBar" icon="/com/intellij/uiDesigner/icons/progressbar.png" removable="false" auto-create-binding="true" can-attach-label="false">
++        <default-constraints vsize-policy="0" hsize-policy="6" anchor="0" fill="1" />
++      </item>
++      <item class="javax.swing.JToolBar" icon="/com/intellij/uiDesigner/icons/toolbar.png" removable="false" auto-create-binding="false" can-attach-label="false">
++        <default-constraints vsize-policy="0" hsize-policy="6" anchor="0" fill="1">
++          <preferred-size width="-1" height="20" />
++        </default-constraints>
++      </item>
++      <item class="javax.swing.JToolBar$Separator" icon="/com/intellij/uiDesigner/icons/toolbarSeparator.png" removable="false" auto-create-binding="false" can-attach-label="false">
++        <default-constraints vsize-policy="0" hsize-policy="0" anchor="0" fill="1" />
++      </item>
++      <item class="javax.swing.JScrollBar" icon="/com/intellij/uiDesigner/icons/scrollbar.png" removable="false" auto-create-binding="true" can-attach-label="false">
++        <default-constraints vsize-policy="6" hsize-policy="0" anchor="0" fill="2" />
++      </item>
++    </group>
++  </component>
++</project>
+\ No newline at end of file
+Index: day01-demo02-anno/src/main/java/com/fengfang/domain/Account.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- day01-demo02-anno/src/main/java/com/fengfang/domain/Account.java	(date 1593334627387)
++++ day01-demo02-anno/src/main/java/com/fengfang/domain/Account.java	(date 1593334627387)
+@@ -0,0 +1,67 @@
++package com.fengfang.domain;
++
++import java.util.Date;
++
++/**
++ * @Description TODO
++ * @Author liuxh
++ * @Date 2020/6/28 16:55
++ **/
++public class Account {
++    private Integer id;
++    private String username;
++    private Date birthday;
++    private String sex;
++    private String address;
++
++    public Integer getId() {
++        return id;
++    }
++
++    public void setId(Integer id) {
++        this.id = id;
++    }
++
++    public String getUsername() {
++        return username;
++    }
++
++    public void setUsername(String username) {
++        this.username = username;
++    }
++
++    public Date getBirthday() {
++        return birthday;
++    }
++
++    public void setBirthday(Date birthday) {
++        this.birthday = birthday;
++    }
++
++    public String getSex() {
++        return sex;
++    }
++
++    public void setSex(String sex) {
++        this.sex = sex;
++    }
++
++    public String getAddress() {
++        return address;
++    }
++
++    public void setAddress(String address) {
++        this.address = address;
++    }
++
++    @Override
++    public String toString() {
++        return "Account{" +
++                "id=" + id +
++                ", username='" + username + '\'' +
++                ", birthday=" + birthday +
++                ", sex='" + sex + '\'' +
++                ", address='" + address + '\'' +
++                '}';
++    }
++}
+Index: .idea/libraries/Maven__com_google_protobuf_protobuf_java_3_6_1.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- .idea/libraries/Maven__com_google_protobuf_protobuf_java_3_6_1.xml	(date 1593333569411)
++++ .idea/libraries/Maven__com_google_protobuf_protobuf_java_3_6_1.xml	(date 1593333569411)
+@@ -0,0 +1,13 @@
++<component name="libraryTable">
++  <library name="Maven: com.google.protobuf:protobuf-java:3.6.1">
++    <CLASSES>
++      <root url="jar://$MAVEN_REPOSITORY$/com/google/protobuf/protobuf-java/3.6.1/protobuf-java-3.6.1.jar!/" />
++    </CLASSES>
++    <JAVADOC>
++      <root url="jar://$MAVEN_REPOSITORY$/com/google/protobuf/protobuf-java/3.6.1/protobuf-java-3.6.1-javadoc.jar!/" />
++    </JAVADOC>
++    <SOURCES>
++      <root url="jar://$MAVEN_REPOSITORY$/com/google/protobuf/protobuf-java/3.6.1/protobuf-java-3.6.1-sources.jar!/" />
++    </SOURCES>
++  </library>
++</component>
+\ No newline at end of file
+Index: .idea/misc.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- .idea/misc.xml	(date 1593335717660)
++++ .idea/misc.xml	(date 1593335717660)
+@@ -0,0 +1,15 @@
++<?xml version="1.0" encoding="UTF-8"?>
++<project version="4">
++  <component name="MavenProjectsManager">
++    <option name="originalFiles">
++      <list>
++        <option value="$PROJECT_DIR$/day01-demo01/pom.xml" />
++        <option value="$PROJECT_DIR$/day01-demo02-anno/pom.xml" />
++        <option value="$PROJECT_DIR$/day01-demo03-mybatisdao/pom.xml" />
++      </list>
++    </option>
++  </component>
++  <component name="ProjectRootManager">
++    <output url="file://$PROJECT_DIR$/out" />
++  </component>
++</project>
+\ No newline at end of file
+Index: .idea/compiler.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- .idea/compiler.xml	(date 1593335717652)
++++ .idea/compiler.xml	(date 1593335717652)
+@@ -0,0 +1,20 @@
++<?xml version="1.0" encoding="UTF-8"?>
++<project version="4">
++  <component name="CompilerConfiguration">
++    <annotationProcessing>
++      <profile name="Maven default annotation processors profile" enabled="true">
++        <sourceOutputDir name="target/generated-sources/annotations" />
++        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
++        <outputRelativeToContentRoot value="true" />
++        <module name="day01-demo03-mybatisdao" />
++        <module name="day01-demo02-anno" />
++        <module name="day01-demo01" />
++      </profile>
++    </annotationProcessing>
++    <bytecodeTargetLevel>
++      <module name="day01-demo01" target="1.5" />
++      <module name="day01-demo02-anno" target="1.5" />
++      <module name="day01-demo03-mybatisdao" target="1.5" />
++    </bytecodeTargetLevel>
++  </component>
++</project>
+\ No newline at end of file
+Index: day01-demo03-mybatisdao/pom.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- day01-demo03-mybatisdao/pom.xml	(date 1593335764134)
++++ day01-demo03-mybatisdao/pom.xml	(date 1593335764134)
+@@ -0,0 +1,34 @@
++<?xml version="1.0" encoding="UTF-8"?>
++<project xmlns="http://maven.apache.org/POM/4.0.0"
++         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
++         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
++    <modelVersion>4.0.0</modelVersion>
++
++    <groupId>com.fengfang</groupId>
++    <artifactId>day01-demo03-mybatisdao</artifactId>
++    <version>1.0-SNAPSHOT</version>
++    <packaging>jar</packaging>
++    <dependencies>
++        <dependency>
++            <groupId>org.mybatis</groupId>
++            <artifactId>mybatis</artifactId>
++            <version>3.5.5</version>
++        </dependency>
++        <dependency>
++            <groupId>mysql</groupId>
++            <artifactId>mysql-connector-java</artifactId>
++            <version>8.0.20</version>
++        </dependency>
++        <dependency>
++            <groupId>log4j</groupId>
++            <artifactId>log4j</artifactId>
++            <version>1.2.17</version>
++        </dependency>
++        <dependency>
++            <groupId>junit</groupId>
++            <artifactId>junit</artifactId>
++            <version>4.13</version>
++        </dependency>
++    </dependencies>
++
++</project>
+\ No newline at end of file
+Index: .idea/libraries/Maven__org_mybatis_mybatis_3_5_5.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- .idea/libraries/Maven__org_mybatis_mybatis_3_5_5.xml	(date 1593333569442)
++++ .idea/libraries/Maven__org_mybatis_mybatis_3_5_5.xml	(date 1593333569442)
+@@ -0,0 +1,13 @@
++<component name="libraryTable">
++  <library name="Maven: org.mybatis:mybatis:3.5.5">
++    <CLASSES>
++      <root url="jar://$MAVEN_REPOSITORY$/org/mybatis/mybatis/3.5.5/mybatis-3.5.5.jar!/" />
++    </CLASSES>
++    <JAVADOC>
++      <root url="jar://$MAVEN_REPOSITORY$/org/mybatis/mybatis/3.5.5/mybatis-3.5.5-javadoc.jar!/" />
++    </JAVADOC>
++    <SOURCES>
++      <root url="jar://$MAVEN_REPOSITORY$/org/mybatis/mybatis/3.5.5/mybatis-3.5.5-sources.jar!/" />
++    </SOURCES>
++  </library>
++</component>
+\ No newline at end of file
+Index: day01-demo01/target/classes/com/fengfang/dao/IAccountDao.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- day01-demo01/target/classes/com/fengfang/dao/IAccountDao.xml	(date 1593333934705)
++++ day01-demo01/target/classes/com/fengfang/dao/IAccountDao.xml	(date 1593333934705)
+@@ -0,0 +1,9 @@
++<?xml version="1.0" encoding="UTF-8" ?>
++<!DOCTYPE mapper
++        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
++        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
++<mapper namespace="com.fengfang.dao.IAccountDao">
++    <select id="findAll" resultType="com.fengfang.domain.Account">
++    select * from account
++  </select>
++</mapper>
+\ No newline at end of file
+Index: day01-demo02-anno/src/main/java/com/fengfang/dao/IAccountDao.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- day01-demo02-anno/src/main/java/com/fengfang/dao/IAccountDao.java	(date 1593334641930)
++++ day01-demo02-anno/src/main/java/com/fengfang/dao/IAccountDao.java	(date 1593334641930)
+@@ -0,0 +1,16 @@
++package com.fengfang.dao;
++
++import com.fengfang.domain.Account;
++import org.apache.ibatis.annotations.Select;
++
++import java.util.List;
++
++/**
++ * @Description TODO
++ * @Author liuxh
++ * @Date 2020/6/28 16:55
++ **/
++public interface IAccountDao {
++    @Select("select * from Account")
++    public List<Account> findAll();
++}
+Index: .idea/libraries/Maven__log4j_log4j_1_2_17.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- .idea/libraries/Maven__log4j_log4j_1_2_17.xml	(date 1593333569423)
++++ .idea/libraries/Maven__log4j_log4j_1_2_17.xml	(date 1593333569423)
+@@ -0,0 +1,13 @@
++<component name="libraryTable">
++  <library name="Maven: log4j:log4j:1.2.17">
++    <CLASSES>
++      <root url="jar://$MAVEN_REPOSITORY$/log4j/log4j/1.2.17/log4j-1.2.17.jar!/" />
++    </CLASSES>
++    <JAVADOC>
++      <root url="jar://$MAVEN_REPOSITORY$/log4j/log4j/1.2.17/log4j-1.2.17-javadoc.jar!/" />
++    </JAVADOC>
++    <SOURCES>
++      <root url="jar://$MAVEN_REPOSITORY$/log4j/log4j/1.2.17/log4j-1.2.17-sources.jar!/" />
++    </SOURCES>
++  </library>
++</component>
+\ No newline at end of file
+Index: .idea/libraries/Maven__mysql_mysql_connector_java_8_0_20.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- .idea/libraries/Maven__mysql_mysql_connector_java_8_0_20.xml	(date 1593333569432)
++++ .idea/libraries/Maven__mysql_mysql_connector_java_8_0_20.xml	(date 1593333569432)
+@@ -0,0 +1,13 @@
++<component name="libraryTable">
++  <library name="Maven: mysql:mysql-connector-java:8.0.20">
++    <CLASSES>
++      <root url="jar://$MAVEN_REPOSITORY$/mysql/mysql-connector-java/8.0.20/mysql-connector-java-8.0.20.jar!/" />
++    </CLASSES>
++    <JAVADOC>
++      <root url="jar://$MAVEN_REPOSITORY$/mysql/mysql-connector-java/8.0.20/mysql-connector-java-8.0.20-javadoc.jar!/" />
++    </JAVADOC>
++    <SOURCES>
++      <root url="jar://$MAVEN_REPOSITORY$/mysql/mysql-connector-java/8.0.20/mysql-connector-java-8.0.20-sources.jar!/" />
++    </SOURCES>
++  </library>
++</component>
+\ No newline at end of file
+Index: day01-demo01/src/main/java/com/fengfang/domain/Account.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- day01-demo01/src/main/java/com/fengfang/domain/Account.java	(date 1593333659001)
++++ day01-demo01/src/main/java/com/fengfang/domain/Account.java	(date 1593333659001)
+@@ -0,0 +1,68 @@
++package com.fengfang.domain;
++
++import java.io.Serializable;
++import java.util.Date;
++
++/**
++ * @Description TODO
++ * @Author liuxh
++ * @Date 2020/6/28 16:39
++ **/
++public class Account implements Serializable {
++    private Integer id;
++    private String username;
++    private Date birthday;
++    private String sex;
++    private String address;
++
++    public Integer getId() {
++        return id;
++    }
++
++    public void setId(Integer id) {
++        this.id = id;
++    }
++
++    public String getUsername() {
++        return username;
++    }
++
++    public void setUsername(String username) {
++        this.username = username;
++    }
++
++    public Date getBirthday() {
++        return birthday;
++    }
++
++    public void setBirthday(Date birthday) {
++        this.birthday = birthday;
++    }
++
++    public String getSex() {
++        return sex;
++    }
++
++    public void setSex(String sex) {
++        this.sex = sex;
++    }
++
++    public String getAddress() {
++        return address;
++    }
++
++    public void setAddress(String address) {
++        this.address = address;
++    }
++
++    @Override
++    public String toString() {
++        return "Account{" +
++                "id=" + id +
++                ", username='" + username + '\'' +
++                ", birthday=" + birthday +
++                ", sex='" + sex + '\'' +
++                ", address='" + address + '\'' +
++                '}';
++    }
++}
+Index: .idea/libraries/Maven__junit_junit_4_13.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- .idea/libraries/Maven__junit_junit_4_13.xml	(date 1593333641617)
++++ .idea/libraries/Maven__junit_junit_4_13.xml	(date 1593333641617)
+@@ -0,0 +1,13 @@
++<component name="libraryTable">
++  <library name="Maven: junit:junit:4.13">
++    <CLASSES>
++      <root url="jar://$MAVEN_REPOSITORY$/junit/junit/4.13/junit-4.13.jar!/" />
++    </CLASSES>
++    <JAVADOC>
++      <root url="jar://$MAVEN_REPOSITORY$/junit/junit/4.13/junit-4.13-javadoc.jar!/" />
++    </JAVADOC>
++    <SOURCES>
++      <root url="jar://$MAVEN_REPOSITORY$/junit/junit/4.13/junit-4.13-sources.jar!/" />
++    </SOURCES>
++  </library>
++</component>
+\ No newline at end of file
+Index: day01-demo02-anno/target/classes/mybatisConfig.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- day01-demo02-anno/target/classes/mybatisConfig.xml	(date 1593334379368)
++++ day01-demo02-anno/target/classes/mybatisConfig.xml	(date 1593334379368)
+@@ -0,0 +1,20 @@
++<?xml version="1.0" encoding="UTF-8" ?>
++<!DOCTYPE configuration
++        PUBLIC "-//mybatis.org//DTD Config 3.0//EN"
++        "http://mybatis.org/dtd/mybatis-3-config.dtd">
++<configuration>
++    <environments default="mysql">
++        <environment id="mysql">
++            <transactionManager type="JDBC"></transactionManager>
++            <dataSource type="POOLED">
++                <property name="driver" value="com.mysql.cj.jdbc.Driver"/>
++                <property name="url" value="jdbc:mysql://localhost:3306/eesy_mybatis"/>
++                <property name="username" value="root"/>
++                <property name="password" value="123456"/>
++            </dataSource>
++        </environment>
++    </environments>
++    <mappers>
++        <mapper class="com.fengfang.dao.IAccountDao"></mapper>
++    </mappers>
++</configuration>
+\ No newline at end of file
+Index: day01-demo01/src/main/java/com/fengfang/dao/IAccountDao.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- day01-demo01/src/main/java/com/fengfang/dao/IAccountDao.java	(date 1593333704036)
++++ day01-demo01/src/main/java/com/fengfang/dao/IAccountDao.java	(date 1593333704036)
+@@ -0,0 +1,18 @@
++package com.fengfang.dao;
++
++import com.fengfang.domain.Account;
++
++import java.util.List;
++
++/**
++ * @Description TODO
++ * @Author liuxh
++ * @Date 2020/6/28 16:41
++ **/
++public interface IAccountDao {
++    /**
++     * 定义一个查询所有数据接口
++     * @return
++     */
++    public List<Account> findAll();
++}
+Index: day01-demo01/src/main/resources/mybatisConfig.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- day01-demo01/src/main/resources/mybatisConfig.xml	(date 1593333864521)
++++ day01-demo01/src/main/resources/mybatisConfig.xml	(date 1593333864521)
+@@ -0,0 +1,20 @@
++<?xml version="1.0" encoding="UTF-8" ?>
++<!DOCTYPE configuration
++        PUBLIC "-//mybatis.org//DTD Config 3.0//EN"
++        "http://mybatis.org/dtd/mybatis-3-config.dtd">
++<configuration>
++    <environments default="mysql">
++        <environment id="mysql">
++            <transactionManager type="JDBC"></transactionManager>
++            <dataSource type="POOLED">
++                <property name="driver" value="com.mysql.cj.jdbc.Driver"/>
++                <property name="url" value="jdbc:mysql://localhost:3306/eesy_mybatis"/>
++                <property name="username" value="root"/>
++                <property name="password" value="123456"/>
++            </dataSource>
++        </environment>
++    </environments>
++    <mappers>
++        <mapper resource="com/fengfang/dao/IAccountDao.xml"></mapper>
++    </mappers>
++</configuration>
+\ No newline at end of file
+Index: day01-demo03-mybatisdao/src/main/resources/mybatisConfig.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- day01-demo03-mybatisdao/src/main/resources/mybatisConfig.xml	(date 1593333864521)
++++ day01-demo03-mybatisdao/src/main/resources/mybatisConfig.xml	(date 1593333864521)
+@@ -0,0 +1,20 @@
++<?xml version="1.0" encoding="UTF-8" ?>
++<!DOCTYPE configuration
++        PUBLIC "-//mybatis.org//DTD Config 3.0//EN"
++        "http://mybatis.org/dtd/mybatis-3-config.dtd">
++<configuration>
++    <environments default="mysql">
++        <environment id="mysql">
++            <transactionManager type="JDBC"></transactionManager>
++            <dataSource type="POOLED">
++                <property name="driver" value="com.mysql.cj.jdbc.Driver"/>
++                <property name="url" value="jdbc:mysql://localhost:3306/eesy_mybatis"/>
++                <property name="username" value="root"/>
++                <property name="password" value="123456"/>
++            </dataSource>
++        </environment>
++    </environments>
++    <mappers>
++        <mapper resource="com/fengfang/dao/IAccountDao.xml"></mapper>
++    </mappers>
++</configuration>
+\ No newline at end of file
+Index: .idea/libraries/Maven__org_hamcrest_hamcrest_core_1_3.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- .idea/libraries/Maven__org_hamcrest_hamcrest_core_1_3.xml	(date 1593333641627)
++++ .idea/libraries/Maven__org_hamcrest_hamcrest_core_1_3.xml	(date 1593333641627)
+@@ -0,0 +1,13 @@
++<component name="libraryTable">
++  <library name="Maven: org.hamcrest:hamcrest-core:1.3">
++    <CLASSES>
++      <root url="jar://$MAVEN_REPOSITORY$/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar!/" />
++    </CLASSES>
++    <JAVADOC>
++      <root url="jar://$MAVEN_REPOSITORY$/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3-javadoc.jar!/" />
++    </JAVADOC>
++    <SOURCES>
++      <root url="jar://$MAVEN_REPOSITORY$/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3-sources.jar!/" />
++    </SOURCES>
++  </library>
++</component>
+\ No newline at end of file
+Index: day01-demo03-mybatisdao/day01-demo03-mybatisdao.iml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- day01-demo03-mybatisdao/day01-demo03-mybatisdao.iml	(date 1593335802262)
++++ day01-demo03-mybatisdao/day01-demo03-mybatisdao.iml	(date 1593335802262)
+@@ -0,0 +1,21 @@
++<?xml version="1.0" encoding="UTF-8"?>
++<module org.jetbrains.idea.maven.project.MavenProjectsManager.isMavenModule="true" type="JAVA_MODULE" version="4">
++  <component name="NewModuleRootManager" LANGUAGE_LEVEL="JDK_1_5">
++    <output url="file://$MODULE_DIR$/target/classes" />
++    <output-test url="file://$MODULE_DIR$/target/test-classes" />
++    <content url="file://$MODULE_DIR$">
++      <sourceFolder url="file://$MODULE_DIR$/src/main/java" isTestSource="false" />
++      <sourceFolder url="file://$MODULE_DIR$/src/main/resources" type="java-resource" />
++      <sourceFolder url="file://$MODULE_DIR$/src/test/java" isTestSource="true" />
++      <excludeFolder url="file://$MODULE_DIR$/target" />
++    </content>
++    <orderEntry type="jdk" jdkName="1.8" jdkType="JavaSDK" />
++    <orderEntry type="sourceFolder" forTests="false" />
++    <orderEntry type="library" name="Maven: org.mybatis:mybatis:3.5.5" level="project" />
++    <orderEntry type="library" name="Maven: mysql:mysql-connector-java:8.0.20" level="project" />
++    <orderEntry type="library" name="Maven: com.google.protobuf:protobuf-java:3.6.1" level="project" />
++    <orderEntry type="library" name="Maven: log4j:log4j:1.2.17" level="project" />
++    <orderEntry type="library" name="Maven: junit:junit:4.13" level="project" />
++    <orderEntry type="library" name="Maven: org.hamcrest:hamcrest-core:1.3" level="project" />
++  </component>
++</module>
+\ No newline at end of file
+Index: day01-demo03-mybatisdao/src/main/resources/com/fengfang/dao/IAccountDao.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- day01-demo03-mybatisdao/src/main/resources/com/fengfang/dao/IAccountDao.xml	(date 1593333934705)
++++ day01-demo03-mybatisdao/src/main/resources/com/fengfang/dao/IAccountDao.xml	(date 1593333934705)
+@@ -0,0 +1,9 @@
++<?xml version="1.0" encoding="UTF-8" ?>
++<!DOCTYPE mapper
++        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
++        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
++<mapper namespace="com.fengfang.dao.IAccountDao">
++    <select id="findAll" resultType="com.fengfang.domain.Account">
++    select * from account
++  </select>
++</mapper>
+\ No newline at end of file
+Index: day01-demo01/src/main/resources/com/fengfang/dao/IAccountDao.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- day01-demo01/src/main/resources/com/fengfang/dao/IAccountDao.xml	(date 1593333934705)
++++ day01-demo01/src/main/resources/com/fengfang/dao/IAccountDao.xml	(date 1593333934705)
+@@ -0,0 +1,9 @@
++<?xml version="1.0" encoding="UTF-8" ?>
++<!DOCTYPE mapper
++        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
++        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
++<mapper namespace="com.fengfang.dao.IAccountDao">
++    <select id="findAll" resultType="com.fengfang.domain.Account">
++    select * from account
++  </select>
++</mapper>
+\ No newline at end of file
+Index: .idea/vcs.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- .idea/vcs.xml	(date 1593336305437)
++++ .idea/vcs.xml	(date 1593336305437)
+@@ -0,0 +1,6 @@
++<?xml version="1.0" encoding="UTF-8"?>
++<project version="4">
++  <component name="VcsDirectoryMappings">
++    <mapping directory="$PROJECT_DIR$" vcs="Git" />
++  </component>
++</project>
+\ No newline at end of file
+Index: day01-demo01/src/test/java/com/fengfang/test/MybatisDemo01.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- day01-demo01/src/test/java/com/fengfang/test/MybatisDemo01.java	(date 1593334166161)
++++ day01-demo01/src/test/java/com/fengfang/test/MybatisDemo01.java	(date 1593334166161)
+@@ -0,0 +1,42 @@
++package com.fengfang.test;
++
++import com.fengfang.dao.IAccountDao;
++import com.fengfang.domain.Account;
++import org.apache.ibatis.io.Resources;
++import org.apache.ibatis.session.SqlSession;
++import org.apache.ibatis.session.SqlSessionFactory;
++import org.apache.ibatis.session.SqlSessionFactoryBuilder;
++
++import java.io.IOException;
++import java.io.InputStream;
++import java.util.List;
++
++/**
++ * @Description TODO
++ * @Author liuxh
++ * @Date 2020/6/28 16:45
++ **/
++public class MybatisDemo01 {
++    /**
++     * 入门案例测试
++     * @param args
++     */
++    public static void main(String[] args) throws IOException {
++        //读取配置文件
++        InputStream inputStream = Resources.getResourceAsStream("mybatisConfig.xml");
++        //创建SqlSessionFactory
++        SqlSessionFactory factory = new SqlSessionFactoryBuilder().build(inputStream);
++        //创建SqlSession
++        SqlSession session = factory.openSession();
++        //创建代理理
++        IAccountDao accountDao = session.getMapper(IAccountDao.class);
++        //调用方法查询数据
++        List<Account> accounts = accountDao.findAll();
++        for(Account account :accounts){
++            System.out.println(account);
++        }
++        //释放资源
++        session.close();
++        inputStream.close();
++    }
++}
+Index: day01-demo03-mybatisdao/src/main/java/com/fengfang/dao/IAccountDao.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- day01-demo03-mybatisdao/src/main/java/com/fengfang/dao/IAccountDao.java	(date 1593333704036)
++++ day01-demo03-mybatisdao/src/main/java/com/fengfang/dao/IAccountDao.java	(date 1593333704036)
+@@ -0,0 +1,18 @@
++package com.fengfang.dao;
++
++import com.fengfang.domain.Account;
++
++import java.util.List;
++
++/**
++ * @Description TODO
++ * @Author liuxh
++ * @Date 2020/6/28 16:41
++ **/
++public interface IAccountDao {
++    /**
++     * 定义一个查询所有数据接口
++     * @return
++     */
++    public List<Account> findAll();
++}
+Index: day01-demo01/day01-demo01.iml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- day01-demo01/day01-demo01.iml	(date 1593333641593)
++++ day01-demo01/day01-demo01.iml	(date 1593333641593)
+@@ -0,0 +1,21 @@
++<?xml version="1.0" encoding="UTF-8"?>
++<module org.jetbrains.idea.maven.project.MavenProjectsManager.isMavenModule="true" type="JAVA_MODULE" version="4">
++  <component name="NewModuleRootManager" LANGUAGE_LEVEL="JDK_1_5">
++    <output url="file://$MODULE_DIR$/target/classes" />
++    <output-test url="file://$MODULE_DIR$/target/test-classes" />
++    <content url="file://$MODULE_DIR$">
++      <sourceFolder url="file://$MODULE_DIR$/src/main/java" isTestSource="false" />
++      <sourceFolder url="file://$MODULE_DIR$/src/main/resources" type="java-resource" />
++      <sourceFolder url="file://$MODULE_DIR$/src/test/java" isTestSource="true" />
++      <excludeFolder url="file://$MODULE_DIR$/target" />
++    </content>
++    <orderEntry type="jdk" jdkName="1.8" jdkType="JavaSDK" />
++    <orderEntry type="sourceFolder" forTests="false" />
++    <orderEntry type="library" name="Maven: org.mybatis:mybatis:3.5.5" level="project" />
++    <orderEntry type="library" name="Maven: mysql:mysql-connector-java:8.0.20" level="project" />
++    <orderEntry type="library" name="Maven: com.google.protobuf:protobuf-java:3.6.1" level="project" />
++    <orderEntry type="library" name="Maven: log4j:log4j:1.2.17" level="project" />
++    <orderEntry type="library" name="Maven: junit:junit:4.13" level="project" />
++    <orderEntry type="library" name="Maven: org.hamcrest:hamcrest-core:1.3" level="project" />
++  </component>
++</module>
+\ No newline at end of file
+Index: day01-demo03-mybatisdao/src/main/java/com/fengfang/domain/Account.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- day01-demo03-mybatisdao/src/main/java/com/fengfang/domain/Account.java	(date 1593333659001)
++++ day01-demo03-mybatisdao/src/main/java/com/fengfang/domain/Account.java	(date 1593333659001)
+@@ -0,0 +1,68 @@
++package com.fengfang.domain;
++
++import java.io.Serializable;
++import java.util.Date;
++
++/**
++ * @Description TODO
++ * @Author liuxh
++ * @Date 2020/6/28 16:39
++ **/
++public class Account implements Serializable {
++    private Integer id;
++    private String username;
++    private Date birthday;
++    private String sex;
++    private String address;
++
++    public Integer getId() {
++        return id;
++    }
++
++    public void setId(Integer id) {
++        this.id = id;
++    }
++
++    public String getUsername() {
++        return username;
++    }
++
++    public void setUsername(String username) {
++        this.username = username;
++    }
++
++    public Date getBirthday() {
++        return birthday;
++    }
++
++    public void setBirthday(Date birthday) {
++        this.birthday = birthday;
++    }
++
++    public String getSex() {
++        return sex;
++    }
++
++    public void setSex(String sex) {
++        this.sex = sex;
++    }
++
++    public String getAddress() {
++        return address;
++    }
++
++    public void setAddress(String address) {
++        this.address = address;
++    }
++
++    @Override
++    public String toString() {
++        return "Account{" +
++                "id=" + id +
++                ", username='" + username + '\'' +
++                ", birthday=" + birthday +
++                ", sex='" + sex + '\'' +
++                ", address='" + address + '\'' +
++                '}';
++    }
++}
+Index: day01-demo03-mybatisdao/src/main/java/com/fengfang/dao/impl/AccountDaoImpl.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- day01-demo03-mybatisdao/src/main/java/com/fengfang/dao/impl/AccountDaoImpl.java	(date 1593336322719)
++++ day01-demo03-mybatisdao/src/main/java/com/fengfang/dao/impl/AccountDaoImpl.java	(date 1593336322719)
+@@ -0,0 +1,33 @@
++package com.fengfang.dao.impl;
++
++import com.fengfang.dao.IAccountDao;
++import com.fengfang.domain.Account;
++import com.mysql.cj.Session;
++import org.apache.ibatis.session.SqlSession;
++import org.apache.ibatis.session.SqlSessionFactory;
++
++import java.util.List;
++
++/**
++ * @Description TODO
++ * @Author liuxh
++ * @Date 2020/6/28 17:16
++ **/
++public class AccountDaoImpl implements IAccountDao {
++    private SqlSessionFactory factory;
++
++    public AccountDaoImpl(SqlSessionFactory factory){
++        this.factory = factory;
++    }
++
++    /**
++     *
++     * @return
++     */
++    public List<Account> findAll() {
++        SqlSession session =factory.openSession();
++        List<Account> accounts = session.selectList("com.fengfang.dao.IAccountDao.findAll");
++        session.close();
++        return accounts;
++    }
++}
+Index: day01-demo03-mybatisdao/src/test/java/com/fengfang/test/MybatisDemo01.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- day01-demo03-mybatisdao/src/test/java/com/fengfang/test/MybatisDemo01.java	(date 1593334166161)
++++ day01-demo03-mybatisdao/src/test/java/com/fengfang/test/MybatisDemo01.java	(date 1593334166161)
+@@ -0,0 +1,42 @@
++package com.fengfang.test;
++
++import com.fengfang.dao.IAccountDao;
++import com.fengfang.domain.Account;
++import org.apache.ibatis.io.Resources;
++import org.apache.ibatis.session.SqlSession;
++import org.apache.ibatis.session.SqlSessionFactory;
++import org.apache.ibatis.session.SqlSessionFactoryBuilder;
++
++import java.io.IOException;
++import java.io.InputStream;
++import java.util.List;
++
++/**
++ * @Description TODO
++ * @Author liuxh
++ * @Date 2020/6/28 16:45
++ **/
++public class MybatisDemo01 {
++    /**
++     * 入门案例测试
++     * @param args
++     */
++    public static void main(String[] args) throws IOException {
++        //读取配置文件
++        InputStream inputStream = Resources.getResourceAsStream("mybatisConfig.xml");
++        //创建SqlSessionFactory
++        SqlSessionFactory factory = new SqlSessionFactoryBuilder().build(inputStream);
++        //创建SqlSession
++        SqlSession session = factory.openSession();
++        //创建代理理
++        IAccountDao accountDao = session.getMapper(IAccountDao.class);
++        //调用方法查询数据
++        List<Account> accounts = accountDao.findAll();
++        for(Account account :accounts){
++            System.out.println(account);
++        }
++        //释放资源
++        session.close();
++        inputStream.close();
++    }
++}
+diff --git day01-demo01/target/test-classes/com/fengfang/test/MybatisDemo01.class day01-demo01/target/test-classes/com/fengfang/test/MybatisDemo01.class
+new file mode 100644
+index 0000000000000000000000000000000000000000..c09a27ba890bc4052625f67ae22f9dae74fab504
+GIT binary patch
+literal 1971
+zc$}40+g2M@82&aS*&!KwND3NCTd{>sN?{6G4}fS2MX&)XsVJ?s?o4*VW=&>dX5xZJ
+z@d>=v3u@|GF0XwIA4L84B!N&O!d&dbzrX){m_Pr1^*exR>?UvpGjY6|z<apQ@qPjk
+z%;@EVBtFDP9J5KxVLpjCK2Bl*pCs`qa(a2du{eMwJWOC2pJ~)e0;^cz_?+VrLu_8T
+zDp+9XH?vy|kwvd087}6PE7u#<qO3m=MTaP<yk`q%OVpLVw~3KpNBIn+dE2X6W$9MR
+z!mU_=^aE>czbFFbFUhKRZ+ecPRiRvlA@f;&SNtF>M<WYCUAdJxt(Xhj_8M-$aP7FX
+zlBYSXT<cj&67>oxP4^JQkW_B15ztkND#Kt4qC9K$h)gJ67Ixs(_ZcShUcF+8ny`1I
+zr9zV}U;4iCT&wWCQ)nHRTX4<Ueq<Ow6DP4G+MX>5kKy`j&IvLtclb`|cpFU~UTRt2
+z2$W;xm9KptI-Z67S|=0MYuNcygSep0dbnrHT0l1X9C^AIyhh!Y%PP$FvGh%8*#-tN
+z#BjOVdRg?`vZ_q&RUM8s1MApem^nu*A2gIxl63=*@dd}GfdZZ|jGPu7jxP;t;VT1Q
+zW1HitfoJ%J<68sI@xs7&5DZsOahs!Pz($Ef8YrV;U<X4Sis8op)Gy`YsMa=$yV9mQ
+zO&`|Q#$hNa!6#!tkWJ}_(baWZkwNF0^E;KAHG8zhe^hU@sAI>lWcCDP&sowF=YUg#
+zc{S-4I!$1jXVXS%Zk+|kFhJp16SbPGGmLcyWziA7--$_ABEoi7ZYk$DRJUgKWYb(Y
+zPN5!CfvgMiN6({fhSfHmm{KRHq-aO@>vAs$r{z-`MQ(VxV)itvt7Z!Oejq8${az#J
+z9!rlY(MO3*_aKwfn!Y&{n?duW8a+Fsw&VG-yCRRu0i#IM&qIHGV7iBCeUok$?Tq&5
+zotI!ghtF@(8ViYOWN0;701V?Q?E@IWH9`?Hi_jh?S}E1{EBf=lA+r4v(TM}Z*6udJ
+z8P+FL@g@fP@CV|vkxZnC1jB4J6Kx_%hgc@ogu(D5hV|(UMz{;J{1;rz@B>`>>7TzQ
+zo48E1d4QC*tv|GF3Q1ar$;J_+aGh*?8{>F~T)9aD=oZa}F>K>DUcjV2&xSs%fYV!?
+z&^PEr78B2C=;w3dyh$FWut~gQ<WUBXNZxJIHctOglO#k)_I=#J1V!O)J0dO0BvGb_
+N5(y~`_reHH{|g0Q5DfqT
+
+diff --git day01-demo01/target/classes/com/fengfang/dao/IAccountDao.class day01-demo01/target/classes/com/fengfang/dao/IAccountDao.class
+new file mode 100644
+index 0000000000000000000000000000000000000000..8920f7afdf89952db17611b1d0b340c5adbd87d1
+GIT binary patch
+literal 231
+zc${U8O$x#=6olv1+S<Ai*B(GOhOR3@K?I@T!V|>whm<sdntC`F9>7D1skl&ls~KkI
+zdynVs4j{oaL=++>gq74qrW9emT;&bFa@Jd^SS~L%B}6A#Yi|3lBqV=@O)gB!s#4b#
+z*EK6l%cW+S5T@5Q-MW2zGJPk?y;Ke`JA9%YH|v2!So{LGVP74$c>hyFc04zwumOSK
+UVL0*$Blymbo%0Yl6~5Kv1?Vt5-T(jq
+
+diff --git day01-demo02-anno/target/test-classes/com/fengfang/test/MybatisDemo02.class day01-demo02-anno/target/test-classes/com/fengfang/test/MybatisDemo02.class
+new file mode 100644
+index 0000000000000000000000000000000000000000..c35c1b0f5ca62257d3ae321156a94482a6b2e165
+GIT binary patch
+literal 1971
+zc$}40+g2M@82&aS*&!KwND3NCTd{>sN?}^G9sto4ieLj&Qc+rM-I?r!&6>=_%)|wc
+z;uCnS7u3|XTwePaeUR$ECkccS5$0ka{{8*u!~FgF<(~lVVkd!1n2zK91U|q$jt>)v
+zU|KI9CGjyn;h0Hc7IR6&@o5tC_$-Ofk<-h4j)eg%;z0sS_(G$W6Ij7A$Cn%r8DewF
+zRlz(%znR@+h%9&|$#6ceT)Eb$7G?dhC^|$*<vm+Co1(7ty-kb++sbDc&D&npDoeLg
+z7H-7~q#szTdqoi_e^FMwJJYiStqSEb44F^!JK`r{IT~3A>dLLmYQ<dGw%2e2hAT&<
+zl|0R9<yy~LlBicmX}X6XhNN<9jexFFR2c?a5an4bhh#$WvakcMzQ-_`_v#f()P%h)
+zEftz<`O^25=URmyokHul)Pify_9MgisW^!x(e`XncnnwHa88hExr28?$J=P~@IuS_
+zMxY!kuYB$M(9taH)jFB5-oVbC7{qyP)`MMJ)&jE8=g8B&;5F*DTvB1SkECx(%Qi5G
+zA%=_9*2{wDmQ`hHx9V`L8d$?R!}J+qdB35YlB^qegs(U@3>5H~VdSLfaC~iG6W<v4
+z7F!%o3_Qhm9N!ywhUW%;fMB?Mg4-NL12#$=(m)v%1KSwlPz=}pr+z6Hhqbm|+>tib
+zY5JhH)(=8S2|gYJf^0}XjIOTRiVQl}oZqR`tl6V2{-b)MMIAeaMYAU$d&ZKUI0Kv-
+z%&SSa&}jnGJe@XDbK^8Ph5-uCs;JduonfpyC<~78{Z34}5)rnua!WbKp}IA*$D8Kd
+zQ3~~#3S?c7KYAW@Gpw}f#FRQtB}Lo9Uz58*I4z&hD00KgC9|hlT{TnK^8-m~?)Mr&
+z_gH#Fi9Sqhx(At**7VJx*bJJ-)#%w7wH?ow-4%IQ4j4t6ejfVk1JgZB>)Uj*XlJxX
+zZ@mEfHGF=D)>uePBSWjv0$>=IX&=A{t`LftS%mgD(MqYl-_f7{1Cgy4h)(PywtBk>
+z&agI_iZ?OPhrbY?iDV*8Bp7C*nP?M9I>a)uCJct3F|1E-F~Xgj;lJU0hVSFTFaNxn
+zY~mu-<~~x|w*JtzDI{qfCL2eP!d0^IU5w*Ba^*S=pc^zB#;}E(cn*{LJRAD33{G!x
+zLSLg3Sxh{mp`Xu)^E!E$!Upk<kw+OkBzZSU+c^D0O_C5H+4pb@6BLEp?TEA}lSG*!
+NN+hH(+zBIi_g@vE5D)+W
+
+diff --git day01-demo02-anno/target/classes/com/fengfang/dao/IAccountDao.class day01-demo02-anno/target/classes/com/fengfang/dao/IAccountDao.class
+new file mode 100644
+index 0000000000000000000000000000000000000000..15a7bd7ee67dc65c068afcbf3ee9ea6c8a49ab51
+GIT binary patch
+literal 352
+zc${TV!Ab)`3{7g=wN<MK9t01267}HFb46GXL0Ax6@Zu>uon2FAXJlu#ALqdj@T0_R
+zDX16-N#1)QFP~rU9{@0i!vqczm?0z;yJcoA!tuprzM?g$F0xfQhqyqP6kI!sU272L
+z{{%O=_Km8Ht1EJ~TKb0AsZ49%xwyEM{nIDuxG~QhxU?p7&PR&uT|hX`eOoJfBmHU=
+zmjVYxKLS-4Yjkg7v?kk$fs?R7(yO#;eUonQAWRG2wc6aX717bd7QZ8Z-P=Vt`|Fat
+x`lXSL%~Q7L9?O*+7$YDIpbs1(?7&c_kxT;^Ln3u1{I2BW1u(!=y1fm%{|z)dV6XrH
+
+diff --git day01-demo02-anno/target/classes/com/fengfang/domain/Account.class day01-demo02-anno/target/classes/com/fengfang/domain/Account.class
+new file mode 100644
+index 0000000000000000000000000000000000000000..f3e24820468199658c9a2426a8422994acfddf0d
+GIT binary patch
+literal 1871
+zc$|GxZBNrs6h7TcS4Ne&!KMRbpt3Rs6;M#eP+mmQML(b<hELsk86{gs+RkW<AN@a?
+z=twm22l%6m=d|6J<&H1s+<RW0^PH!*fBydb4FF3}i9-rjhad@SWFC-tNahilQViDP
+z5Q9|-%H%i5JeJ@I`ArG7B-oZ<hi*?}up5JC0)z}*fK=r~d#|Yt&8(|?ro-yYDhVL9
+zZDyHTlL?UQE7*4|!>m)jYFN&(u6-0B;pN+o(NK3Zhha8svkwBqG+notZ3`f-8>ZoG
+zU_zNY5FoPM(h+#1VwmhzyIEz{8?D-KN408N<3O_vy8FS1b8H~SWTn<>sz=PM9}yG1
+z)zl1A-K^DGZPUS-(K>VXaGx<{j=NFR_VQ_klO|Tf2=KPI_2_>vy}gI+{-QDEVoeun
+zt0z#h3)L?X0iBnmlwbwHhzPS!N{Y6Bh+|~4t7_ctyGTyUBY^S!R@<tvU4zt<eT5bY
+zUxo>olwlOcWJp6shU;)chAf@NAtOL0xXo7EXz0vBx<1S&Lodtl9QMe(K=@*=`%=nz
+zioL|zVy^o-%J>S3IeZP}yc_pl1eLCUBEa}1-xOcgIi1(l6IR2JsGXiN6F=huPx=cX
+zpMNP(@1b2<KcQ?7PQx_*aVh*OqYxrB@f0FKU5}c&KI`AdT`z+`;-kHZHx<1={e?3S
+zzPV*nXhk;|hn(L)1EygHy#Tl1_J!u}5c(QuPI8;?z^vcAfz=_ZF3kUc(D~@N8%<+R
+z#zjbbRXzfpXiplP2Zci<93+zE5}AVnk4QL3<R<n^4In~7)8Kh1a)?BNL}s`|7GRM_
+zBoZVti#_=PMCeP?V3n&#G)SbtC32UqNHj=f5qs1DM6$jjOI#vikjOHZ$TFXZ7$mZa
+zJ!=DqjQd1ZdPKfp4b3_H1+jN$ASH)75T}RRf#Ia=ox|u7`3_u3UiAVIN{)EvXfK)Y
+a0%A9i_>86l*MjSn`qn$_t#{9@y8jPYhB>eR
+
+diff --git day01-demo02-anno/target/test-classes/META-INF/day01-demo02-anno.kotlin_module day01-demo02-anno/target/test-classes/META-INF/day01-demo02-anno.kotlin_module
+new file mode 100644
+index 0000000000000000000000000000000000000000..a49347afef10a9b5f95305e1058ba36adec7d6dd
+GIT binary patch
+literal 16
+Rc${NkU|?ooU|@t|0RRA102TlM
+
+diff --git day01-demo01/target/classes/com/fengfang/domain/Account.class day01-demo01/target/classes/com/fengfang/domain/Account.class
+new file mode 100644
+index 0000000000000000000000000000000000000000..bd1260768ca0331014a9fd2f6efa08168112f037
+GIT binary patch
+literal 1899
+zc$|GxTT|0e5Z?5XhBiuVxoL}3QJX>`ASfsl<syn!e5f+x@RT-(5~fX<Bz3%ukNzK>
+z(K4em{s4cJ<8G3cnx?$$p0oSy?zemP{Q3LyHvlZcejL)UG6X4DCGmj7LlSEw)?-kL
+zLkv~~*dYCg#A5+ANpA_TEx?WdPw2KAgQqcg7K1$wLYm4!x_qL%Q{;xC*X2FkW_4z+
+zaUirTX6j0laggc(RBThz>*TL$rhTj`A2>+5{+6vZ<Q>Ik=nY%!JqIyGRZV7D9PsO!
+zuGt&tkO~JJM79kT6Aza)o$a@pRc5|cstu=<QBxWRimB1vGe+!V4RcJEYerK(VtW0E
+zn5afm(R6vURx?_<jWwfnX76D?qf#NTqp0Qj$D{x^u}WZqH{GsB{!7#CJ7M*LMx}mC
+zC)HMWK&eiu-Vsrvb4Xh9BPb1zX(}{H-trD{v}|^!8n=2bf^E12&|WcGW{vG?G(FLq
+z&^+ZAVG^#3FbZQLjKhQoSK*on89HTQf`f5?H(M>Op)wQcdTBmsYDt9W@Pb4c(-(7{
+zO)2Hc_7bthTxUB<xCO-=ZbK>W*u9M)=rR;I$XxKIxLN0PUR6(64NW7CNi*aM!zF2G
+zAKe|{mD5wE<Lk}^y-1(QYirGicZ*zz&q~{a-Eaf{Vj7SoL?J|D#=je)Njn;c?dXhm
+z&pKK}JiZFbDZI(3In>daGvK~CupCO>F($Bp8-M_~3Dc-KxCOWSg1<xPt1mbm7<>ov
+zUhoE@Lxi50{Q;r#(s9Q+jxiHXhA|iAWuO!FNrfdS1P}@PiDUwa%)o3Ak+7f06vpHR
+z5TQX+;Udfh5Q+GSOa~H~cY^weMEpeZ7$XfJLN85)7Xl{|^%I#5B(fMhk*J@Dj4=xX
+zh-AEp+zlkc`-v<C5?Kl+!uyG=V9e?OB3X~fa+k;##892XUl4nH210764RKoBHY8G_
+udk&*Y=G$;7b=fsU$T{quqg`jxHSirn@-vDyT=BQJ-qYS;x4nA~>i$0_9YTWu
+
