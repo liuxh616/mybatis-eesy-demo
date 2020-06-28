@@ -1,9 +1,9 @@
 package com.fengfang.test;
 
 import com.fengfang.dao.IAccountDao;
+import com.fengfang.dao.impl.AccountDaoImpl;
 import com.fengfang.domain.Account;
 import org.apache.ibatis.io.Resources;
-import org.apache.ibatis.session.SqlSession;
 import org.apache.ibatis.session.SqlSessionFactory;
 import org.apache.ibatis.session.SqlSessionFactoryBuilder;
 
@@ -16,27 +16,29 @@ import java.util.List;
  * @Author liuxh
  * @Date 2020/6/28 16:45
  **/
-public class MybatisDemo01 {
+public class MybatisDemo03 {
     /**
      * 入门案例测试
+     * 使用实现类的方法，开发过程中一般不使用这种方法
      * @param args
      */
     public static void main(String[] args) throws IOException {
         //读取配置文件
-        InputStream inputStream = Resources.getResourceAsStream("mybatisConfig.xml");
+        InputStream inputStream = Resources.getResourceAsStream("sqlMapConfig.xml");
         //创建SqlSessionFactory
         SqlSessionFactory factory = new SqlSessionFactoryBuilder().build(inputStream);
         //创建SqlSession
-        SqlSession session = factory.openSession();
-        //创建代理理
-        IAccountDao accountDao = session.getMapper(IAccountDao.class);
+//        SqlSession session = factory.openSession();
+//        //创建代理理
+//        IAccountDao accountDao = session.getMapper(IAccountDao.class);
         //调用方法查询数据
+        IAccountDao accountDao = new AccountDaoImpl(factory);
         List<Account> accounts = accountDao.findAll();
         for(Account account :accounts){
             System.out.println(account);
         }
         //释放资源
-        session.close();
+//        session.close();
         inputStream.close();
     }
 }
