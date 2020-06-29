@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<mapper namespace="com.fengfang.dao.IAccountDao">
+<!--    配置查询所有数据-->
+    <select id="findAll" resultType="com.fengfang.domain.Account">
+    select * from account
+  </select>
+</mapper>
