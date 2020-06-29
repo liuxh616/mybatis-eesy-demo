@@ -32,7 +32,7 @@ public class MybatisDemo01 {
         //创建SqlSessionFactory
         SqlSessionFactory factory = new SqlSessionFactoryBuilder().build(inputStream);
         //创建SqlSession
-//        SqlSession session = factory.openSession();
+        SqlSession session = factory.openSession();
         //创建代理理
 //        IAccountDao accountDao = session.getMapper(IAccountDao.class);
 ////        //调用方法查询数据

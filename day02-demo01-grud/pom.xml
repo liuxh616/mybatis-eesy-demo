@@ -5,10 +5,15 @@
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>com.fengfang</groupId>
-    <artifactId>day01-demo04-design</artifactId>
+    <artifactId>day02-demo01-grud</artifactId>
     <version>1.0-SNAPSHOT</version>
     <packaging>jar</packaging>
     <dependencies>
+        <dependency>
+            <groupId>org.mybatis</groupId>
+            <artifactId>mybatis</artifactId>
+            <version>3.5.5</version>
+        </dependency>
         <dependency>
             <groupId>mysql</groupId>
             <artifactId>mysql-connector-java</artifactId>
