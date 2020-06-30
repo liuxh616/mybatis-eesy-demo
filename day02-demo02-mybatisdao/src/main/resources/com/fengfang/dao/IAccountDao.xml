@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.fengfang.dao.IAccountDao">
+<!--    配置查询所有数据-->
+    <select id="findAll" resultType="accountUser" >
+    select * from account
+  </select>
+
+    <update id="saveAccount" parameterType="com.fengfang.domain.Account"  >
+        <!--配置插入操作后，获取插入数据的Id -->
+        <selectKey keyProperty="id" keyColumn="id" resultType="java.lang.Integer" order="AFTER">
+            select last_insert_id();
+        </selectKey>
+        insert into account(username,birthday,sex,address) values(#{username},#{birthday},#{sex},#{address});
+    </update>
+
+    <update id="updateAccount" parameterType="com.fengfang.domain.Account" >
+        update account set username=#{username},birthday=#{birthday},sex=#{sex},address=#{address} where id=#{id};
+    </update>
+    <delete id="deleteAccount" parameterType="java.lang.Integer">
+        delete from  account where id=#{uid}
+    </delete>
+
+    <select id="findById" parameterType="java.lang.Integer" resultType="com.fengfang.domain.Account" >
+        select * from account where id=#{uid};
+    </select>
+<!--    模糊查询用户信息
+-->
+
+    <select id="findByName" parameterType="java.lang.String" resultType="com.fengfang.domain.Account" >
+        select * from account  where username like #{username};
+        <!--   select * from account  where username like '%${value}%'; -->
+    </select>
+<!--测试查询总记录条数-->
+    <select id="findAccountCount" resultType="java.lang.Integer">
+        select count(1) from account;
+    </select>
+
+</mapper>

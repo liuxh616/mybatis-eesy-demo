@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE configuration
+        PUBLIC "-//mybatis.org//DTD Config 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-config.dtd">
+<configuration>
+<!--    配置properties
+    可以在标签内部配置连接数据库的信息，也可以通过属性引用外部配置文件信息
+    resource属性
+        用于指定配置文件的位置，是按照类路径的写法来写，并且必须存在于类路径下
+    URL 属性：
+       统一资源定位，它是可以唯一标识一个资源的位置，它的写法：
+        http://localhost:8080/mybatisserver/demoServlet
+        协议   主机       端口   URI
+     URI:统一资源标识符,它是应用中可以唯一定义的一个资源的
+-->
+    <properties resource="jdbcConfig.properties"></properties>
+<!--    定义别名-->
+    <typeAliases>
+        <typeAlias type="com.fengfang.domain.Account" alias="accountUser"></typeAlias>
+    </typeAliases>
+<!--    定义数据源环境配置-->
+    <environments default="mysql">
+        <environment id="mysql">
+            <transactionManager type="JDBC"></transactionManager>
+            <dataSource type="POOLED">
+<!--                配置数据源信息-->
+                <property name="driver" value="${jdbc.driver}"/>
+                <property name="url" value="${jdbc.url}"/>
+                <property name="username" value="${jdbc.username}"/>
+                <property name="password" value="${jdbc.password}"/>
+            </dataSource>
+        </environment>
+    </environments>
+<!--    配置映射配置文件-->
+    <mappers>
+        <mapper resource="com/fengfang/dao/IAccountDao.xml"></mapper>
+    </mappers>
+</configuration>
