@@ -8,10 +8,11 @@
         <outputRelativeToContentRoot value="true" />
         <module name="day01-demo03-mybatisdao" />
         <module name="day01-demo01" />
+        <module name="day03-demo01-datasource" />
         <module name="day01-demo02-anno" />
         <module name="day02-demo02-mybatisdao" />
         <module name="day01-demo04-design" />
-        <module name="day02-demo01-grud" />
+        <module name="day02-demo01-crud" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel target="8">
@@ -19,8 +20,9 @@
       <module name="day01-demo02-anno" target="1.5" />
       <module name="day01-demo03-mybatisdao" target="1.5" />
       <module name="day01-demo04-design" target="1.5" />
-      <module name="day02-demo01-grud" target="1.5" />
+      <module name="day02-demo01-crud" target="1.5" />
       <module name="day02-demo02-mybatisdao" target="1.5" />
+      <module name="day03-demo01-datasource" target="1.5" />
     </bytecodeTargetLevel>
   </component>
 </project>

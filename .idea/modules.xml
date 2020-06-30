@@ -6,8 +6,9 @@
       <module fileurl="file://$PROJECT_DIR$/day01-demo02-anno/day01-demo02-anno.iml" filepath="$PROJECT_DIR$/day01-demo02-anno/day01-demo02-anno.iml" />
       <module fileurl="file://$PROJECT_DIR$/day01-demo03-mybatisdao/day01-demo03-mybatisdao.iml" filepath="$PROJECT_DIR$/day01-demo03-mybatisdao/day01-demo03-mybatisdao.iml" />
       <module fileurl="file://$PROJECT_DIR$/day01-demo04-design/day01-demo04-design.iml" filepath="$PROJECT_DIR$/day01-demo04-design/day01-demo04-design.iml" />
-      <module fileurl="file://$PROJECT_DIR$/day02-demo01-grud/day02-demo01-grud.iml" filepath="$PROJECT_DIR$/day02-demo01-grud/day02-demo01-grud.iml" />
+      <module fileurl="file://$PROJECT_DIR$/day02-demo01-crud/day02-demo01-crud.iml" filepath="$PROJECT_DIR$/day02-demo01-crud/day02-demo01-crud.iml" />
       <module fileurl="file://$PROJECT_DIR$/day02-demo02-mybatisdao/day02-demo02-mybatisdao.iml" filepath="$PROJECT_DIR$/day02-demo02-mybatisdao/day02-demo02-mybatisdao.iml" />
+      <module fileurl="file://$PROJECT_DIR$/day03-demo01-datasource/day03-demo01-datasource.iml" filepath="$PROJECT_DIR$/day03-demo01-datasource/day03-demo01-datasource.iml" />
     </modules>
   </component>
 </project>
