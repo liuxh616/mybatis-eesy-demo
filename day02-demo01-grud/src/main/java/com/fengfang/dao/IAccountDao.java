@@ -1,6 +1,7 @@
 package com.fengfang.dao;
 
 import com.fengfang.domain.Account;
+import com.fengfang.domain.QueryVo;
 
 import java.util.List;
 
@@ -54,4 +55,11 @@ public interface IAccountDao {
      * @return
      */
     Integer findAccountCount();
+
+    /**
+     * 根据queryVo查询用户信息
+     * @param vo
+     * @return
+     */
+    List<Account> findAccountByVO(QueryVo vo);
 }

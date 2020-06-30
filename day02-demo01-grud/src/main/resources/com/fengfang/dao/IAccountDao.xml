@@ -3,38 +3,48 @@
         PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
         "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
 <mapper namespace="com.fengfang.dao.IAccountDao">
+    <resultMap id="accountMap" type="com.fengfang.domain.Account">
+<!--        配置主键字段的匹配-->
+        <id column="id" property="userId"></id>
+<!--        配置非主键字段的匹配-->
+        <result property="userAddress" column="address"></result>
+    </resultMap>
 <!--    配置查询所有数据-->
-    <select id="findAll" resultType="com.fengfang.domain.Account">
+    <select id="findAll" resultMap="accountMap" resultType="com.fengfang.domain.Account">
     select * from account
   </select>
 
-    <update id="saveAccount" parameterType="com.fengfang.domain.Account">
+    <update id="saveAccount" parameterType="com.fengfang.domain.Account"  >
         <!--配置插入操作后，获取插入数据的Id -->
-        <selectKey keyProperty="id" keyColumn="id" resultType="java.lang.Integer" order="AFTER">
+        <selectKey keyProperty="userId" keyColumn="id" resultType="java.lang.Integer" order="AFTER">
             select last_insert_id();
         </selectKey>
-        insert into account(username,birthday,sex,address) values(#{username},#{birthday},#{sex},#{address});
+        insert into account(username,birthday,sex,address) values(#{username},#{birthday},#{sex},#{userAddress});
     </update>
 
     <update id="updateAccount" parameterType="com.fengfang.domain.Account" >
-        update account set username=#{username},birthday=#{birthday},sex=#{sex},address=#{address} where id=#{id};
+        update account set username=#{username},birthday=#{birthday},sex=#{sex},address=#{userAddress} where id=#{userId};
     </update>
     <delete id="deleteAccount" parameterType="java.lang.Integer">
         delete from  account where id=#{uid}
     </delete>
 
-    <select id="findById" parameterType="java.lang.Integer" resultType="com.fengfang.domain.Account">
+    <select id="findById" parameterType="java.lang.Integer" resultType="com.fengfang.domain.Account" resultMap="accountMap">
         select * from account where id=#{uid};
     </select>
 <!--    模糊查询用户信息
 -->
 
-    <select id="findByName" parameterType="java.lang.String" resultType="com.fengfang.domain.Account">
+    <select id="findByName" parameterType="java.lang.String" resultType="com.fengfang.domain.Account" resultMap="accountMap">
         select * from account  where username like #{username};
         <!--   select * from account  where username like '%${value}%'; -->
     </select>
 <!--测试查询总记录条数-->
     <select id="findAccountCount" resultType="java.lang.Integer">
         select count(1) from account;
+    </select>
+<!--    根据QueryVo查询用户信息-->
+    <select id="findAccountByVO" parameterType="com.fengfang.domain.QueryVo" resultType="com.fengfang.domain.Account" resultMap="accountMap">
+        select * from account where username like #{account.username};
     </select>
 </mapper>

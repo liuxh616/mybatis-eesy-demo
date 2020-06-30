@@ -9,18 +9,18 @@ import java.util.Date;
  * @Date 2020/6/28 16:39
  **/
 public class Account implements Serializable {
-    private Integer id;
+    private Integer userId;   //若字段名称和数据库不一样，可以在查询SQL时使用别名与类中字段名称一致就可以解决，对象封装的问题
     private String username;
     private Date birthday;
     private String sex;
-    private String address;
+    private String userAddress;
 
-    public Integer getId() {
-        return id;
+    public Integer getUserId() {
+        return userId;
     }
 
-    public void setId(Integer id) {
-        this.id = id;
+    public void setUserId(Integer userId) {
+        this.userId = userId;
     }
 
     public String getUsername() {
@@ -47,22 +47,22 @@ public class Account implements Serializable {
         this.sex = sex;
     }
 
-    public String getAddress() {
-        return address;
+    public String getUserAddress() {
+        return userAddress;
     }
 
-    public void setAddress(String address) {
-        this.address = address;
+    public void setUserAddress(String userAddress) {
+        this.userAddress = userAddress;
     }
 
     @Override
     public String toString() {
         return "Account{" +
-                "id=" + id +
+                "userId=" + userId +
                 ", username='" + username + '\'' +
                 ", birthday=" + birthday +
                 ", sex='" + sex + '\'' +
-                ", address='" + address + '\'' +
+                ", userAddress='" + userAddress + '\'' +
                 '}';
     }
 }

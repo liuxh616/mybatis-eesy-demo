@@ -2,6 +2,7 @@ package com.fengfang.test;
 
 import com.fengfang.dao.IAccountDao;
 import com.fengfang.domain.Account;
+import com.fengfang.domain.QueryVo;
 import org.apache.ibatis.io.Resources;
 import org.apache.ibatis.session.SqlSession;
 import org.apache.ibatis.session.SqlSessionFactory;
@@ -70,12 +71,12 @@ public class MybatisDemo01 {
 
         SimpleDateFormat formatter = new SimpleDateFormat("yyyy-MM-dd");
         ParsePosition pos = new ParsePosition(0);
-        Date birthday = formatter.parse("1982-02-01", pos);
+        Date birthday = formatter.parse("1987-12-18", pos);
        Account account = new Account();
-       account.setUsername("胡歌");
+       account.setUsername("张小妹");
        account.setBirthday(birthday);
-       account.setSex("男");
-       account.setAddress("北京二环");
+       account.setSex("女");
+       account.setUserAddress("北京通州");
         System.out.println("保存操作之前："+account);
         //调用保存方法保存数据
         accountDao.saveAccount(account);
@@ -89,13 +90,13 @@ public class MybatisDemo01 {
     public void updateAccount(){
         SimpleDateFormat formatter = new SimpleDateFormat("yyyy-MM-dd");
         ParsePosition pos = new ParsePosition(0);
-        Date birthday = formatter.parse("1965-07-18", pos);
+        Date birthday = formatter.parse("1987-12-17", pos);
         Account account = new Account();
-        account.setId(7);
-        account.setUsername("刘德华");
+        account.setUserId(9);
+        account.setUsername("张小妹");
         account.setBirthday(birthday);
-        account.setSex("男");
-        account.setAddress("香港西贡");
+        account.setSex("女");
+        account.setUserAddress("北京通州");
         //调用保存方法保存数据
         accountDao.updateAccount(account);
     }
@@ -114,7 +115,7 @@ public class MybatisDemo01 {
      */
     @Test
     public void testFindAccountById(){
-        Account account = accountDao.findById(6);
+        Account account = accountDao.findById(9);
         System.out.println(account);
     }
 
@@ -123,7 +124,7 @@ public class MybatisDemo01 {
      */
     @Test
     public void testFindByName(){
-        List<Account> accounts = accountDao.findByName("%王%");
+        List<Account> accounts = accountDao.findByName("%张%");
 //        List<Account> accounts = accountDao.findByName("王");
         for(Account account :accounts){
             System.out.println(account);
@@ -137,6 +138,22 @@ public class MybatisDemo01 {
     public void testFindAllAccount(){
         Integer count = accountDao.findAccountCount();
         System.out.println("Account总记录数为："+count.toString());
+    }
+
+    /**
+     * 根据QueryVO对象来作为条件查询用户数据
+     */
+    @Test
+    public void testFindByVO(){
+        QueryVo queryVo = new QueryVo();
+        Account account = new Account();
+        account.setUsername("%张%");
+        queryVo.setAccount(account);
+        List<Account> accounts = accountDao.findAccountByVO(queryVo);
+//        List<Account> accounts = accountDao.findByName("王");
+        for(Account tempAccount :accounts){
+            System.out.println(tempAccount);
+        }
     }
 
 }
