@@ -1,0 +1,836 @@
+2020-07-01 10:01:03 上午 [Thread: main][ Class:org.apache.ibatis.logging.LogFactory >> Method: org.apache.ibatis.logging.LogFactory.setImplementation(LogFactory.java:105) ]
+DEBUG:Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+2020-07-01 10:01:03 上午 [Thread: main][ Class:org.apache.ibatis.datasource.pooled.PooledDataSource >> Method: org.apache.ibatis.datasource.pooled.PooledDataSource.forceCloseAll(PooledDataSource.java:363) ]
+DEBUG:PooledDataSource forcefully closed/removed all connections.
+2020-07-01 10:01:03 上午 [Thread: main][ Class:org.apache.ibatis.datasource.pooled.PooledDataSource >> Method: org.apache.ibatis.datasource.pooled.PooledDataSource.forceCloseAll(PooledDataSource.java:363) ]
+DEBUG:PooledDataSource forcefully closed/removed all connections.
+2020-07-01 10:01:03 上午 [Thread: main][ Class:org.apache.ibatis.datasource.pooled.PooledDataSource >> Method: org.apache.ibatis.datasource.pooled.PooledDataSource.forceCloseAll(PooledDataSource.java:363) ]
+DEBUG:PooledDataSource forcefully closed/removed all connections.
+2020-07-01 10:01:03 上午 [Thread: main][ Class:org.apache.ibatis.datasource.pooled.PooledDataSource >> Method: org.apache.ibatis.datasource.pooled.PooledDataSource.forceCloseAll(PooledDataSource.java:363) ]
+DEBUG:PooledDataSource forcefully closed/removed all connections.
+2020-07-01 10:03:15 上午 [Thread: main][ Class:org.apache.ibatis.logging.LogFactory >> Method: org.apache.ibatis.logging.LogFactory.setImplementation(LogFactory.java:105) ]
+DEBUG:Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+2020-07-01 10:03:15 上午 [Thread: main][ Class:org.apache.ibatis.datasource.pooled.PooledDataSource >> Method: org.apache.ibatis.datasource.pooled.PooledDataSource.forceCloseAll(PooledDataSource.java:363) ]
+DEBUG:PooledDataSource forcefully closed/removed all connections.
+2020-07-01 10:03:15 上午 [Thread: main][ Class:org.apache.ibatis.datasource.pooled.PooledDataSource >> Method: org.apache.ibatis.datasource.pooled.PooledDataSource.forceCloseAll(PooledDataSource.java:363) ]
+DEBUG:PooledDataSource forcefully closed/removed all connections.
+2020-07-01 10:03:15 上午 [Thread: main][ Class:org.apache.ibatis.datasource.pooled.PooledDataSource >> Method: org.apache.ibatis.datasource.pooled.PooledDataSource.forceCloseAll(PooledDataSource.java:363) ]
+DEBUG:PooledDataSource forcefully closed/removed all connections.
+2020-07-01 10:03:15 上午 [Thread: main][ Class:org.apache.ibatis.datasource.pooled.PooledDataSource >> Method: org.apache.ibatis.datasource.pooled.PooledDataSource.forceCloseAll(PooledDataSource.java:363) ]
+DEBUG:PooledDataSource forcefully closed/removed all connections.
+2020-07-01 10:03:15 上午 [Thread: main][ Class:org.apache.ibatis.transaction.jdbc.JdbcTransaction >> Method: org.apache.ibatis.transaction.jdbc.JdbcTransaction.openConnection(JdbcTransaction.java:137) ]
+DEBUG:Opening JDBC Connection
+2020-07-01 10:03:16 上午 [Thread: main][ Class:org.apache.ibatis.datasource.pooled.PooledDataSource >> Method: org.apache.ibatis.datasource.pooled.PooledDataSource.popConnection(PooledDataSource.java:434) ]
+DEBUG:Created connection 373928166.
+2020-07-01 10:03:16 上午 [Thread: main][ Class:org.apache.ibatis.transaction.jdbc.JdbcTransaction >> Method: org.apache.ibatis.transaction.jdbc.JdbcTransaction.setDesiredAutoCommit(JdbcTransaction.java:101) ]
+DEBUG:Setting autocommit to false on JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@1649b0e6]
+2020-07-01 10:03:16 上午 [Thread: main][ Class:com.fengfang.dao.IAccountDao.findAll >> Method: org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug(BaseJdbcLogger.java:137) ]
+DEBUG:==>  Preparing: select * from account
+2020-07-01 10:03:16 上午 [Thread: main][ Class:com.fengfang.dao.IAccountDao.findAll >> Method: org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug(BaseJdbcLogger.java:137) ]
+DEBUG:==> Parameters: 
+2020-07-01 10:03:16 上午 [Thread: main][ Class:org.apache.ibatis.transaction.jdbc.JdbcTransaction >> Method: org.apache.ibatis.transaction.jdbc.JdbcTransaction.resetAutoCommit(JdbcTransaction.java:123) ]
+DEBUG:Resetting autocommit to true on JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@1649b0e6]
+2020-07-01 10:03:16 上午 [Thread: main][ Class:org.apache.ibatis.transaction.jdbc.JdbcTransaction >> Method: org.apache.ibatis.transaction.jdbc.JdbcTransaction.close(JdbcTransaction.java:91) ]
+DEBUG:Closing JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@1649b0e6]
+2020-07-01 10:03:16 上午 [Thread: main][ Class:org.apache.ibatis.datasource.pooled.PooledDataSource >> Method: org.apache.ibatis.datasource.pooled.PooledDataSource.pushConnection(PooledDataSource.java:391) ]
+DEBUG:Returned connection 373928166 to pool.
+2020-07-01 10:04:34 上午 [Thread: main][ Class:org.apache.ibatis.logging.LogFactory >> Method: org.apache.ibatis.logging.LogFactory.setImplementation(LogFactory.java:105) ]
+DEBUG:Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+2020-07-01 10:04:34 上午 [Thread: main][ Class:org.apache.ibatis.datasource.pooled.PooledDataSource >> Method: org.apache.ibatis.datasource.pooled.PooledDataSource.forceCloseAll(PooledDataSource.java:363) ]
+DEBUG:PooledDataSource forcefully closed/removed all connections.
+2020-07-01 10:04:34 上午 [Thread: main][ Class:org.apache.ibatis.datasource.pooled.PooledDataSource >> Method: org.apache.ibatis.datasource.pooled.PooledDataSource.forceCloseAll(PooledDataSource.java:363) ]
+DEBUG:PooledDataSource forcefully closed/removed all connections.
+2020-07-01 10:04:34 上午 [Thread: main][ Class:org.apache.ibatis.datasource.pooled.PooledDataSource >> Method: org.apache.ibatis.datasource.pooled.PooledDataSource.forceCloseAll(PooledDataSource.java:363) ]
+DEBUG:PooledDataSource forcefully closed/removed all connections.
+2020-07-01 10:04:34 上午 [Thread: main][ Class:org.apache.ibatis.datasource.pooled.PooledDataSource >> Method: org.apache.ibatis.datasource.pooled.PooledDataSource.forceCloseAll(PooledDataSource.java:363) ]
+DEBUG:PooledDataSource forcefully closed/removed all connections.
+2020-07-01 10:04:35 上午 [Thread: main][ Class:org.apache.ibatis.transaction.jdbc.JdbcTransaction >> Method: org.apache.ibatis.transaction.jdbc.JdbcTransaction.openConnection(JdbcTransaction.java:137) ]
+DEBUG:Opening JDBC Connection
+2020-07-01 10:04:36 上午 [Thread: main][ Class:org.apache.ibatis.datasource.pooled.PooledDataSource >> Method: org.apache.ibatis.datasource.pooled.PooledDataSource.popConnection(PooledDataSource.java:434) ]
+DEBUG:Created connection 895281180.
+2020-07-01 10:04:36 上午 [Thread: main][ Class:org.apache.ibatis.transaction.jdbc.JdbcTransaction >> Method: org.apache.ibatis.transaction.jdbc.JdbcTransaction.setDesiredAutoCommit(JdbcTransaction.java:101) ]
+DEBUG:Setting autocommit to false on JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@355ce81c]
+2020-07-01 10:04:36 上午 [Thread: main][ Class:com.fengfang.dao.IAccountDao.findAll >> Method: org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug(BaseJdbcLogger.java:137) ]
+DEBUG:==>  Preparing: select * from account
+2020-07-01 10:04:36 上午 [Thread: main][ Class:com.fengfang.dao.IAccountDao.findAll >> Method: org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug(BaseJdbcLogger.java:137) ]
+DEBUG:==> Parameters: 
+2020-07-01 10:04:36 上午 [Thread: main][ Class:com.fengfang.dao.IAccountDao.findAll >> Method: org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug(BaseJdbcLogger.java:137) ]
+DEBUG:<==      Total: 8
+2020-07-01 10:04:36 上午 [Thread: main][ Class:org.apache.ibatis.transaction.jdbc.JdbcTransaction >> Method: org.apache.ibatis.transaction.jdbc.JdbcTransaction.resetAutoCommit(JdbcTransaction.java:123) ]
+DEBUG:Resetting autocommit to true on JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@355ce81c]
+2020-07-01 10:04:36 上午 [Thread: main][ Class:org.apache.ibatis.transaction.jdbc.JdbcTransaction >> Method: org.apache.ibatis.transaction.jdbc.JdbcTransaction.close(JdbcTransaction.java:91) ]
+DEBUG:Closing JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@355ce81c]
+2020-07-01 10:04:36 上午 [Thread: main][ Class:org.apache.ibatis.datasource.pooled.PooledDataSource >> Method: org.apache.ibatis.datasource.pooled.PooledDataSource.pushConnection(PooledDataSource.java:391) ]
+DEBUG:Returned connection 895281180 to pool.
+2020-07-01 10:06:44 上午 [Thread: main][ Class:org.apache.ibatis.logging.LogFactory >> Method: org.apache.ibatis.logging.LogFactory.setImplementation(LogFactory.java:105) ]
+DEBUG:Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+2020-07-01 10:06:44 上午 [Thread: main][ Class:org.apache.ibatis.datasource.pooled.PooledDataSource >> Method: org.apache.ibatis.datasource.pooled.PooledDataSource.forceCloseAll(PooledDataSource.java:363) ]
+DEBUG:PooledDataSource forcefully closed/removed all connections.
+2020-07-01 10:06:44 上午 [Thread: main][ Class:org.apache.ibatis.datasource.pooled.PooledDataSource >> Method: org.apache.ibatis.datasource.pooled.PooledDataSource.forceCloseAll(PooledDataSource.java:363) ]
+DEBUG:PooledDataSource forcefully closed/removed all connections.
+2020-07-01 10:06:44 上午 [Thread: main][ Class:org.apache.ibatis.datasource.pooled.PooledDataSource >> Method: org.apache.ibatis.datasource.pooled.PooledDataSource.forceCloseAll(PooledDataSource.java:363) ]
+DEBUG:PooledDataSource forcefully closed/removed all connections.
+2020-07-01 10:06:44 上午 [Thread: main][ Class:org.apache.ibatis.datasource.pooled.PooledDataSource >> Method: org.apache.ibatis.datasource.pooled.PooledDataSource.forceCloseAll(PooledDataSource.java:363) ]
+DEBUG:PooledDataSource forcefully closed/removed all connections.
+2020-07-01 10:06:44 上午 [Thread: main][ Class:org.apache.ibatis.transaction.jdbc.JdbcTransaction >> Method: org.apache.ibatis.transaction.jdbc.JdbcTransaction.openConnection(JdbcTransaction.java:137) ]
+DEBUG:Opening JDBC Connection
+2020-07-01 10:06:45 上午 [Thread: main][ Class:org.apache.ibatis.datasource.pooled.PooledDataSource >> Method: org.apache.ibatis.datasource.pooled.PooledDataSource.popConnection(PooledDataSource.java:434) ]
+DEBUG:Created connection 1087081975.
+2020-07-01 10:06:45 上午 [Thread: main][ Class:org.apache.ibatis.transaction.jdbc.JdbcTransaction >> Method: org.apache.ibatis.transaction.jdbc.JdbcTransaction.setDesiredAutoCommit(JdbcTransaction.java:101) ]
+DEBUG:Setting autocommit to false on JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@40cb8df7]
+2020-07-01 10:06:45 上午 [Thread: main][ Class:com.fengfang.dao.IAccountDao.saveAccount >> Method: org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug(BaseJdbcLogger.java:137) ]
+DEBUG:==>  Preparing: insert into account(username,birthday,sex,address) values(?,?,?,?);
+2020-07-01 10:06:45 上午 [Thread: main][ Class:com.fengfang.dao.IAccountDao.saveAccount >> Method: org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug(BaseJdbcLogger.java:137) ]
+DEBUG:==> Parameters: 李先生(String), 1981-12-18 00:00:00.0(Timestamp), 男(String), 东莞万江(String)
+2020-07-01 10:06:45 上午 [Thread: main][ Class:com.fengfang.dao.IAccountDao.saveAccount >> Method: org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug(BaseJdbcLogger.java:137) ]
+DEBUG:<==    Updates: 1
+2020-07-01 10:06:45 上午 [Thread: main][ Class:com.fengfang.dao.IAccountDao.saveAccount!selectKey >> Method: org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug(BaseJdbcLogger.java:137) ]
+DEBUG:==>  Preparing: select last_insert_id();
+2020-07-01 10:06:45 上午 [Thread: main][ Class:com.fengfang.dao.IAccountDao.saveAccount!selectKey >> Method: org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug(BaseJdbcLogger.java:137) ]
+DEBUG:==> Parameters: 
+2020-07-01 10:06:45 上午 [Thread: main][ Class:com.fengfang.dao.IAccountDao.saveAccount!selectKey >> Method: org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug(BaseJdbcLogger.java:137) ]
+DEBUG:<==      Total: 1
+2020-07-01 10:06:45 上午 [Thread: main][ Class:org.apache.ibatis.transaction.jdbc.JdbcTransaction >> Method: org.apache.ibatis.transaction.jdbc.JdbcTransaction.commit(JdbcTransaction.java:70) ]
+DEBUG:Committing JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@40cb8df7]
+2020-07-01 10:06:45 上午 [Thread: main][ Class:org.apache.ibatis.transaction.jdbc.JdbcTransaction >> Method: org.apache.ibatis.transaction.jdbc.JdbcTransaction.resetAutoCommit(JdbcTransaction.java:123) ]
+DEBUG:Resetting autocommit to true on JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@40cb8df7]
+2020-07-01 10:06:45 上午 [Thread: main][ Class:org.apache.ibatis.transaction.jdbc.JdbcTransaction >> Method: org.apache.ibatis.transaction.jdbc.JdbcTransaction.close(JdbcTransaction.java:91) ]
+DEBUG:Closing JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@40cb8df7]
+2020-07-01 10:06:46 上午 [Thread: main][ Class:org.apache.ibatis.datasource.pooled.PooledDataSource >> Method: org.apache.ibatis.datasource.pooled.PooledDataSource.pushConnection(PooledDataSource.java:391) ]
+DEBUG:Returned connection 1087081975 to pool.
+2020-07-01 10:07:05 上午 [Thread: main][ Class:org.apache.ibatis.logging.LogFactory >> Method: org.apache.ibatis.logging.LogFactory.setImplementation(LogFactory.java:105) ]
+DEBUG:Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+2020-07-01 10:07:05 上午 [Thread: main][ Class:org.apache.ibatis.datasource.pooled.PooledDataSource >> Method: org.apache.ibatis.datasource.pooled.PooledDataSource.forceCloseAll(PooledDataSource.java:363) ]
+DEBUG:PooledDataSource forcefully closed/removed all connections.
+2020-07-01 10:07:05 上午 [Thread: main][ Class:org.apache.ibatis.datasource.pooled.PooledDataSource >> Method: org.apache.ibatis.datasource.pooled.PooledDataSource.forceCloseAll(PooledDataSource.java:363) ]
+DEBUG:PooledDataSource forcefully closed/removed all connections.
+2020-07-01 10:07:05 上午 [Thread: main][ Class:org.apache.ibatis.datasource.pooled.PooledDataSource >> Method: org.apache.ibatis.datasource.pooled.PooledDataSource.forceCloseAll(PooledDataSource.java:363) ]
+DEBUG:PooledDataSource forcefully closed/removed all connections.
+2020-07-01 10:07:05 上午 [Thread: main][ Class:org.apache.ibatis.datasource.pooled.PooledDataSource >> Method: org.apache.ibatis.datasource.pooled.PooledDataSource.forceCloseAll(PooledDataSource.java:363) ]
+DEBUG:PooledDataSource forcefully closed/removed all connections.
+2020-07-01 10:07:06 上午 [Thread: main][ Class:org.apache.ibatis.transaction.jdbc.JdbcTransaction >> Method: org.apache.ibatis.transaction.jdbc.JdbcTransaction.openConnection(JdbcTransaction.java:137) ]
+DEBUG:Opening JDBC Connection
+2020-07-01 10:07:07 上午 [Thread: main][ Class:org.apache.ibatis.datasource.pooled.PooledDataSource >> Method: org.apache.ibatis.datasource.pooled.PooledDataSource.popConnection(PooledDataSource.java:434) ]
+DEBUG:Created connection 895281180.
+2020-07-01 10:07:07 上午 [Thread: main][ Class:org.apache.ibatis.transaction.jdbc.JdbcTransaction >> Method: org.apache.ibatis.transaction.jdbc.JdbcTransaction.setDesiredAutoCommit(JdbcTransaction.java:101) ]
+DEBUG:Setting autocommit to false on JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@355ce81c]
+2020-07-01 10:07:07 上午 [Thread: main][ Class:com.fengfang.dao.IAccountDao.findAll >> Method: org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug(BaseJdbcLogger.java:137) ]
+DEBUG:==>  Preparing: select * from account
+2020-07-01 10:07:07 上午 [Thread: main][ Class:com.fengfang.dao.IAccountDao.findAll >> Method: org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug(BaseJdbcLogger.java:137) ]
+DEBUG:==> Parameters: 
+2020-07-01 10:07:07 上午 [Thread: main][ Class:com.fengfang.dao.IAccountDao.findAll >> Method: org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug(BaseJdbcLogger.java:137) ]
+DEBUG:<==      Total: 9
+2020-07-01 10:07:07 上午 [Thread: main][ Class:org.apache.ibatis.transaction.jdbc.JdbcTransaction >> Method: org.apache.ibatis.transaction.jdbc.JdbcTransaction.resetAutoCommit(JdbcTransaction.java:123) ]
+DEBUG:Resetting autocommit to true on JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@355ce81c]
+2020-07-01 10:07:07 上午 [Thread: main][ Class:org.apache.ibatis.transaction.jdbc.JdbcTransaction >> Method: org.apache.ibatis.transaction.jdbc.JdbcTransaction.close(JdbcTransaction.java:91) ]
+DEBUG:Closing JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@355ce81c]
+2020-07-01 10:07:07 上午 [Thread: main][ Class:org.apache.ibatis.datasource.pooled.PooledDataSource >> Method: org.apache.ibatis.datasource.pooled.PooledDataSource.pushConnection(PooledDataSource.java:391) ]
+DEBUG:Returned connection 895281180 to pool.
+2020-07-01 10:07:30 上午 [Thread: main][ Class:org.apache.ibatis.logging.LogFactory >> Method: org.apache.ibatis.logging.LogFactory.setImplementation(LogFactory.java:105) ]
+DEBUG:Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+2020-07-01 10:07:30 上午 [Thread: main][ Class:org.apache.ibatis.datasource.pooled.PooledDataSource >> Method: org.apache.ibatis.datasource.pooled.PooledDataSource.forceCloseAll(PooledDataSource.java:363) ]
+DEBUG:PooledDataSource forcefully closed/removed all connections.
+2020-07-01 10:07:30 上午 [Thread: main][ Class:org.apache.ibatis.datasource.pooled.PooledDataSource >> Method: org.apache.ibatis.datasource.pooled.PooledDataSource.forceCloseAll(PooledDataSource.java:363) ]
+DEBUG:PooledDataSource forcefully closed/removed all connections.
+2020-07-01 10:07:30 上午 [Thread: main][ Class:org.apache.ibatis.datasource.pooled.PooledDataSource >> Method: org.apache.ibatis.datasource.pooled.PooledDataSource.forceCloseAll(PooledDataSource.java:363) ]
+DEBUG:PooledDataSource forcefully closed/removed all connections.
+2020-07-01 10:07:30 上午 [Thread: main][ Class:org.apache.ibatis.datasource.pooled.PooledDataSource >> Method: org.apache.ibatis.datasource.pooled.PooledDataSource.forceCloseAll(PooledDataSource.java:363) ]
+DEBUG:PooledDataSource forcefully closed/removed all connections.
+2020-07-01 10:07:30 上午 [Thread: main][ Class:org.apache.ibatis.transaction.jdbc.JdbcTransaction >> Method: org.apache.ibatis.transaction.jdbc.JdbcTransaction.openConnection(JdbcTransaction.java:137) ]
+DEBUG:Opening JDBC Connection
+2020-07-01 10:07:31 上午 [Thread: main][ Class:org.apache.ibatis.datasource.pooled.PooledDataSource >> Method: org.apache.ibatis.datasource.pooled.PooledDataSource.popConnection(PooledDataSource.java:434) ]
+DEBUG:Created connection 561480862.
+2020-07-01 10:07:31 上午 [Thread: main][ Class:org.apache.ibatis.transaction.jdbc.JdbcTransaction >> Method: org.apache.ibatis.transaction.jdbc.JdbcTransaction.setDesiredAutoCommit(JdbcTransaction.java:101) ]
+DEBUG:Setting autocommit to false on JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@2177849e]
+2020-07-01 10:07:31 上午 [Thread: main][ Class:com.fengfang.dao.IAccountDao.updateAccount >> Method: org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug(BaseJdbcLogger.java:137) ]
+DEBUG:==>  Preparing: update account set username=?,birthday=?,sex=?,address=? where id=?;
+2020-07-01 10:07:31 上午 [Thread: main][ Class:com.fengfang.dao.IAccountDao.updateAccount >> Method: org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug(BaseJdbcLogger.java:137) ]
+DEBUG:==> Parameters: 张小妹update(String), 1987-12-17 00:00:00.0(Timestamp), 女(String), 北京通州update(String), 9(Integer)
+2020-07-01 10:07:31 上午 [Thread: main][ Class:com.fengfang.dao.IAccountDao.updateAccount >> Method: org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug(BaseJdbcLogger.java:137) ]
+DEBUG:<==    Updates: 1
+2020-07-01 10:07:31 上午 [Thread: main][ Class:org.apache.ibatis.transaction.jdbc.JdbcTransaction >> Method: org.apache.ibatis.transaction.jdbc.JdbcTransaction.commit(JdbcTransaction.java:70) ]
+DEBUG:Committing JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@2177849e]
+2020-07-01 10:07:31 上午 [Thread: main][ Class:org.apache.ibatis.transaction.jdbc.JdbcTransaction >> Method: org.apache.ibatis.transaction.jdbc.JdbcTransaction.resetAutoCommit(JdbcTransaction.java:123) ]
+DEBUG:Resetting autocommit to true on JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@2177849e]
+2020-07-01 10:07:31 上午 [Thread: main][ Class:org.apache.ibatis.transaction.jdbc.JdbcTransaction >> Method: org.apache.ibatis.transaction.jdbc.JdbcTransaction.close(JdbcTransaction.java:91) ]
+DEBUG:Closing JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@2177849e]
+2020-07-01 10:07:31 上午 [Thread: main][ Class:org.apache.ibatis.datasource.pooled.PooledDataSource >> Method: org.apache.ibatis.datasource.pooled.PooledDataSource.pushConnection(PooledDataSource.java:391) ]
+DEBUG:Returned connection 561480862 to pool.
+2020-07-01 10:07:38 上午 [Thread: main][ Class:org.apache.ibatis.logging.LogFactory >> Method: org.apache.ibatis.logging.LogFactory.setImplementation(LogFactory.java:105) ]
+DEBUG:Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+2020-07-01 10:07:38 上午 [Thread: main][ Class:org.apache.ibatis.datasource.pooled.PooledDataSource >> Method: org.apache.ibatis.datasource.pooled.PooledDataSource.forceCloseAll(PooledDataSource.java:363) ]
+DEBUG:PooledDataSource forcefully closed/removed all connections.
+2020-07-01 10:07:38 上午 [Thread: main][ Class:org.apache.ibatis.datasource.pooled.PooledDataSource >> Method: org.apache.ibatis.datasource.pooled.PooledDataSource.forceCloseAll(PooledDataSource.java:363) ]
+DEBUG:PooledDataSource forcefully closed/removed all connections.
+2020-07-01 10:07:38 上午 [Thread: main][ Class:org.apache.ibatis.datasource.pooled.PooledDataSource >> Method: org.apache.ibatis.datasource.pooled.PooledDataSource.forceCloseAll(PooledDataSource.java:363) ]
+DEBUG:PooledDataSource forcefully closed/removed all connections.
+2020-07-01 10:07:38 上午 [Thread: main][ Class:org.apache.ibatis.datasource.pooled.PooledDataSource >> Method: org.apache.ibatis.datasource.pooled.PooledDataSource.forceCloseAll(PooledDataSource.java:363) ]
+DEBUG:PooledDataSource forcefully closed/removed all connections.
+2020-07-01 10:07:38 上午 [Thread: main][ Class:org.apache.ibatis.transaction.jdbc.JdbcTransaction >> Method: org.apache.ibatis.transaction.jdbc.JdbcTransaction.openConnection(JdbcTransaction.java:137) ]
+DEBUG:Opening JDBC Connection
+2020-07-01 10:07:39 上午 [Thread: main][ Class:org.apache.ibatis.datasource.pooled.PooledDataSource >> Method: org.apache.ibatis.datasource.pooled.PooledDataSource.popConnection(PooledDataSource.java:434) ]
+DEBUG:Created connection 895281180.
+2020-07-01 10:07:39 上午 [Thread: main][ Class:org.apache.ibatis.transaction.jdbc.JdbcTransaction >> Method: org.apache.ibatis.transaction.jdbc.JdbcTransaction.setDesiredAutoCommit(JdbcTransaction.java:101) ]
+DEBUG:Setting autocommit to false on JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@355ce81c]
+2020-07-01 10:07:39 上午 [Thread: main][ Class:com.fengfang.dao.IAccountDao.findAll >> Method: org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug(BaseJdbcLogger.java:137) ]
+DEBUG:==>  Preparing: select * from account
+2020-07-01 10:07:39 上午 [Thread: main][ Class:com.fengfang.dao.IAccountDao.findAll >> Method: org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug(BaseJdbcLogger.java:137) ]
+DEBUG:==> Parameters: 
+2020-07-01 10:07:39 上午 [Thread: main][ Class:com.fengfang.dao.IAccountDao.findAll >> Method: org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug(BaseJdbcLogger.java:137) ]
+DEBUG:<==      Total: 9
+2020-07-01 10:07:39 上午 [Thread: main][ Class:org.apache.ibatis.transaction.jdbc.JdbcTransaction >> Method: org.apache.ibatis.transaction.jdbc.JdbcTransaction.resetAutoCommit(JdbcTransaction.java:123) ]
+DEBUG:Resetting autocommit to true on JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@355ce81c]
+2020-07-01 10:07:39 上午 [Thread: main][ Class:org.apache.ibatis.transaction.jdbc.JdbcTransaction >> Method: org.apache.ibatis.transaction.jdbc.JdbcTransaction.close(JdbcTransaction.java:91) ]
+DEBUG:Closing JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@355ce81c]
+2020-07-01 10:07:39 上午 [Thread: main][ Class:org.apache.ibatis.datasource.pooled.PooledDataSource >> Method: org.apache.ibatis.datasource.pooled.PooledDataSource.pushConnection(PooledDataSource.java:391) ]
+DEBUG:Returned connection 895281180 to pool.
+2020-07-01 10:08:10 上午 [Thread: main][ Class:org.apache.ibatis.logging.LogFactory >> Method: org.apache.ibatis.logging.LogFactory.setImplementation(LogFactory.java:105) ]
+DEBUG:Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+2020-07-01 10:08:10 上午 [Thread: main][ Class:org.apache.ibatis.datasource.pooled.PooledDataSource >> Method: org.apache.ibatis.datasource.pooled.PooledDataSource.forceCloseAll(PooledDataSource.java:363) ]
+DEBUG:PooledDataSource forcefully closed/removed all connections.
+2020-07-01 10:08:10 上午 [Thread: main][ Class:org.apache.ibatis.datasource.pooled.PooledDataSource >> Method: org.apache.ibatis.datasource.pooled.PooledDataSource.forceCloseAll(PooledDataSource.java:363) ]
+DEBUG:PooledDataSource forcefully closed/removed all connections.
+2020-07-01 10:08:10 上午 [Thread: main][ Class:org.apache.ibatis.datasource.pooled.PooledDataSource >> Method: org.apache.ibatis.datasource.pooled.PooledDataSource.forceCloseAll(PooledDataSource.java:363) ]
+DEBUG:PooledDataSource forcefully closed/removed all connections.
+2020-07-01 10:08:10 上午 [Thread: main][ Class:org.apache.ibatis.datasource.pooled.PooledDataSource >> Method: org.apache.ibatis.datasource.pooled.PooledDataSource.forceCloseAll(PooledDataSource.java:363) ]
+DEBUG:PooledDataSource forcefully closed/removed all connections.
+2020-07-01 10:08:11 上午 [Thread: main][ Class:org.apache.ibatis.transaction.jdbc.JdbcTransaction >> Method: org.apache.ibatis.transaction.jdbc.JdbcTransaction.openConnection(JdbcTransaction.java:137) ]
+DEBUG:Opening JDBC Connection
+2020-07-01 10:08:12 上午 [Thread: main][ Class:org.apache.ibatis.datasource.pooled.PooledDataSource >> Method: org.apache.ibatis.datasource.pooled.PooledDataSource.popConnection(PooledDataSource.java:434) ]
+DEBUG:Created connection 561480862.
+2020-07-01 10:08:12 上午 [Thread: main][ Class:org.apache.ibatis.transaction.jdbc.JdbcTransaction >> Method: org.apache.ibatis.transaction.jdbc.JdbcTransaction.setDesiredAutoCommit(JdbcTransaction.java:101) ]
+DEBUG:Setting autocommit to false on JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@2177849e]
+2020-07-01 10:08:12 上午 [Thread: main][ Class:com.fengfang.dao.IAccountDao.deleteAccount >> Method: org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug(BaseJdbcLogger.java:137) ]
+DEBUG:==>  Preparing: delete from account where id=?
+2020-07-01 10:08:12 上午 [Thread: main][ Class:com.fengfang.dao.IAccountDao.deleteAccount >> Method: org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug(BaseJdbcLogger.java:137) ]
+DEBUG:==> Parameters: 9(Integer)
+2020-07-01 10:08:12 上午 [Thread: main][ Class:com.fengfang.dao.IAccountDao.deleteAccount >> Method: org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug(BaseJdbcLogger.java:137) ]
+DEBUG:<==    Updates: 1
+2020-07-01 10:08:12 上午 [Thread: main][ Class:org.apache.ibatis.transaction.jdbc.JdbcTransaction >> Method: org.apache.ibatis.transaction.jdbc.JdbcTransaction.commit(JdbcTransaction.java:70) ]
+DEBUG:Committing JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@2177849e]
+2020-07-01 10:08:12 上午 [Thread: main][ Class:org.apache.ibatis.transaction.jdbc.JdbcTransaction >> Method: org.apache.ibatis.transaction.jdbc.JdbcTransaction.resetAutoCommit(JdbcTransaction.java:123) ]
+DEBUG:Resetting autocommit to true on JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@2177849e]
+2020-07-01 10:08:12 上午 [Thread: main][ Class:org.apache.ibatis.transaction.jdbc.JdbcTransaction >> Method: org.apache.ibatis.transaction.jdbc.JdbcTransaction.close(JdbcTransaction.java:91) ]
+DEBUG:Closing JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@2177849e]
+2020-07-01 10:08:12 上午 [Thread: main][ Class:org.apache.ibatis.datasource.pooled.PooledDataSource >> Method: org.apache.ibatis.datasource.pooled.PooledDataSource.pushConnection(PooledDataSource.java:391) ]
+DEBUG:Returned connection 561480862 to pool.
+2020-07-01 10:08:28 上午 [Thread: main][ Class:org.apache.ibatis.logging.LogFactory >> Method: org.apache.ibatis.logging.LogFactory.setImplementation(LogFactory.java:105) ]
+DEBUG:Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+2020-07-01 10:08:29 上午 [Thread: main][ Class:org.apache.ibatis.datasource.pooled.PooledDataSource >> Method: org.apache.ibatis.datasource.pooled.PooledDataSource.forceCloseAll(PooledDataSource.java:363) ]
+DEBUG:PooledDataSource forcefully closed/removed all connections.
+2020-07-01 10:08:29 上午 [Thread: main][ Class:org.apache.ibatis.datasource.pooled.PooledDataSource >> Method: org.apache.ibatis.datasource.pooled.PooledDataSource.forceCloseAll(PooledDataSource.java:363) ]
+DEBUG:PooledDataSource forcefully closed/removed all connections.
+2020-07-01 10:08:29 上午 [Thread: main][ Class:org.apache.ibatis.datasource.pooled.PooledDataSource >> Method: org.apache.ibatis.datasource.pooled.PooledDataSource.forceCloseAll(PooledDataSource.java:363) ]
+DEBUG:PooledDataSource forcefully closed/removed all connections.
+2020-07-01 10:08:29 上午 [Thread: main][ Class:org.apache.ibatis.datasource.pooled.PooledDataSource >> Method: org.apache.ibatis.datasource.pooled.PooledDataSource.forceCloseAll(PooledDataSource.java:363) ]
+DEBUG:PooledDataSource forcefully closed/removed all connections.
+2020-07-01 10:08:29 上午 [Thread: main][ Class:org.apache.ibatis.transaction.jdbc.JdbcTransaction >> Method: org.apache.ibatis.transaction.jdbc.JdbcTransaction.openConnection(JdbcTransaction.java:137) ]
+DEBUG:Opening JDBC Connection
+2020-07-01 10:08:30 上午 [Thread: main][ Class:org.apache.ibatis.datasource.pooled.PooledDataSource >> Method: org.apache.ibatis.datasource.pooled.PooledDataSource.popConnection(PooledDataSource.java:434) ]
+DEBUG:Created connection 895281180.
+2020-07-01 10:08:30 上午 [Thread: main][ Class:org.apache.ibatis.transaction.jdbc.JdbcTransaction >> Method: org.apache.ibatis.transaction.jdbc.JdbcTransaction.setDesiredAutoCommit(JdbcTransaction.java:101) ]
+DEBUG:Setting autocommit to false on JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@355ce81c]
+2020-07-01 10:08:30 上午 [Thread: main][ Class:com.fengfang.dao.IAccountDao.findAccountCount >> Method: org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug(BaseJdbcLogger.java:137) ]
+DEBUG:==>  Preparing: select count(1) from account;
+2020-07-01 10:08:30 上午 [Thread: main][ Class:com.fengfang.dao.IAccountDao.findAccountCount >> Method: org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug(BaseJdbcLogger.java:137) ]
+DEBUG:==> Parameters: 
+2020-07-01 10:08:30 上午 [Thread: main][ Class:com.fengfang.dao.IAccountDao.findAccountCount >> Method: org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug(BaseJdbcLogger.java:137) ]
+DEBUG:<==      Total: 1
+2020-07-01 10:08:30 上午 [Thread: main][ Class:org.apache.ibatis.transaction.jdbc.JdbcTransaction >> Method: org.apache.ibatis.transaction.jdbc.JdbcTransaction.resetAutoCommit(JdbcTransaction.java:123) ]
+DEBUG:Resetting autocommit to true on JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@355ce81c]
+2020-07-01 10:08:30 上午 [Thread: main][ Class:org.apache.ibatis.transaction.jdbc.JdbcTransaction >> Method: org.apache.ibatis.transaction.jdbc.JdbcTransaction.close(JdbcTransaction.java:91) ]
+DEBUG:Closing JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@355ce81c]
+2020-07-01 10:08:30 上午 [Thread: main][ Class:org.apache.ibatis.datasource.pooled.PooledDataSource >> Method: org.apache.ibatis.datasource.pooled.PooledDataSource.pushConnection(PooledDataSource.java:391) ]
+DEBUG:Returned connection 895281180 to pool.
+2020-07-01 10:11:18 上午 [Thread: main][ Class:org.apache.ibatis.logging.LogFactory >> Method: org.apache.ibatis.logging.LogFactory.setImplementation(LogFactory.java:105) ]
+DEBUG:Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+2020-07-01 10:11:18 上午 [Thread: main][ Class:org.apache.ibatis.datasource.pooled.PooledDataSource >> Method: org.apache.ibatis.datasource.pooled.PooledDataSource.forceCloseAll(PooledDataSource.java:363) ]
+DEBUG:PooledDataSource forcefully closed/removed all connections.
+2020-07-01 10:11:18 上午 [Thread: main][ Class:org.apache.ibatis.datasource.pooled.PooledDataSource >> Method: org.apache.ibatis.datasource.pooled.PooledDataSource.forceCloseAll(PooledDataSource.java:363) ]
+DEBUG:PooledDataSource forcefully closed/removed all connections.
+2020-07-01 10:11:18 上午 [Thread: main][ Class:org.apache.ibatis.datasource.pooled.PooledDataSource >> Method: org.apache.ibatis.datasource.pooled.PooledDataSource.forceCloseAll(PooledDataSource.java:363) ]
+DEBUG:PooledDataSource forcefully closed/removed all connections.
+2020-07-01 10:11:18 上午 [Thread: main][ Class:org.apache.ibatis.datasource.pooled.PooledDataSource >> Method: org.apache.ibatis.datasource.pooled.PooledDataSource.forceCloseAll(PooledDataSource.java:363) ]
+DEBUG:PooledDataSource forcefully closed/removed all connections.
+2020-07-01 10:11:18 上午 [Thread: main][ Class:org.apache.ibatis.transaction.jdbc.JdbcTransaction >> Method: org.apache.ibatis.transaction.jdbc.JdbcTransaction.openConnection(JdbcTransaction.java:137) ]
+DEBUG:Opening JDBC Connection
+2020-07-01 10:11:19 上午 [Thread: main][ Class:org.apache.ibatis.datasource.pooled.PooledDataSource >> Method: org.apache.ibatis.datasource.pooled.PooledDataSource.popConnection(PooledDataSource.java:434) ]
+DEBUG:Created connection 1437941060.
+2020-07-01 10:11:19 上午 [Thread: main][ Class:org.apache.ibatis.transaction.jdbc.JdbcTransaction >> Method: org.apache.ibatis.transaction.jdbc.JdbcTransaction.setDesiredAutoCommit(JdbcTransaction.java:101) ]
+DEBUG:Setting autocommit to false on JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@55b53d44]
+2020-07-01 10:11:19 上午 [Thread: main][ Class:com.fengfang.dao.IAccountDao.findAccountByVO >> Method: org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug(BaseJdbcLogger.java:137) ]
+DEBUG:==>  Preparing: select * from account where username like ?;
+2020-07-01 10:11:19 上午 [Thread: main][ Class:com.fengfang.dao.IAccountDao.findAccountByVO >> Method: org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug(BaseJdbcLogger.java:137) ]
+DEBUG:==> Parameters: %张%(String)
+2020-07-01 10:11:19 上午 [Thread: main][ Class:com.fengfang.dao.IAccountDao.findAccountByVO >> Method: org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug(BaseJdbcLogger.java:137) ]
+DEBUG:<==      Total: 3
+2020-07-01 10:11:19 上午 [Thread: main][ Class:org.apache.ibatis.transaction.jdbc.JdbcTransaction >> Method: org.apache.ibatis.transaction.jdbc.JdbcTransaction.resetAutoCommit(JdbcTransaction.java:123) ]
+DEBUG:Resetting autocommit to true on JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@55b53d44]
+2020-07-01 10:11:19 上午 [Thread: main][ Class:org.apache.ibatis.transaction.jdbc.JdbcTransaction >> Method: org.apache.ibatis.transaction.jdbc.JdbcTransaction.close(JdbcTransaction.java:91) ]
+DEBUG:Closing JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@55b53d44]
+2020-07-01 10:11:19 上午 [Thread: main][ Class:org.apache.ibatis.datasource.pooled.PooledDataSource >> Method: org.apache.ibatis.datasource.pooled.PooledDataSource.pushConnection(PooledDataSource.java:391) ]
+DEBUG:Returned connection 1437941060 to pool.
+2020-07-01 10:17:25 上午 [Thread: main][ Class:org.apache.ibatis.logging.LogFactory >> Method: org.apache.ibatis.logging.LogFactory.setImplementation(LogFactory.java:105) ]
+DEBUG:Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+2020-07-01 10:17:25 上午 [Thread: main][ Class:org.apache.ibatis.datasource.pooled.PooledDataSource >> Method: org.apache.ibatis.datasource.pooled.PooledDataSource.forceCloseAll(PooledDataSource.java:363) ]
+DEBUG:PooledDataSource forcefully closed/removed all connections.
+2020-07-01 10:17:25 上午 [Thread: main][ Class:org.apache.ibatis.datasource.pooled.PooledDataSource >> Method: org.apache.ibatis.datasource.pooled.PooledDataSource.forceCloseAll(PooledDataSource.java:363) ]
+DEBUG:PooledDataSource forcefully closed/removed all connections.
+2020-07-01 10:17:25 上午 [Thread: main][ Class:org.apache.ibatis.datasource.pooled.PooledDataSource >> Method: org.apache.ibatis.datasource.pooled.PooledDataSource.forceCloseAll(PooledDataSource.java:363) ]
+DEBUG:PooledDataSource forcefully closed/removed all connections.
+2020-07-01 10:17:25 上午 [Thread: main][ Class:org.apache.ibatis.datasource.pooled.PooledDataSource >> Method: org.apache.ibatis.datasource.pooled.PooledDataSource.forceCloseAll(PooledDataSource.java:363) ]
+DEBUG:PooledDataSource forcefully closed/removed all connections.
+2020-07-01 10:17:54 上午 [Thread: main][ Class:org.apache.ibatis.logging.LogFactory >> Method: org.apache.ibatis.logging.LogFactory.setImplementation(LogFactory.java:105) ]
+DEBUG:Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+2020-07-01 10:17:54 上午 [Thread: main][ Class:org.apache.ibatis.datasource.pooled.PooledDataSource >> Method: org.apache.ibatis.datasource.pooled.PooledDataSource.forceCloseAll(PooledDataSource.java:363) ]
+DEBUG:PooledDataSource forcefully closed/removed all connections.
+2020-07-01 10:17:54 上午 [Thread: main][ Class:org.apache.ibatis.datasource.pooled.PooledDataSource >> Method: org.apache.ibatis.datasource.pooled.PooledDataSource.forceCloseAll(PooledDataSource.java:363) ]
+DEBUG:PooledDataSource forcefully closed/removed all connections.
+2020-07-01 10:17:54 上午 [Thread: main][ Class:org.apache.ibatis.datasource.pooled.PooledDataSource >> Method: org.apache.ibatis.datasource.pooled.PooledDataSource.forceCloseAll(PooledDataSource.java:363) ]
+DEBUG:PooledDataSource forcefully closed/removed all connections.
+2020-07-01 10:17:54 上午 [Thread: main][ Class:org.apache.ibatis.datasource.pooled.PooledDataSource >> Method: org.apache.ibatis.datasource.pooled.PooledDataSource.forceCloseAll(PooledDataSource.java:363) ]
+DEBUG:PooledDataSource forcefully closed/removed all connections.
+2020-07-01 10:18:24 上午 [Thread: main][ Class:org.apache.ibatis.logging.LogFactory >> Method: org.apache.ibatis.logging.LogFactory.setImplementation(LogFactory.java:105) ]
+DEBUG:Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+2020-07-01 10:18:24 上午 [Thread: main][ Class:org.apache.ibatis.datasource.pooled.PooledDataSource >> Method: org.apache.ibatis.datasource.pooled.PooledDataSource.forceCloseAll(PooledDataSource.java:363) ]
+DEBUG:PooledDataSource forcefully closed/removed all connections.
+2020-07-01 10:18:24 上午 [Thread: main][ Class:org.apache.ibatis.datasource.pooled.PooledDataSource >> Method: org.apache.ibatis.datasource.pooled.PooledDataSource.forceCloseAll(PooledDataSource.java:363) ]
+DEBUG:PooledDataSource forcefully closed/removed all connections.
+2020-07-01 10:18:24 上午 [Thread: main][ Class:org.apache.ibatis.datasource.pooled.PooledDataSource >> Method: org.apache.ibatis.datasource.pooled.PooledDataSource.forceCloseAll(PooledDataSource.java:363) ]
+DEBUG:PooledDataSource forcefully closed/removed all connections.
+2020-07-01 10:18:24 上午 [Thread: main][ Class:org.apache.ibatis.datasource.pooled.PooledDataSource >> Method: org.apache.ibatis.datasource.pooled.PooledDataSource.forceCloseAll(PooledDataSource.java:363) ]
+DEBUG:PooledDataSource forcefully closed/removed all connections.
+2020-07-01 10:18:57 上午 [Thread: main][ Class:org.apache.ibatis.logging.LogFactory >> Method: org.apache.ibatis.logging.LogFactory.setImplementation(LogFactory.java:105) ]
+DEBUG:Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+2020-07-01 10:18:57 上午 [Thread: main][ Class:org.apache.ibatis.datasource.pooled.PooledDataSource >> Method: org.apache.ibatis.datasource.pooled.PooledDataSource.forceCloseAll(PooledDataSource.java:363) ]
+DEBUG:PooledDataSource forcefully closed/removed all connections.
+2020-07-01 10:18:57 上午 [Thread: main][ Class:org.apache.ibatis.datasource.pooled.PooledDataSource >> Method: org.apache.ibatis.datasource.pooled.PooledDataSource.forceCloseAll(PooledDataSource.java:363) ]
+DEBUG:PooledDataSource forcefully closed/removed all connections.
+2020-07-01 10:18:57 上午 [Thread: main][ Class:org.apache.ibatis.datasource.pooled.PooledDataSource >> Method: org.apache.ibatis.datasource.pooled.PooledDataSource.forceCloseAll(PooledDataSource.java:363) ]
+DEBUG:PooledDataSource forcefully closed/removed all connections.
+2020-07-01 10:18:57 上午 [Thread: main][ Class:org.apache.ibatis.datasource.pooled.PooledDataSource >> Method: org.apache.ibatis.datasource.pooled.PooledDataSource.forceCloseAll(PooledDataSource.java:363) ]
+DEBUG:PooledDataSource forcefully closed/removed all connections.
+2020-07-01 10:22:32 上午 [Thread: main][ Class:org.apache.ibatis.logging.LogFactory >> Method: org.apache.ibatis.logging.LogFactory.setImplementation(LogFactory.java:105) ]
+DEBUG:Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+2020-07-01 10:22:32 上午 [Thread: main][ Class:org.apache.ibatis.datasource.pooled.PooledDataSource >> Method: org.apache.ibatis.datasource.pooled.PooledDataSource.forceCloseAll(PooledDataSource.java:363) ]
+DEBUG:PooledDataSource forcefully closed/removed all connections.
+2020-07-01 10:22:32 上午 [Thread: main][ Class:org.apache.ibatis.datasource.pooled.PooledDataSource >> Method: org.apache.ibatis.datasource.pooled.PooledDataSource.forceCloseAll(PooledDataSource.java:363) ]
+DEBUG:PooledDataSource forcefully closed/removed all connections.
+2020-07-01 10:22:32 上午 [Thread: main][ Class:org.apache.ibatis.datasource.pooled.PooledDataSource >> Method: org.apache.ibatis.datasource.pooled.PooledDataSource.forceCloseAll(PooledDataSource.java:363) ]
+DEBUG:PooledDataSource forcefully closed/removed all connections.
+2020-07-01 10:22:32 上午 [Thread: main][ Class:org.apache.ibatis.datasource.pooled.PooledDataSource >> Method: org.apache.ibatis.datasource.pooled.PooledDataSource.forceCloseAll(PooledDataSource.java:363) ]
+DEBUG:PooledDataSource forcefully closed/removed all connections.
+2020-07-01 10:22:32 上午 [Thread: main][ Class:org.apache.ibatis.datasource.pooled.PooledDataSource >> Method: org.apache.ibatis.datasource.pooled.PooledDataSource.forceCloseAll(PooledDataSource.java:363) ]
+DEBUG:PooledDataSource forcefully closed/removed all connections.
+2020-07-01 10:22:32 上午 [Thread: main][ Class:org.apache.ibatis.datasource.pooled.PooledDataSource >> Method: org.apache.ibatis.datasource.pooled.PooledDataSource.forceCloseAll(PooledDataSource.java:363) ]
+DEBUG:PooledDataSource forcefully closed/removed all connections.
+2020-07-01 10:22:32 上午 [Thread: main][ Class:org.apache.ibatis.datasource.pooled.PooledDataSource >> Method: org.apache.ibatis.datasource.pooled.PooledDataSource.forceCloseAll(PooledDataSource.java:363) ]
+DEBUG:PooledDataSource forcefully closed/removed all connections.
+2020-07-01 10:22:32 上午 [Thread: main][ Class:org.apache.ibatis.datasource.pooled.PooledDataSource >> Method: org.apache.ibatis.datasource.pooled.PooledDataSource.forceCloseAll(PooledDataSource.java:363) ]
+DEBUG:PooledDataSource forcefully closed/removed all connections.
+2020-07-01 10:22:32 上午 [Thread: main][ Class:org.apache.ibatis.datasource.pooled.PooledDataSource >> Method: org.apache.ibatis.datasource.pooled.PooledDataSource.forceCloseAll(PooledDataSource.java:363) ]
+DEBUG:PooledDataSource forcefully closed/removed all connections.
+2020-07-01 10:22:32 上午 [Thread: main][ Class:org.apache.ibatis.datasource.pooled.PooledDataSource >> Method: org.apache.ibatis.datasource.pooled.PooledDataSource.forceCloseAll(PooledDataSource.java:363) ]
+DEBUG:PooledDataSource forcefully closed/removed all connections.
+2020-07-01 10:22:32 上午 [Thread: main][ Class:org.apache.ibatis.datasource.pooled.PooledDataSource >> Method: org.apache.ibatis.datasource.pooled.PooledDataSource.forceCloseAll(PooledDataSource.java:363) ]
+DEBUG:PooledDataSource forcefully closed/removed all connections.
+2020-07-01 10:22:32 上午 [Thread: main][ Class:org.apache.ibatis.datasource.pooled.PooledDataSource >> Method: org.apache.ibatis.datasource.pooled.PooledDataSource.forceCloseAll(PooledDataSource.java:363) ]
+DEBUG:PooledDataSource forcefully closed/removed all connections.
+2020-07-01 10:22:32 上午 [Thread: main][ Class:org.apache.ibatis.datasource.pooled.PooledDataSource >> Method: org.apache.ibatis.datasource.pooled.PooledDataSource.forceCloseAll(PooledDataSource.java:363) ]
+DEBUG:PooledDataSource forcefully closed/removed all connections.
+2020-07-01 10:22:32 上午 [Thread: main][ Class:org.apache.ibatis.datasource.pooled.PooledDataSource >> Method: org.apache.ibatis.datasource.pooled.PooledDataSource.forceCloseAll(PooledDataSource.java:363) ]
+DEBUG:PooledDataSource forcefully closed/removed all connections.
+2020-07-01 10:22:32 上午 [Thread: main][ Class:org.apache.ibatis.datasource.pooled.PooledDataSource >> Method: org.apache.ibatis.datasource.pooled.PooledDataSource.forceCloseAll(PooledDataSource.java:363) ]
+DEBUG:PooledDataSource forcefully closed/removed all connections.
+2020-07-01 10:22:32 上午 [Thread: main][ Class:org.apache.ibatis.datasource.pooled.PooledDataSource >> Method: org.apache.ibatis.datasource.pooled.PooledDataSource.forceCloseAll(PooledDataSource.java:363) ]
+DEBUG:PooledDataSource forcefully closed/removed all connections.
+2020-07-01 10:22:32 上午 [Thread: main][ Class:org.apache.ibatis.datasource.pooled.PooledDataSource >> Method: org.apache.ibatis.datasource.pooled.PooledDataSource.forceCloseAll(PooledDataSource.java:363) ]
+DEBUG:PooledDataSource forcefully closed/removed all connections.
+2020-07-01 10:22:32 上午 [Thread: main][ Class:org.apache.ibatis.datasource.pooled.PooledDataSource >> Method: org.apache.ibatis.datasource.pooled.PooledDataSource.forceCloseAll(PooledDataSource.java:363) ]
+DEBUG:PooledDataSource forcefully closed/removed all connections.
+2020-07-01 10:22:32 上午 [Thread: main][ Class:org.apache.ibatis.datasource.pooled.PooledDataSource >> Method: org.apache.ibatis.datasource.pooled.PooledDataSource.forceCloseAll(PooledDataSource.java:363) ]
+DEBUG:PooledDataSource forcefully closed/removed all connections.
+2020-07-01 10:22:32 上午 [Thread: main][ Class:org.apache.ibatis.datasource.pooled.PooledDataSource >> Method: org.apache.ibatis.datasource.pooled.PooledDataSource.forceCloseAll(PooledDataSource.java:363) ]
+DEBUG:PooledDataSource forcefully closed/removed all connections.
+2020-07-01 10:22:32 上午 [Thread: main][ Class:org.apache.ibatis.datasource.pooled.PooledDataSource >> Method: org.apache.ibatis.datasource.pooled.PooledDataSource.forceCloseAll(PooledDataSource.java:363) ]
+DEBUG:PooledDataSource forcefully closed/removed all connections.
+2020-07-01 10:22:32 上午 [Thread: main][ Class:org.apache.ibatis.datasource.pooled.PooledDataSource >> Method: org.apache.ibatis.datasource.pooled.PooledDataSource.forceCloseAll(PooledDataSource.java:363) ]
+DEBUG:PooledDataSource forcefully closed/removed all connections.
+2020-07-01 10:22:32 上午 [Thread: main][ Class:org.apache.ibatis.datasource.pooled.PooledDataSource >> Method: org.apache.ibatis.datasource.pooled.PooledDataSource.forceCloseAll(PooledDataSource.java:363) ]
+DEBUG:PooledDataSource forcefully closed/removed all connections.
+2020-07-01 10:22:32 上午 [Thread: main][ Class:org.apache.ibatis.datasource.pooled.PooledDataSource >> Method: org.apache.ibatis.datasource.pooled.PooledDataSource.forceCloseAll(PooledDataSource.java:363) ]
+DEBUG:PooledDataSource forcefully closed/removed all connections.
+2020-07-01 10:22:32 上午 [Thread: main][ Class:org.apache.ibatis.datasource.pooled.PooledDataSource >> Method: org.apache.ibatis.datasource.pooled.PooledDataSource.forceCloseAll(PooledDataSource.java:363) ]
+DEBUG:PooledDataSource forcefully closed/removed all connections.
+2020-07-01 10:22:32 上午 [Thread: main][ Class:org.apache.ibatis.datasource.pooled.PooledDataSource >> Method: org.apache.ibatis.datasource.pooled.PooledDataSource.forceCloseAll(PooledDataSource.java:363) ]
+DEBUG:PooledDataSource forcefully closed/removed all connections.
+2020-07-01 10:22:32 上午 [Thread: main][ Class:org.apache.ibatis.datasource.pooled.PooledDataSource >> Method: org.apache.ibatis.datasource.pooled.PooledDataSource.forceCloseAll(PooledDataSource.java:363) ]
+DEBUG:PooledDataSource forcefully closed/removed all connections.
+2020-07-01 10:22:32 上午 [Thread: main][ Class:org.apache.ibatis.datasource.pooled.PooledDataSource >> Method: org.apache.ibatis.datasource.pooled.PooledDataSource.forceCloseAll(PooledDataSource.java:363) ]
+DEBUG:PooledDataSource forcefully closed/removed all connections.
+2020-07-01 10:22:32 上午 [Thread: main][ Class:org.apache.ibatis.datasource.pooled.PooledDataSource >> Method: org.apache.ibatis.datasource.pooled.PooledDataSource.forceCloseAll(PooledDataSource.java:363) ]
+DEBUG:PooledDataSource forcefully closed/removed all connections.
+2020-07-01 10:22:32 上午 [Thread: main][ Class:org.apache.ibatis.datasource.pooled.PooledDataSource >> Method: org.apache.ibatis.datasource.pooled.PooledDataSource.forceCloseAll(PooledDataSource.java:363) ]
+DEBUG:PooledDataSource forcefully closed/removed all connections.
+2020-07-01 10:22:32 上午 [Thread: main][ Class:org.apache.ibatis.datasource.pooled.PooledDataSource >> Method: org.apache.ibatis.datasource.pooled.PooledDataSource.forceCloseAll(PooledDataSource.java:363) ]
+DEBUG:PooledDataSource forcefully closed/removed all connections.
+2020-07-01 10:22:32 上午 [Thread: main][ Class:org.apache.ibatis.datasource.pooled.PooledDataSource >> Method: org.apache.ibatis.datasource.pooled.PooledDataSource.forceCloseAll(PooledDataSource.java:363) ]
+DEBUG:PooledDataSource forcefully closed/removed all connections.
+2020-07-01 10:22:32 上午 [Thread: main][ Class:org.apache.ibatis.datasource.pooled.PooledDataSource >> Method: org.apache.ibatis.datasource.pooled.PooledDataSource.forceCloseAll(PooledDataSource.java:363) ]
+DEBUG:PooledDataSource forcefully closed/removed all connections.
+2020-07-01 10:22:32 上午 [Thread: main][ Class:org.apache.ibatis.datasource.pooled.PooledDataSource >> Method: org.apache.ibatis.datasource.pooled.PooledDataSource.forceCloseAll(PooledDataSource.java:363) ]
+DEBUG:PooledDataSource forcefully closed/removed all connections.
+2020-07-01 10:22:32 上午 [Thread: main][ Class:org.apache.ibatis.datasource.pooled.PooledDataSource >> Method: org.apache.ibatis.datasource.pooled.PooledDataSource.forceCloseAll(PooledDataSource.java:363) ]
+DEBUG:PooledDataSource forcefully closed/removed all connections.
+2020-07-01 10:22:32 上午 [Thread: main][ Class:org.apache.ibatis.datasource.pooled.PooledDataSource >> Method: org.apache.ibatis.datasource.pooled.PooledDataSource.forceCloseAll(PooledDataSource.java:363) ]
+DEBUG:PooledDataSource forcefully closed/removed all connections.
+2020-07-01 10:23:12 上午 [Thread: main][ Class:org.apache.ibatis.logging.LogFactory >> Method: org.apache.ibatis.logging.LogFactory.setImplementation(LogFactory.java:105) ]
+DEBUG:Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+2020-07-01 10:23:12 上午 [Thread: main][ Class:org.apache.ibatis.datasource.pooled.PooledDataSource >> Method: org.apache.ibatis.datasource.pooled.PooledDataSource.forceCloseAll(PooledDataSource.java:363) ]
+DEBUG:PooledDataSource forcefully closed/removed all connections.
+2020-07-01 10:23:12 上午 [Thread: main][ Class:org.apache.ibatis.datasource.pooled.PooledDataSource >> Method: org.apache.ibatis.datasource.pooled.PooledDataSource.forceCloseAll(PooledDataSource.java:363) ]
+DEBUG:PooledDataSource forcefully closed/removed all connections.
+2020-07-01 10:23:12 上午 [Thread: main][ Class:org.apache.ibatis.datasource.pooled.PooledDataSource >> Method: org.apache.ibatis.datasource.pooled.PooledDataSource.forceCloseAll(PooledDataSource.java:363) ]
+DEBUG:PooledDataSource forcefully closed/removed all connections.
+2020-07-01 10:23:12 上午 [Thread: main][ Class:org.apache.ibatis.datasource.pooled.PooledDataSource >> Method: org.apache.ibatis.datasource.pooled.PooledDataSource.forceCloseAll(PooledDataSource.java:363) ]
+DEBUG:PooledDataSource forcefully closed/removed all connections.
+2020-07-01 10:23:12 上午 [Thread: main][ Class:org.apache.ibatis.transaction.jdbc.JdbcTransaction >> Method: org.apache.ibatis.transaction.jdbc.JdbcTransaction.openConnection(JdbcTransaction.java:137) ]
+DEBUG:Opening JDBC Connection
+2020-07-01 10:23:13 上午 [Thread: main][ Class:org.apache.ibatis.datasource.pooled.PooledDataSource >> Method: org.apache.ibatis.datasource.pooled.PooledDataSource.popConnection(PooledDataSource.java:434) ]
+DEBUG:Created connection 81412691.
+2020-07-01 10:23:13 上午 [Thread: main][ Class:org.apache.ibatis.transaction.jdbc.JdbcTransaction >> Method: org.apache.ibatis.transaction.jdbc.JdbcTransaction.setDesiredAutoCommit(JdbcTransaction.java:101) ]
+DEBUG:Setting autocommit to false on JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@4da4253]
+2020-07-01 10:23:13 上午 [Thread: main][ Class:com.fengfang.dao.IAccountDao.findAccountByVO >> Method: org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug(BaseJdbcLogger.java:137) ]
+DEBUG:==>  Preparing: select * from account where username like ?;
+2020-07-01 10:23:13 上午 [Thread: main][ Class:com.fengfang.dao.IAccountDao.findAccountByVO >> Method: org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug(BaseJdbcLogger.java:137) ]
+DEBUG:==> Parameters: %张%(String)
+2020-07-01 10:23:13 上午 [Thread: main][ Class:com.fengfang.dao.IAccountDao.findAccountByVO >> Method: org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug(BaseJdbcLogger.java:137) ]
+DEBUG:<==      Total: 3
+2020-07-01 10:23:13 上午 [Thread: main][ Class:org.apache.ibatis.transaction.jdbc.JdbcTransaction >> Method: org.apache.ibatis.transaction.jdbc.JdbcTransaction.resetAutoCommit(JdbcTransaction.java:123) ]
+DEBUG:Resetting autocommit to true on JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@4da4253]
+2020-07-01 10:23:13 上午 [Thread: main][ Class:org.apache.ibatis.transaction.jdbc.JdbcTransaction >> Method: org.apache.ibatis.transaction.jdbc.JdbcTransaction.close(JdbcTransaction.java:91) ]
+DEBUG:Closing JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@4da4253]
+2020-07-01 10:23:13 上午 [Thread: main][ Class:org.apache.ibatis.datasource.pooled.PooledDataSource >> Method: org.apache.ibatis.datasource.pooled.PooledDataSource.pushConnection(PooledDataSource.java:391) ]
+DEBUG:Returned connection 81412691 to pool.
+2020-07-01 10:23:55 上午 [Thread: main][ Class:org.apache.ibatis.logging.LogFactory >> Method: org.apache.ibatis.logging.LogFactory.setImplementation(LogFactory.java:105) ]
+DEBUG:Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+2020-07-01 10:23:55 上午 [Thread: main][ Class:org.apache.ibatis.datasource.pooled.PooledDataSource >> Method: org.apache.ibatis.datasource.pooled.PooledDataSource.forceCloseAll(PooledDataSource.java:363) ]
+DEBUG:PooledDataSource forcefully closed/removed all connections.
+2020-07-01 10:23:55 上午 [Thread: main][ Class:org.apache.ibatis.datasource.pooled.PooledDataSource >> Method: org.apache.ibatis.datasource.pooled.PooledDataSource.forceCloseAll(PooledDataSource.java:363) ]
+DEBUG:PooledDataSource forcefully closed/removed all connections.
+2020-07-01 10:23:55 上午 [Thread: main][ Class:org.apache.ibatis.datasource.pooled.PooledDataSource >> Method: org.apache.ibatis.datasource.pooled.PooledDataSource.forceCloseAll(PooledDataSource.java:363) ]
+DEBUG:PooledDataSource forcefully closed/removed all connections.
+2020-07-01 10:23:55 上午 [Thread: main][ Class:org.apache.ibatis.datasource.pooled.PooledDataSource >> Method: org.apache.ibatis.datasource.pooled.PooledDataSource.forceCloseAll(PooledDataSource.java:363) ]
+DEBUG:PooledDataSource forcefully closed/removed all connections.
+2020-07-01 10:23:55 上午 [Thread: main][ Class:org.apache.ibatis.transaction.jdbc.JdbcTransaction >> Method: org.apache.ibatis.transaction.jdbc.JdbcTransaction.openConnection(JdbcTransaction.java:137) ]
+DEBUG:Opening JDBC Connection
+2020-07-01 10:23:56 上午 [Thread: main][ Class:org.apache.ibatis.datasource.pooled.PooledDataSource >> Method: org.apache.ibatis.datasource.pooled.PooledDataSource.popConnection(PooledDataSource.java:434) ]
+DEBUG:Created connection 509891820.
+2020-07-01 10:23:56 上午 [Thread: main][ Class:org.apache.ibatis.transaction.jdbc.JdbcTransaction >> Method: org.apache.ibatis.transaction.jdbc.JdbcTransaction.setDesiredAutoCommit(JdbcTransaction.java:101) ]
+DEBUG:Setting autocommit to false on JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@1e6454ec]
+2020-07-01 10:23:56 上午 [Thread: main][ Class:com.fengfang.dao.IAccountDao.findAccountByCondition >> Method: org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug(BaseJdbcLogger.java:137) ]
+DEBUG:==>  Preparing: select * from account where 1=1 username =? address =?
+2020-07-01 10:23:56 上午 [Thread: main][ Class:com.fengfang.dao.IAccountDao.findAccountByCondition >> Method: org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug(BaseJdbcLogger.java:137) ]
+DEBUG:==> Parameters: %张%(String), %广州%(String)
+2020-07-01 10:23:56 上午 [Thread: main][ Class:org.apache.ibatis.transaction.jdbc.JdbcTransaction >> Method: org.apache.ibatis.transaction.jdbc.JdbcTransaction.resetAutoCommit(JdbcTransaction.java:123) ]
+DEBUG:Resetting autocommit to true on JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@1e6454ec]
+2020-07-01 10:23:56 上午 [Thread: main][ Class:org.apache.ibatis.transaction.jdbc.JdbcTransaction >> Method: org.apache.ibatis.transaction.jdbc.JdbcTransaction.close(JdbcTransaction.java:91) ]
+DEBUG:Closing JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@1e6454ec]
+2020-07-01 10:23:56 上午 [Thread: main][ Class:org.apache.ibatis.datasource.pooled.PooledDataSource >> Method: org.apache.ibatis.datasource.pooled.PooledDataSource.pushConnection(PooledDataSource.java:391) ]
+DEBUG:Returned connection 509891820 to pool.
+2020-07-01 10:24:39 上午 [Thread: main][ Class:org.apache.ibatis.logging.LogFactory >> Method: org.apache.ibatis.logging.LogFactory.setImplementation(LogFactory.java:105) ]
+DEBUG:Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+2020-07-01 10:24:39 上午 [Thread: main][ Class:org.apache.ibatis.datasource.pooled.PooledDataSource >> Method: org.apache.ibatis.datasource.pooled.PooledDataSource.forceCloseAll(PooledDataSource.java:363) ]
+DEBUG:PooledDataSource forcefully closed/removed all connections.
+2020-07-01 10:24:39 上午 [Thread: main][ Class:org.apache.ibatis.datasource.pooled.PooledDataSource >> Method: org.apache.ibatis.datasource.pooled.PooledDataSource.forceCloseAll(PooledDataSource.java:363) ]
+DEBUG:PooledDataSource forcefully closed/removed all connections.
+2020-07-01 10:24:39 上午 [Thread: main][ Class:org.apache.ibatis.datasource.pooled.PooledDataSource >> Method: org.apache.ibatis.datasource.pooled.PooledDataSource.forceCloseAll(PooledDataSource.java:363) ]
+DEBUG:PooledDataSource forcefully closed/removed all connections.
+2020-07-01 10:24:39 上午 [Thread: main][ Class:org.apache.ibatis.datasource.pooled.PooledDataSource >> Method: org.apache.ibatis.datasource.pooled.PooledDataSource.forceCloseAll(PooledDataSource.java:363) ]
+DEBUG:PooledDataSource forcefully closed/removed all connections.
+2020-07-01 10:24:39 上午 [Thread: main][ Class:org.apache.ibatis.transaction.jdbc.JdbcTransaction >> Method: org.apache.ibatis.transaction.jdbc.JdbcTransaction.openConnection(JdbcTransaction.java:137) ]
+DEBUG:Opening JDBC Connection
+2020-07-01 10:24:40 上午 [Thread: main][ Class:org.apache.ibatis.datasource.pooled.PooledDataSource >> Method: org.apache.ibatis.datasource.pooled.PooledDataSource.popConnection(PooledDataSource.java:434) ]
+DEBUG:Created connection 509891820.
+2020-07-01 10:24:40 上午 [Thread: main][ Class:org.apache.ibatis.transaction.jdbc.JdbcTransaction >> Method: org.apache.ibatis.transaction.jdbc.JdbcTransaction.setDesiredAutoCommit(JdbcTransaction.java:101) ]
+DEBUG:Setting autocommit to false on JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@1e6454ec]
+2020-07-01 10:24:40 上午 [Thread: main][ Class:com.fengfang.dao.IAccountDao.findAccountByCondition >> Method: org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug(BaseJdbcLogger.java:137) ]
+DEBUG:==>  Preparing: select * from account where 1=1 username like ? address like ?
+2020-07-01 10:24:40 上午 [Thread: main][ Class:com.fengfang.dao.IAccountDao.findAccountByCondition >> Method: org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug(BaseJdbcLogger.java:137) ]
+DEBUG:==> Parameters: %张%(String), 广州(String)
+2020-07-01 10:24:40 上午 [Thread: main][ Class:org.apache.ibatis.transaction.jdbc.JdbcTransaction >> Method: org.apache.ibatis.transaction.jdbc.JdbcTransaction.resetAutoCommit(JdbcTransaction.java:123) ]
+DEBUG:Resetting autocommit to true on JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@1e6454ec]
+2020-07-01 10:24:40 上午 [Thread: main][ Class:org.apache.ibatis.transaction.jdbc.JdbcTransaction >> Method: org.apache.ibatis.transaction.jdbc.JdbcTransaction.close(JdbcTransaction.java:91) ]
+DEBUG:Closing JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@1e6454ec]
+2020-07-01 10:24:40 上午 [Thread: main][ Class:org.apache.ibatis.datasource.pooled.PooledDataSource >> Method: org.apache.ibatis.datasource.pooled.PooledDataSource.pushConnection(PooledDataSource.java:391) ]
+DEBUG:Returned connection 509891820 to pool.
+2020-07-01 10:25:26 上午 [Thread: main][ Class:org.apache.ibatis.logging.LogFactory >> Method: org.apache.ibatis.logging.LogFactory.setImplementation(LogFactory.java:105) ]
+DEBUG:Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+2020-07-01 10:25:26 上午 [Thread: main][ Class:org.apache.ibatis.datasource.pooled.PooledDataSource >> Method: org.apache.ibatis.datasource.pooled.PooledDataSource.forceCloseAll(PooledDataSource.java:363) ]
+DEBUG:PooledDataSource forcefully closed/removed all connections.
+2020-07-01 10:25:26 上午 [Thread: main][ Class:org.apache.ibatis.datasource.pooled.PooledDataSource >> Method: org.apache.ibatis.datasource.pooled.PooledDataSource.forceCloseAll(PooledDataSource.java:363) ]
+DEBUG:PooledDataSource forcefully closed/removed all connections.
+2020-07-01 10:25:26 上午 [Thread: main][ Class:org.apache.ibatis.datasource.pooled.PooledDataSource >> Method: org.apache.ibatis.datasource.pooled.PooledDataSource.forceCloseAll(PooledDataSource.java:363) ]
+DEBUG:PooledDataSource forcefully closed/removed all connections.
+2020-07-01 10:25:26 上午 [Thread: main][ Class:org.apache.ibatis.datasource.pooled.PooledDataSource >> Method: org.apache.ibatis.datasource.pooled.PooledDataSource.forceCloseAll(PooledDataSource.java:363) ]
+DEBUG:PooledDataSource forcefully closed/removed all connections.
+2020-07-01 10:25:26 上午 [Thread: main][ Class:org.apache.ibatis.transaction.jdbc.JdbcTransaction >> Method: org.apache.ibatis.transaction.jdbc.JdbcTransaction.openConnection(JdbcTransaction.java:137) ]
+DEBUG:Opening JDBC Connection
+2020-07-01 10:25:27 上午 [Thread: main][ Class:org.apache.ibatis.datasource.pooled.PooledDataSource >> Method: org.apache.ibatis.datasource.pooled.PooledDataSource.popConnection(PooledDataSource.java:434) ]
+DEBUG:Created connection 11939193.
+2020-07-01 10:25:27 上午 [Thread: main][ Class:org.apache.ibatis.transaction.jdbc.JdbcTransaction >> Method: org.apache.ibatis.transaction.jdbc.JdbcTransaction.setDesiredAutoCommit(JdbcTransaction.java:101) ]
+DEBUG:Setting autocommit to false on JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@b62d79]
+2020-07-01 10:25:27 上午 [Thread: main][ Class:com.fengfang.dao.IAccountDao.findAccountByCondition >> Method: org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug(BaseJdbcLogger.java:137) ]
+DEBUG:==>  Preparing: select * from account where 1=1 username like ?
+2020-07-01 10:25:27 上午 [Thread: main][ Class:com.fengfang.dao.IAccountDao.findAccountByCondition >> Method: org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug(BaseJdbcLogger.java:137) ]
+DEBUG:==> Parameters: %张%(String)
+2020-07-01 10:25:28 上午 [Thread: main][ Class:org.apache.ibatis.transaction.jdbc.JdbcTransaction >> Method: org.apache.ibatis.transaction.jdbc.JdbcTransaction.resetAutoCommit(JdbcTransaction.java:123) ]
+DEBUG:Resetting autocommit to true on JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@b62d79]
+2020-07-01 10:25:28 上午 [Thread: main][ Class:org.apache.ibatis.transaction.jdbc.JdbcTransaction >> Method: org.apache.ibatis.transaction.jdbc.JdbcTransaction.close(JdbcTransaction.java:91) ]
+DEBUG:Closing JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@b62d79]
+2020-07-01 10:25:28 上午 [Thread: main][ Class:org.apache.ibatis.datasource.pooled.PooledDataSource >> Method: org.apache.ibatis.datasource.pooled.PooledDataSource.pushConnection(PooledDataSource.java:391) ]
+DEBUG:Returned connection 11939193 to pool.
+2020-07-01 10:25:45 上午 [Thread: main][ Class:org.apache.ibatis.logging.LogFactory >> Method: org.apache.ibatis.logging.LogFactory.setImplementation(LogFactory.java:105) ]
+DEBUG:Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+2020-07-01 10:25:45 上午 [Thread: main][ Class:org.apache.ibatis.datasource.pooled.PooledDataSource >> Method: org.apache.ibatis.datasource.pooled.PooledDataSource.forceCloseAll(PooledDataSource.java:363) ]
+DEBUG:PooledDataSource forcefully closed/removed all connections.
+2020-07-01 10:25:45 上午 [Thread: main][ Class:org.apache.ibatis.datasource.pooled.PooledDataSource >> Method: org.apache.ibatis.datasource.pooled.PooledDataSource.forceCloseAll(PooledDataSource.java:363) ]
+DEBUG:PooledDataSource forcefully closed/removed all connections.
+2020-07-01 10:25:45 上午 [Thread: main][ Class:org.apache.ibatis.datasource.pooled.PooledDataSource >> Method: org.apache.ibatis.datasource.pooled.PooledDataSource.forceCloseAll(PooledDataSource.java:363) ]
+DEBUG:PooledDataSource forcefully closed/removed all connections.
+2020-07-01 10:25:45 上午 [Thread: main][ Class:org.apache.ibatis.datasource.pooled.PooledDataSource >> Method: org.apache.ibatis.datasource.pooled.PooledDataSource.forceCloseAll(PooledDataSource.java:363) ]
+DEBUG:PooledDataSource forcefully closed/removed all connections.
+2020-07-01 10:25:45 上午 [Thread: main][ Class:org.apache.ibatis.transaction.jdbc.JdbcTransaction >> Method: org.apache.ibatis.transaction.jdbc.JdbcTransaction.openConnection(JdbcTransaction.java:137) ]
+DEBUG:Opening JDBC Connection
+2020-07-01 10:25:46 上午 [Thread: main][ Class:org.apache.ibatis.datasource.pooled.PooledDataSource >> Method: org.apache.ibatis.datasource.pooled.PooledDataSource.popConnection(PooledDataSource.java:434) ]
+DEBUG:Created connection 11939193.
+2020-07-01 10:25:46 上午 [Thread: main][ Class:org.apache.ibatis.transaction.jdbc.JdbcTransaction >> Method: org.apache.ibatis.transaction.jdbc.JdbcTransaction.setDesiredAutoCommit(JdbcTransaction.java:101) ]
+DEBUG:Setting autocommit to false on JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@b62d79]
+2020-07-01 10:25:46 上午 [Thread: main][ Class:com.fengfang.dao.IAccountDao.findAccountByCondition >> Method: org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug(BaseJdbcLogger.java:137) ]
+DEBUG:==>  Preparing: select * from account where 1=1 username = ?
+2020-07-01 10:25:46 上午 [Thread: main][ Class:com.fengfang.dao.IAccountDao.findAccountByCondition >> Method: org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug(BaseJdbcLogger.java:137) ]
+DEBUG:==> Parameters: %张%(String)
+2020-07-01 10:25:46 上午 [Thread: main][ Class:org.apache.ibatis.transaction.jdbc.JdbcTransaction >> Method: org.apache.ibatis.transaction.jdbc.JdbcTransaction.resetAutoCommit(JdbcTransaction.java:123) ]
+DEBUG:Resetting autocommit to true on JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@b62d79]
+2020-07-01 10:25:46 上午 [Thread: main][ Class:org.apache.ibatis.transaction.jdbc.JdbcTransaction >> Method: org.apache.ibatis.transaction.jdbc.JdbcTransaction.close(JdbcTransaction.java:91) ]
+DEBUG:Closing JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@b62d79]
+2020-07-01 10:25:46 上午 [Thread: main][ Class:org.apache.ibatis.datasource.pooled.PooledDataSource >> Method: org.apache.ibatis.datasource.pooled.PooledDataSource.pushConnection(PooledDataSource.java:391) ]
+DEBUG:Returned connection 11939193 to pool.
+2020-07-01 10:33:04 上午 [Thread: main][ Class:org.apache.ibatis.logging.LogFactory >> Method: org.apache.ibatis.logging.LogFactory.setImplementation(LogFactory.java:105) ]
+DEBUG:Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+2020-07-01 10:33:04 上午 [Thread: main][ Class:org.apache.ibatis.datasource.pooled.PooledDataSource >> Method: org.apache.ibatis.datasource.pooled.PooledDataSource.forceCloseAll(PooledDataSource.java:363) ]
+DEBUG:PooledDataSource forcefully closed/removed all connections.
+2020-07-01 10:33:04 上午 [Thread: main][ Class:org.apache.ibatis.datasource.pooled.PooledDataSource >> Method: org.apache.ibatis.datasource.pooled.PooledDataSource.forceCloseAll(PooledDataSource.java:363) ]
+DEBUG:PooledDataSource forcefully closed/removed all connections.
+2020-07-01 10:33:04 上午 [Thread: main][ Class:org.apache.ibatis.datasource.pooled.PooledDataSource >> Method: org.apache.ibatis.datasource.pooled.PooledDataSource.forceCloseAll(PooledDataSource.java:363) ]
+DEBUG:PooledDataSource forcefully closed/removed all connections.
+2020-07-01 10:33:04 上午 [Thread: main][ Class:org.apache.ibatis.datasource.pooled.PooledDataSource >> Method: org.apache.ibatis.datasource.pooled.PooledDataSource.forceCloseAll(PooledDataSource.java:363) ]
+DEBUG:PooledDataSource forcefully closed/removed all connections.
+2020-07-01 10:33:04 上午 [Thread: main][ Class:org.apache.ibatis.transaction.jdbc.JdbcTransaction >> Method: org.apache.ibatis.transaction.jdbc.JdbcTransaction.openConnection(JdbcTransaction.java:137) ]
+DEBUG:Opening JDBC Connection
+2020-07-01 10:33:05 上午 [Thread: main][ Class:org.apache.ibatis.datasource.pooled.PooledDataSource >> Method: org.apache.ibatis.datasource.pooled.PooledDataSource.popConnection(PooledDataSource.java:434) ]
+DEBUG:Created connection 11939193.
+2020-07-01 10:33:05 上午 [Thread: main][ Class:org.apache.ibatis.transaction.jdbc.JdbcTransaction >> Method: org.apache.ibatis.transaction.jdbc.JdbcTransaction.setDesiredAutoCommit(JdbcTransaction.java:101) ]
+DEBUG:Setting autocommit to false on JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@b62d79]
+2020-07-01 10:33:05 上午 [Thread: main][ Class:com.fengfang.dao.IAccountDao.findAccountByCondition >> Method: org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug(BaseJdbcLogger.java:137) ]
+DEBUG:==>  Preparing: select * from account where 1=1 and username = ?
+2020-07-01 10:33:05 上午 [Thread: main][ Class:com.fengfang.dao.IAccountDao.findAccountByCondition >> Method: org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug(BaseJdbcLogger.java:137) ]
+DEBUG:==> Parameters: %张%(String)
+2020-07-01 10:33:05 上午 [Thread: main][ Class:com.fengfang.dao.IAccountDao.findAccountByCondition >> Method: org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug(BaseJdbcLogger.java:137) ]
+DEBUG:<==      Total: 0
+2020-07-01 10:33:05 上午 [Thread: main][ Class:org.apache.ibatis.transaction.jdbc.JdbcTransaction >> Method: org.apache.ibatis.transaction.jdbc.JdbcTransaction.resetAutoCommit(JdbcTransaction.java:123) ]
+DEBUG:Resetting autocommit to true on JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@b62d79]
+2020-07-01 10:33:05 上午 [Thread: main][ Class:org.apache.ibatis.transaction.jdbc.JdbcTransaction >> Method: org.apache.ibatis.transaction.jdbc.JdbcTransaction.close(JdbcTransaction.java:91) ]
+DEBUG:Closing JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@b62d79]
+2020-07-01 10:33:05 上午 [Thread: main][ Class:org.apache.ibatis.datasource.pooled.PooledDataSource >> Method: org.apache.ibatis.datasource.pooled.PooledDataSource.pushConnection(PooledDataSource.java:391) ]
+DEBUG:Returned connection 11939193 to pool.
+2020-07-01 10:33:23 上午 [Thread: main][ Class:org.apache.ibatis.logging.LogFactory >> Method: org.apache.ibatis.logging.LogFactory.setImplementation(LogFactory.java:105) ]
+DEBUG:Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+2020-07-01 10:33:23 上午 [Thread: main][ Class:org.apache.ibatis.datasource.pooled.PooledDataSource >> Method: org.apache.ibatis.datasource.pooled.PooledDataSource.forceCloseAll(PooledDataSource.java:363) ]
+DEBUG:PooledDataSource forcefully closed/removed all connections.
+2020-07-01 10:33:23 上午 [Thread: main][ Class:org.apache.ibatis.datasource.pooled.PooledDataSource >> Method: org.apache.ibatis.datasource.pooled.PooledDataSource.forceCloseAll(PooledDataSource.java:363) ]
+DEBUG:PooledDataSource forcefully closed/removed all connections.
+2020-07-01 10:33:23 上午 [Thread: main][ Class:org.apache.ibatis.datasource.pooled.PooledDataSource >> Method: org.apache.ibatis.datasource.pooled.PooledDataSource.forceCloseAll(PooledDataSource.java:363) ]
+DEBUG:PooledDataSource forcefully closed/removed all connections.
+2020-07-01 10:33:23 上午 [Thread: main][ Class:org.apache.ibatis.datasource.pooled.PooledDataSource >> Method: org.apache.ibatis.datasource.pooled.PooledDataSource.forceCloseAll(PooledDataSource.java:363) ]
+DEBUG:PooledDataSource forcefully closed/removed all connections.
+2020-07-01 10:33:23 上午 [Thread: main][ Class:org.apache.ibatis.transaction.jdbc.JdbcTransaction >> Method: org.apache.ibatis.transaction.jdbc.JdbcTransaction.openConnection(JdbcTransaction.java:137) ]
+DEBUG:Opening JDBC Connection
+2020-07-01 10:33:24 上午 [Thread: main][ Class:org.apache.ibatis.datasource.pooled.PooledDataSource >> Method: org.apache.ibatis.datasource.pooled.PooledDataSource.popConnection(PooledDataSource.java:434) ]
+DEBUG:Created connection 11939193.
+2020-07-01 10:33:24 上午 [Thread: main][ Class:org.apache.ibatis.transaction.jdbc.JdbcTransaction >> Method: org.apache.ibatis.transaction.jdbc.JdbcTransaction.setDesiredAutoCommit(JdbcTransaction.java:101) ]
+DEBUG:Setting autocommit to false on JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@b62d79]
+2020-07-01 10:33:24 上午 [Thread: main][ Class:com.fengfang.dao.IAccountDao.findAccountByCondition >> Method: org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug(BaseJdbcLogger.java:137) ]
+DEBUG:==>  Preparing: select * from account where 1=1 and username like ?
+2020-07-01 10:33:24 上午 [Thread: main][ Class:com.fengfang.dao.IAccountDao.findAccountByCondition >> Method: org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug(BaseJdbcLogger.java:137) ]
+DEBUG:==> Parameters: %张%(String)
+2020-07-01 10:33:24 上午 [Thread: main][ Class:com.fengfang.dao.IAccountDao.findAccountByCondition >> Method: org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug(BaseJdbcLogger.java:137) ]
+DEBUG:<==      Total: 3
+2020-07-01 10:33:24 上午 [Thread: main][ Class:org.apache.ibatis.transaction.jdbc.JdbcTransaction >> Method: org.apache.ibatis.transaction.jdbc.JdbcTransaction.resetAutoCommit(JdbcTransaction.java:123) ]
+DEBUG:Resetting autocommit to true on JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@b62d79]
+2020-07-01 10:33:24 上午 [Thread: main][ Class:org.apache.ibatis.transaction.jdbc.JdbcTransaction >> Method: org.apache.ibatis.transaction.jdbc.JdbcTransaction.close(JdbcTransaction.java:91) ]
+DEBUG:Closing JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@b62d79]
+2020-07-01 10:33:24 上午 [Thread: main][ Class:org.apache.ibatis.datasource.pooled.PooledDataSource >> Method: org.apache.ibatis.datasource.pooled.PooledDataSource.pushConnection(PooledDataSource.java:391) ]
+DEBUG:Returned connection 11939193 to pool.
+2020-07-01 10:33:34 上午 [Thread: main][ Class:org.apache.ibatis.logging.LogFactory >> Method: org.apache.ibatis.logging.LogFactory.setImplementation(LogFactory.java:105) ]
+DEBUG:Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+2020-07-01 10:33:34 上午 [Thread: main][ Class:org.apache.ibatis.datasource.pooled.PooledDataSource >> Method: org.apache.ibatis.datasource.pooled.PooledDataSource.forceCloseAll(PooledDataSource.java:363) ]
+DEBUG:PooledDataSource forcefully closed/removed all connections.
+2020-07-01 10:33:34 上午 [Thread: main][ Class:org.apache.ibatis.datasource.pooled.PooledDataSource >> Method: org.apache.ibatis.datasource.pooled.PooledDataSource.forceCloseAll(PooledDataSource.java:363) ]
+DEBUG:PooledDataSource forcefully closed/removed all connections.
+2020-07-01 10:33:34 上午 [Thread: main][ Class:org.apache.ibatis.datasource.pooled.PooledDataSource >> Method: org.apache.ibatis.datasource.pooled.PooledDataSource.forceCloseAll(PooledDataSource.java:363) ]
+DEBUG:PooledDataSource forcefully closed/removed all connections.
+2020-07-01 10:33:34 上午 [Thread: main][ Class:org.apache.ibatis.datasource.pooled.PooledDataSource >> Method: org.apache.ibatis.datasource.pooled.PooledDataSource.forceCloseAll(PooledDataSource.java:363) ]
+DEBUG:PooledDataSource forcefully closed/removed all connections.
+2020-07-01 10:33:35 上午 [Thread: main][ Class:org.apache.ibatis.transaction.jdbc.JdbcTransaction >> Method: org.apache.ibatis.transaction.jdbc.JdbcTransaction.openConnection(JdbcTransaction.java:137) ]
+DEBUG:Opening JDBC Connection
+2020-07-01 10:33:36 上午 [Thread: main][ Class:org.apache.ibatis.datasource.pooled.PooledDataSource >> Method: org.apache.ibatis.datasource.pooled.PooledDataSource.popConnection(PooledDataSource.java:434) ]
+DEBUG:Created connection 11939193.
+2020-07-01 10:33:36 上午 [Thread: main][ Class:org.apache.ibatis.transaction.jdbc.JdbcTransaction >> Method: org.apache.ibatis.transaction.jdbc.JdbcTransaction.setDesiredAutoCommit(JdbcTransaction.java:101) ]
+DEBUG:Setting autocommit to false on JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@b62d79]
+2020-07-01 10:33:36 上午 [Thread: main][ Class:com.fengfang.dao.IAccountDao.findAccountByCondition >> Method: org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug(BaseJdbcLogger.java:137) ]
+DEBUG:==>  Preparing: select * from account where 1=1 and username like ?
+2020-07-01 10:33:36 上午 [Thread: main][ Class:com.fengfang.dao.IAccountDao.findAccountByCondition >> Method: org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug(BaseJdbcLogger.java:137) ]
+DEBUG:==> Parameters: %张%(String)
+2020-07-01 10:33:36 上午 [Thread: main][ Class:com.fengfang.dao.IAccountDao.findAccountByCondition >> Method: org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug(BaseJdbcLogger.java:137) ]
+DEBUG:<==      Total: 3
+2020-07-01 10:33:36 上午 [Thread: main][ Class:org.apache.ibatis.transaction.jdbc.JdbcTransaction >> Method: org.apache.ibatis.transaction.jdbc.JdbcTransaction.resetAutoCommit(JdbcTransaction.java:123) ]
+DEBUG:Resetting autocommit to true on JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@b62d79]
+2020-07-01 10:33:36 上午 [Thread: main][ Class:org.apache.ibatis.transaction.jdbc.JdbcTransaction >> Method: org.apache.ibatis.transaction.jdbc.JdbcTransaction.close(JdbcTransaction.java:91) ]
+DEBUG:Closing JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@b62d79]
+2020-07-01 10:33:36 上午 [Thread: main][ Class:org.apache.ibatis.datasource.pooled.PooledDataSource >> Method: org.apache.ibatis.datasource.pooled.PooledDataSource.pushConnection(PooledDataSource.java:391) ]
+DEBUG:Returned connection 11939193 to pool.
+2020-07-01 10:33:42 上午 [Thread: main][ Class:org.apache.ibatis.logging.LogFactory >> Method: org.apache.ibatis.logging.LogFactory.setImplementation(LogFactory.java:105) ]
+DEBUG:Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+2020-07-01 10:33:42 上午 [Thread: main][ Class:org.apache.ibatis.datasource.pooled.PooledDataSource >> Method: org.apache.ibatis.datasource.pooled.PooledDataSource.forceCloseAll(PooledDataSource.java:363) ]
+DEBUG:PooledDataSource forcefully closed/removed all connections.
+2020-07-01 10:33:42 上午 [Thread: main][ Class:org.apache.ibatis.datasource.pooled.PooledDataSource >> Method: org.apache.ibatis.datasource.pooled.PooledDataSource.forceCloseAll(PooledDataSource.java:363) ]
+DEBUG:PooledDataSource forcefully closed/removed all connections.
+2020-07-01 10:33:42 上午 [Thread: main][ Class:org.apache.ibatis.datasource.pooled.PooledDataSource >> Method: org.apache.ibatis.datasource.pooled.PooledDataSource.forceCloseAll(PooledDataSource.java:363) ]
+DEBUG:PooledDataSource forcefully closed/removed all connections.
+2020-07-01 10:33:42 上午 [Thread: main][ Class:org.apache.ibatis.datasource.pooled.PooledDataSource >> Method: org.apache.ibatis.datasource.pooled.PooledDataSource.forceCloseAll(PooledDataSource.java:363) ]
+DEBUG:PooledDataSource forcefully closed/removed all connections.
+2020-07-01 10:33:42 上午 [Thread: main][ Class:org.apache.ibatis.transaction.jdbc.JdbcTransaction >> Method: org.apache.ibatis.transaction.jdbc.JdbcTransaction.openConnection(JdbcTransaction.java:137) ]
+DEBUG:Opening JDBC Connection
+2020-07-01 10:33:43 上午 [Thread: main][ Class:org.apache.ibatis.datasource.pooled.PooledDataSource >> Method: org.apache.ibatis.datasource.pooled.PooledDataSource.popConnection(PooledDataSource.java:434) ]
+DEBUG:Created connection 509891820.
+2020-07-01 10:33:43 上午 [Thread: main][ Class:org.apache.ibatis.transaction.jdbc.JdbcTransaction >> Method: org.apache.ibatis.transaction.jdbc.JdbcTransaction.setDesiredAutoCommit(JdbcTransaction.java:101) ]
+DEBUG:Setting autocommit to false on JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@1e6454ec]
+2020-07-01 10:33:43 上午 [Thread: main][ Class:com.fengfang.dao.IAccountDao.findAccountByCondition >> Method: org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug(BaseJdbcLogger.java:137) ]
+DEBUG:==>  Preparing: select * from account where 1=1 and username like ? and address like ?
+2020-07-01 10:33:43 上午 [Thread: main][ Class:com.fengfang.dao.IAccountDao.findAccountByCondition >> Method: org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug(BaseJdbcLogger.java:137) ]
+DEBUG:==> Parameters: %张%(String), %广州%(String)
+2020-07-01 10:33:43 上午 [Thread: main][ Class:com.fengfang.dao.IAccountDao.findAccountByCondition >> Method: org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug(BaseJdbcLogger.java:137) ]
+DEBUG:<==      Total: 1
+2020-07-01 10:33:43 上午 [Thread: main][ Class:org.apache.ibatis.transaction.jdbc.JdbcTransaction >> Method: org.apache.ibatis.transaction.jdbc.JdbcTransaction.resetAutoCommit(JdbcTransaction.java:123) ]
+DEBUG:Resetting autocommit to true on JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@1e6454ec]
+2020-07-01 10:33:43 上午 [Thread: main][ Class:org.apache.ibatis.transaction.jdbc.JdbcTransaction >> Method: org.apache.ibatis.transaction.jdbc.JdbcTransaction.close(JdbcTransaction.java:91) ]
+DEBUG:Closing JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@1e6454ec]
+2020-07-01 10:33:43 上午 [Thread: main][ Class:org.apache.ibatis.datasource.pooled.PooledDataSource >> Method: org.apache.ibatis.datasource.pooled.PooledDataSource.pushConnection(PooledDataSource.java:391) ]
+DEBUG:Returned connection 509891820 to pool.
+2020-07-01 15:11:50 下午 [Thread: main][ Class:org.apache.ibatis.logging.LogFactory >> Method: org.apache.ibatis.logging.LogFactory.setImplementation(LogFactory.java:105) ]
+DEBUG:Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+2020-07-01 15:11:50 下午 [Thread: main][ Class:org.apache.ibatis.datasource.pooled.PooledDataSource >> Method: org.apache.ibatis.datasource.pooled.PooledDataSource.forceCloseAll(PooledDataSource.java:363) ]
+DEBUG:PooledDataSource forcefully closed/removed all connections.
+2020-07-01 15:11:50 下午 [Thread: main][ Class:org.apache.ibatis.datasource.pooled.PooledDataSource >> Method: org.apache.ibatis.datasource.pooled.PooledDataSource.forceCloseAll(PooledDataSource.java:363) ]
+DEBUG:PooledDataSource forcefully closed/removed all connections.
+2020-07-01 15:11:50 下午 [Thread: main][ Class:org.apache.ibatis.datasource.pooled.PooledDataSource >> Method: org.apache.ibatis.datasource.pooled.PooledDataSource.forceCloseAll(PooledDataSource.java:363) ]
+DEBUG:PooledDataSource forcefully closed/removed all connections.
+2020-07-01 15:11:50 下午 [Thread: main][ Class:org.apache.ibatis.datasource.pooled.PooledDataSource >> Method: org.apache.ibatis.datasource.pooled.PooledDataSource.forceCloseAll(PooledDataSource.java:363) ]
+DEBUG:PooledDataSource forcefully closed/removed all connections.
+2020-07-01 15:11:50 下午 [Thread: main][ Class:org.apache.ibatis.transaction.jdbc.JdbcTransaction >> Method: org.apache.ibatis.transaction.jdbc.JdbcTransaction.openConnection(JdbcTransaction.java:137) ]
+DEBUG:Opening JDBC Connection
+2020-07-01 15:11:51 下午 [Thread: main][ Class:org.apache.ibatis.datasource.pooled.PooledDataSource >> Method: org.apache.ibatis.datasource.pooled.PooledDataSource.popConnection(PooledDataSource.java:434) ]
+DEBUG:Created connection 671046933.
+2020-07-01 15:11:51 下午 [Thread: main][ Class:org.apache.ibatis.transaction.jdbc.JdbcTransaction >> Method: org.apache.ibatis.transaction.jdbc.JdbcTransaction.setDesiredAutoCommit(JdbcTransaction.java:101) ]
+DEBUG:Setting autocommit to false on JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@27ff5d15]
+2020-07-01 15:11:51 下午 [Thread: main][ Class:com.fengfang.dao.IAccountDao.findAccountByCondition >> Method: org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug(BaseJdbcLogger.java:137) ]
+DEBUG:==>  Preparing: select * from account WHERE username like ? and address like ?
+2020-07-01 15:11:51 下午 [Thread: main][ Class:com.fengfang.dao.IAccountDao.findAccountByCondition >> Method: org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug(BaseJdbcLogger.java:137) ]
+DEBUG:==> Parameters: %张%(String), %广州%(String)
+2020-07-01 15:11:51 下午 [Thread: main][ Class:com.fengfang.dao.IAccountDao.findAccountByCondition >> Method: org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug(BaseJdbcLogger.java:137) ]
+DEBUG:<==      Total: 1
+2020-07-01 15:11:51 下午 [Thread: main][ Class:org.apache.ibatis.transaction.jdbc.JdbcTransaction >> Method: org.apache.ibatis.transaction.jdbc.JdbcTransaction.resetAutoCommit(JdbcTransaction.java:123) ]
+DEBUG:Resetting autocommit to true on JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@27ff5d15]
+2020-07-01 15:11:51 下午 [Thread: main][ Class:org.apache.ibatis.transaction.jdbc.JdbcTransaction >> Method: org.apache.ibatis.transaction.jdbc.JdbcTransaction.close(JdbcTransaction.java:91) ]
+DEBUG:Closing JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@27ff5d15]
+2020-07-01 15:11:51 下午 [Thread: main][ Class:org.apache.ibatis.datasource.pooled.PooledDataSource >> Method: org.apache.ibatis.datasource.pooled.PooledDataSource.pushConnection(PooledDataSource.java:391) ]
+DEBUG:Returned connection 671046933 to pool.
+2020-07-01 15:13:21 下午 [Thread: main][ Class:org.apache.ibatis.logging.LogFactory >> Method: org.apache.ibatis.logging.LogFactory.setImplementation(LogFactory.java:105) ]
+DEBUG:Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+2020-07-01 15:13:21 下午 [Thread: main][ Class:org.apache.ibatis.datasource.pooled.PooledDataSource >> Method: org.apache.ibatis.datasource.pooled.PooledDataSource.forceCloseAll(PooledDataSource.java:363) ]
+DEBUG:PooledDataSource forcefully closed/removed all connections.
+2020-07-01 15:13:21 下午 [Thread: main][ Class:org.apache.ibatis.datasource.pooled.PooledDataSource >> Method: org.apache.ibatis.datasource.pooled.PooledDataSource.forceCloseAll(PooledDataSource.java:363) ]
+DEBUG:PooledDataSource forcefully closed/removed all connections.
+2020-07-01 15:13:21 下午 [Thread: main][ Class:org.apache.ibatis.datasource.pooled.PooledDataSource >> Method: org.apache.ibatis.datasource.pooled.PooledDataSource.forceCloseAll(PooledDataSource.java:363) ]
+DEBUG:PooledDataSource forcefully closed/removed all connections.
+2020-07-01 15:13:21 下午 [Thread: main][ Class:org.apache.ibatis.datasource.pooled.PooledDataSource >> Method: org.apache.ibatis.datasource.pooled.PooledDataSource.forceCloseAll(PooledDataSource.java:363) ]
+DEBUG:PooledDataSource forcefully closed/removed all connections.
+2020-07-01 15:13:21 下午 [Thread: main][ Class:org.apache.ibatis.transaction.jdbc.JdbcTransaction >> Method: org.apache.ibatis.transaction.jdbc.JdbcTransaction.openConnection(JdbcTransaction.java:137) ]
+DEBUG:Opening JDBC Connection
+2020-07-01 15:13:22 下午 [Thread: main][ Class:org.apache.ibatis.datasource.pooled.PooledDataSource >> Method: org.apache.ibatis.datasource.pooled.PooledDataSource.popConnection(PooledDataSource.java:434) ]
+DEBUG:Created connection 1687940142.
+2020-07-01 15:13:22 下午 [Thread: main][ Class:org.apache.ibatis.transaction.jdbc.JdbcTransaction >> Method: org.apache.ibatis.transaction.jdbc.JdbcTransaction.setDesiredAutoCommit(JdbcTransaction.java:101) ]
+DEBUG:Setting autocommit to false on JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@649bec2e]
+2020-07-01 15:13:22 下午 [Thread: main][ Class:com.fengfang.dao.IAccountDao.findAccountByCondition >> Method: org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug(BaseJdbcLogger.java:137) ]
+DEBUG:==>  Preparing: select * from account WHERE username like ?
+2020-07-01 15:13:22 下午 [Thread: main][ Class:com.fengfang.dao.IAccountDao.findAccountByCondition >> Method: org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug(BaseJdbcLogger.java:137) ]
+DEBUG:==> Parameters: %张%(String)
+2020-07-01 15:13:22 下午 [Thread: main][ Class:com.fengfang.dao.IAccountDao.findAccountByCondition >> Method: org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug(BaseJdbcLogger.java:137) ]
+DEBUG:<==      Total: 3
+2020-07-01 15:13:22 下午 [Thread: main][ Class:org.apache.ibatis.transaction.jdbc.JdbcTransaction >> Method: org.apache.ibatis.transaction.jdbc.JdbcTransaction.resetAutoCommit(JdbcTransaction.java:123) ]
+DEBUG:Resetting autocommit to true on JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@649bec2e]
+2020-07-01 15:13:22 下午 [Thread: main][ Class:org.apache.ibatis.transaction.jdbc.JdbcTransaction >> Method: org.apache.ibatis.transaction.jdbc.JdbcTransaction.close(JdbcTransaction.java:91) ]
+DEBUG:Closing JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@649bec2e]
+2020-07-01 15:13:22 下午 [Thread: main][ Class:org.apache.ibatis.datasource.pooled.PooledDataSource >> Method: org.apache.ibatis.datasource.pooled.PooledDataSource.pushConnection(PooledDataSource.java:391) ]
+DEBUG:Returned connection 1687940142 to pool.
+2020-07-01 15:25:58 下午 [Thread: main][ Class:org.apache.ibatis.logging.LogFactory >> Method: org.apache.ibatis.logging.LogFactory.setImplementation(LogFactory.java:105) ]
+DEBUG:Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+2020-07-01 15:25:58 下午 [Thread: main][ Class:org.apache.ibatis.datasource.pooled.PooledDataSource >> Method: org.apache.ibatis.datasource.pooled.PooledDataSource.forceCloseAll(PooledDataSource.java:363) ]
+DEBUG:PooledDataSource forcefully closed/removed all connections.
+2020-07-01 15:25:58 下午 [Thread: main][ Class:org.apache.ibatis.datasource.pooled.PooledDataSource >> Method: org.apache.ibatis.datasource.pooled.PooledDataSource.forceCloseAll(PooledDataSource.java:363) ]
+DEBUG:PooledDataSource forcefully closed/removed all connections.
+2020-07-01 15:25:58 下午 [Thread: main][ Class:org.apache.ibatis.datasource.pooled.PooledDataSource >> Method: org.apache.ibatis.datasource.pooled.PooledDataSource.forceCloseAll(PooledDataSource.java:363) ]
+DEBUG:PooledDataSource forcefully closed/removed all connections.
+2020-07-01 15:25:58 下午 [Thread: main][ Class:org.apache.ibatis.datasource.pooled.PooledDataSource >> Method: org.apache.ibatis.datasource.pooled.PooledDataSource.forceCloseAll(PooledDataSource.java:363) ]
+DEBUG:PooledDataSource forcefully closed/removed all connections.
+2020-07-01 15:26:40 下午 [Thread: main][ Class:org.apache.ibatis.logging.LogFactory >> Method: org.apache.ibatis.logging.LogFactory.setImplementation(LogFactory.java:105) ]
+DEBUG:Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+2020-07-01 15:26:40 下午 [Thread: main][ Class:org.apache.ibatis.datasource.pooled.PooledDataSource >> Method: org.apache.ibatis.datasource.pooled.PooledDataSource.forceCloseAll(PooledDataSource.java:363) ]
+DEBUG:PooledDataSource forcefully closed/removed all connections.
+2020-07-01 15:26:40 下午 [Thread: main][ Class:org.apache.ibatis.datasource.pooled.PooledDataSource >> Method: org.apache.ibatis.datasource.pooled.PooledDataSource.forceCloseAll(PooledDataSource.java:363) ]
+DEBUG:PooledDataSource forcefully closed/removed all connections.
+2020-07-01 15:26:40 下午 [Thread: main][ Class:org.apache.ibatis.datasource.pooled.PooledDataSource >> Method: org.apache.ibatis.datasource.pooled.PooledDataSource.forceCloseAll(PooledDataSource.java:363) ]
+DEBUG:PooledDataSource forcefully closed/removed all connections.
+2020-07-01 15:26:40 下午 [Thread: main][ Class:org.apache.ibatis.datasource.pooled.PooledDataSource >> Method: org.apache.ibatis.datasource.pooled.PooledDataSource.forceCloseAll(PooledDataSource.java:363) ]
+DEBUG:PooledDataSource forcefully closed/removed all connections.
+2020-07-01 15:26:40 下午 [Thread: main][ Class:org.apache.ibatis.transaction.jdbc.JdbcTransaction >> Method: org.apache.ibatis.transaction.jdbc.JdbcTransaction.openConnection(JdbcTransaction.java:137) ]
+DEBUG:Opening JDBC Connection
+2020-07-01 15:26:41 下午 [Thread: main][ Class:org.apache.ibatis.datasource.pooled.PooledDataSource >> Method: org.apache.ibatis.datasource.pooled.PooledDataSource.popConnection(PooledDataSource.java:434) ]
+DEBUG:Created connection 1604002113.
+2020-07-01 15:26:41 下午 [Thread: main][ Class:org.apache.ibatis.transaction.jdbc.JdbcTransaction >> Method: org.apache.ibatis.transaction.jdbc.JdbcTransaction.setDesiredAutoCommit(JdbcTransaction.java:101) ]
+DEBUG:Setting autocommit to false on JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@5f9b2141]
+2020-07-01 15:26:41 下午 [Thread: main][ Class:com.fengfang.dao.IAccountDao.findAccountInIds >> Method: org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug(BaseJdbcLogger.java:137) ]
+DEBUG:==>  Preparing: select * from account WHERE id in( ? , ? , ? )
+2020-07-01 15:26:41 下午 [Thread: main][ Class:com.fengfang.dao.IAccountDao.findAccountInIds >> Method: org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug(BaseJdbcLogger.java:137) ]
+DEBUG:==> Parameters: 1(Integer), 3(Integer), 5(Integer)
+2020-07-01 15:26:42 下午 [Thread: main][ Class:com.fengfang.dao.IAccountDao.findAccountInIds >> Method: org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug(BaseJdbcLogger.java:137) ]
+DEBUG:<==      Total: 2
+2020-07-01 15:26:42 下午 [Thread: main][ Class:org.apache.ibatis.transaction.jdbc.JdbcTransaction >> Method: org.apache.ibatis.transaction.jdbc.JdbcTransaction.resetAutoCommit(JdbcTransaction.java:123) ]
+DEBUG:Resetting autocommit to true on JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@5f9b2141]
+2020-07-01 15:26:42 下午 [Thread: main][ Class:org.apache.ibatis.transaction.jdbc.JdbcTransaction >> Method: org.apache.ibatis.transaction.jdbc.JdbcTransaction.close(JdbcTransaction.java:91) ]
+DEBUG:Closing JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@5f9b2141]
+2020-07-01 15:26:42 下午 [Thread: main][ Class:org.apache.ibatis.datasource.pooled.PooledDataSource >> Method: org.apache.ibatis.datasource.pooled.PooledDataSource.pushConnection(PooledDataSource.java:391) ]
+DEBUG:Returned connection 1604002113 to pool.
+2020-07-01 15:26:58 下午 [Thread: main][ Class:org.apache.ibatis.logging.LogFactory >> Method: org.apache.ibatis.logging.LogFactory.setImplementation(LogFactory.java:105) ]
+DEBUG:Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+2020-07-01 15:26:58 下午 [Thread: main][ Class:org.apache.ibatis.datasource.pooled.PooledDataSource >> Method: org.apache.ibatis.datasource.pooled.PooledDataSource.forceCloseAll(PooledDataSource.java:363) ]
+DEBUG:PooledDataSource forcefully closed/removed all connections.
+2020-07-01 15:26:58 下午 [Thread: main][ Class:org.apache.ibatis.datasource.pooled.PooledDataSource >> Method: org.apache.ibatis.datasource.pooled.PooledDataSource.forceCloseAll(PooledDataSource.java:363) ]
+DEBUG:PooledDataSource forcefully closed/removed all connections.
+2020-07-01 15:26:58 下午 [Thread: main][ Class:org.apache.ibatis.datasource.pooled.PooledDataSource >> Method: org.apache.ibatis.datasource.pooled.PooledDataSource.forceCloseAll(PooledDataSource.java:363) ]
+DEBUG:PooledDataSource forcefully closed/removed all connections.
+2020-07-01 15:26:58 下午 [Thread: main][ Class:org.apache.ibatis.datasource.pooled.PooledDataSource >> Method: org.apache.ibatis.datasource.pooled.PooledDataSource.forceCloseAll(PooledDataSource.java:363) ]
+DEBUG:PooledDataSource forcefully closed/removed all connections.
+2020-07-01 15:26:58 下午 [Thread: main][ Class:org.apache.ibatis.transaction.jdbc.JdbcTransaction >> Method: org.apache.ibatis.transaction.jdbc.JdbcTransaction.openConnection(JdbcTransaction.java:137) ]
+DEBUG:Opening JDBC Connection
+2020-07-01 15:26:59 下午 [Thread: main][ Class:org.apache.ibatis.datasource.pooled.PooledDataSource >> Method: org.apache.ibatis.datasource.pooled.PooledDataSource.popConnection(PooledDataSource.java:434) ]
+DEBUG:Created connection 27084827.
+2020-07-01 15:26:59 下午 [Thread: main][ Class:org.apache.ibatis.transaction.jdbc.JdbcTransaction >> Method: org.apache.ibatis.transaction.jdbc.JdbcTransaction.setDesiredAutoCommit(JdbcTransaction.java:101) ]
+DEBUG:Setting autocommit to false on JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@19d481b]
+2020-07-01 15:26:59 下午 [Thread: main][ Class:com.fengfang.dao.IAccountDao.findAll >> Method: org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug(BaseJdbcLogger.java:137) ]
+DEBUG:==>  Preparing: select * from account
+2020-07-01 15:26:59 下午 [Thread: main][ Class:com.fengfang.dao.IAccountDao.findAll >> Method: org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug(BaseJdbcLogger.java:137) ]
+DEBUG:==> Parameters: 
+2020-07-01 15:26:59 下午 [Thread: main][ Class:com.fengfang.dao.IAccountDao.findAll >> Method: org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug(BaseJdbcLogger.java:137) ]
+DEBUG:<==      Total: 8
+2020-07-01 15:26:59 下午 [Thread: main][ Class:org.apache.ibatis.transaction.jdbc.JdbcTransaction >> Method: org.apache.ibatis.transaction.jdbc.JdbcTransaction.resetAutoCommit(JdbcTransaction.java:123) ]
+DEBUG:Resetting autocommit to true on JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@19d481b]
+2020-07-01 15:26:59 下午 [Thread: main][ Class:org.apache.ibatis.transaction.jdbc.JdbcTransaction >> Method: org.apache.ibatis.transaction.jdbc.JdbcTransaction.close(JdbcTransaction.java:91) ]
+DEBUG:Closing JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@19d481b]
+2020-07-01 15:26:59 下午 [Thread: main][ Class:org.apache.ibatis.datasource.pooled.PooledDataSource >> Method: org.apache.ibatis.datasource.pooled.PooledDataSource.pushConnection(PooledDataSource.java:391) ]
+DEBUG:Returned connection 27084827 to pool.
+2020-07-01 15:27:17 下午 [Thread: main][ Class:org.apache.ibatis.logging.LogFactory >> Method: org.apache.ibatis.logging.LogFactory.setImplementation(LogFactory.java:105) ]
+DEBUG:Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+2020-07-01 15:27:17 下午 [Thread: main][ Class:org.apache.ibatis.datasource.pooled.PooledDataSource >> Method: org.apache.ibatis.datasource.pooled.PooledDataSource.forceCloseAll(PooledDataSource.java:363) ]
+DEBUG:PooledDataSource forcefully closed/removed all connections.
+2020-07-01 15:27:17 下午 [Thread: main][ Class:org.apache.ibatis.datasource.pooled.PooledDataSource >> Method: org.apache.ibatis.datasource.pooled.PooledDataSource.forceCloseAll(PooledDataSource.java:363) ]
+DEBUG:PooledDataSource forcefully closed/removed all connections.
+2020-07-01 15:27:17 下午 [Thread: main][ Class:org.apache.ibatis.datasource.pooled.PooledDataSource >> Method: org.apache.ibatis.datasource.pooled.PooledDataSource.forceCloseAll(PooledDataSource.java:363) ]
+DEBUG:PooledDataSource forcefully closed/removed all connections.
+2020-07-01 15:27:17 下午 [Thread: main][ Class:org.apache.ibatis.datasource.pooled.PooledDataSource >> Method: org.apache.ibatis.datasource.pooled.PooledDataSource.forceCloseAll(PooledDataSource.java:363) ]
+DEBUG:PooledDataSource forcefully closed/removed all connections.
+2020-07-01 15:27:17 下午 [Thread: main][ Class:org.apache.ibatis.transaction.jdbc.JdbcTransaction >> Method: org.apache.ibatis.transaction.jdbc.JdbcTransaction.openConnection(JdbcTransaction.java:137) ]
+DEBUG:Opening JDBC Connection
+2020-07-01 15:27:18 下午 [Thread: main][ Class:org.apache.ibatis.datasource.pooled.PooledDataSource >> Method: org.apache.ibatis.datasource.pooled.PooledDataSource.popConnection(PooledDataSource.java:434) ]
+DEBUG:Created connection 1604002113.
+2020-07-01 15:27:18 下午 [Thread: main][ Class:org.apache.ibatis.transaction.jdbc.JdbcTransaction >> Method: org.apache.ibatis.transaction.jdbc.JdbcTransaction.setDesiredAutoCommit(JdbcTransaction.java:101) ]
+DEBUG:Setting autocommit to false on JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@5f9b2141]
+2020-07-01 15:27:18 下午 [Thread: main][ Class:com.fengfang.dao.IAccountDao.findAccountInIds >> Method: org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug(BaseJdbcLogger.java:137) ]
+DEBUG:==>  Preparing: select * from account WHERE id in( ? , ? , ? )
+2020-07-01 15:27:18 下午 [Thread: main][ Class:com.fengfang.dao.IAccountDao.findAccountInIds >> Method: org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug(BaseJdbcLogger.java:137) ]
+DEBUG:==> Parameters: 1(Integer), 3(Integer), 7(Integer)
+2020-07-01 15:27:18 下午 [Thread: main][ Class:com.fengfang.dao.IAccountDao.findAccountInIds >> Method: org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug(BaseJdbcLogger.java:137) ]
+DEBUG:<==      Total: 2
+2020-07-01 15:27:18 下午 [Thread: main][ Class:org.apache.ibatis.transaction.jdbc.JdbcTransaction >> Method: org.apache.ibatis.transaction.jdbc.JdbcTransaction.resetAutoCommit(JdbcTransaction.java:123) ]
+DEBUG:Resetting autocommit to true on JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@5f9b2141]
+2020-07-01 15:27:18 下午 [Thread: main][ Class:org.apache.ibatis.transaction.jdbc.JdbcTransaction >> Method: org.apache.ibatis.transaction.jdbc.JdbcTransaction.close(JdbcTransaction.java:91) ]
+DEBUG:Closing JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@5f9b2141]
+2020-07-01 15:27:18 下午 [Thread: main][ Class:org.apache.ibatis.datasource.pooled.PooledDataSource >> Method: org.apache.ibatis.datasource.pooled.PooledDataSource.pushConnection(PooledDataSource.java:391) ]
+DEBUG:Returned connection 1604002113 to pool.
+2020-07-01 15:27:29 下午 [Thread: main][ Class:org.apache.ibatis.logging.LogFactory >> Method: org.apache.ibatis.logging.LogFactory.setImplementation(LogFactory.java:105) ]
+DEBUG:Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+2020-07-01 15:27:29 下午 [Thread: main][ Class:org.apache.ibatis.datasource.pooled.PooledDataSource >> Method: org.apache.ibatis.datasource.pooled.PooledDataSource.forceCloseAll(PooledDataSource.java:363) ]
+DEBUG:PooledDataSource forcefully closed/removed all connections.
+2020-07-01 15:27:29 下午 [Thread: main][ Class:org.apache.ibatis.datasource.pooled.PooledDataSource >> Method: org.apache.ibatis.datasource.pooled.PooledDataSource.forceCloseAll(PooledDataSource.java:363) ]
+DEBUG:PooledDataSource forcefully closed/removed all connections.
+2020-07-01 15:27:29 下午 [Thread: main][ Class:org.apache.ibatis.datasource.pooled.PooledDataSource >> Method: org.apache.ibatis.datasource.pooled.PooledDataSource.forceCloseAll(PooledDataSource.java:363) ]
+DEBUG:PooledDataSource forcefully closed/removed all connections.
+2020-07-01 15:27:29 下午 [Thread: main][ Class:org.apache.ibatis.datasource.pooled.PooledDataSource >> Method: org.apache.ibatis.datasource.pooled.PooledDataSource.forceCloseAll(PooledDataSource.java:363) ]
+DEBUG:PooledDataSource forcefully closed/removed all connections.
+2020-07-01 15:27:29 下午 [Thread: main][ Class:org.apache.ibatis.transaction.jdbc.JdbcTransaction >> Method: org.apache.ibatis.transaction.jdbc.JdbcTransaction.openConnection(JdbcTransaction.java:137) ]
+DEBUG:Opening JDBC Connection
+2020-07-01 15:27:30 下午 [Thread: main][ Class:org.apache.ibatis.datasource.pooled.PooledDataSource >> Method: org.apache.ibatis.datasource.pooled.PooledDataSource.popConnection(PooledDataSource.java:434) ]
+DEBUG:Created connection 1604002113.
+2020-07-01 15:27:30 下午 [Thread: main][ Class:org.apache.ibatis.transaction.jdbc.JdbcTransaction >> Method: org.apache.ibatis.transaction.jdbc.JdbcTransaction.setDesiredAutoCommit(JdbcTransaction.java:101) ]
+DEBUG:Setting autocommit to false on JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@5f9b2141]
+2020-07-01 15:27:30 下午 [Thread: main][ Class:com.fengfang.dao.IAccountDao.findAccountInIds >> Method: org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug(BaseJdbcLogger.java:137) ]
+DEBUG:==>  Preparing: select * from account WHERE id in( ? , ? , ? )
+2020-07-01 15:27:30 下午 [Thread: main][ Class:com.fengfang.dao.IAccountDao.findAccountInIds >> Method: org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug(BaseJdbcLogger.java:137) ]
+DEBUG:==> Parameters: 1(Integer), 3(Integer), 6(Integer)
+2020-07-01 15:27:30 下午 [Thread: main][ Class:com.fengfang.dao.IAccountDao.findAccountInIds >> Method: org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug(BaseJdbcLogger.java:137) ]
+DEBUG:<==      Total: 3
+2020-07-01 15:27:30 下午 [Thread: main][ Class:org.apache.ibatis.transaction.jdbc.JdbcTransaction >> Method: org.apache.ibatis.transaction.jdbc.JdbcTransaction.resetAutoCommit(JdbcTransaction.java:123) ]
+DEBUG:Resetting autocommit to true on JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@5f9b2141]
+2020-07-01 15:27:30 下午 [Thread: main][ Class:org.apache.ibatis.transaction.jdbc.JdbcTransaction >> Method: org.apache.ibatis.transaction.jdbc.JdbcTransaction.close(JdbcTransaction.java:91) ]
+DEBUG:Closing JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@5f9b2141]
+2020-07-01 15:27:30 下午 [Thread: main][ Class:org.apache.ibatis.datasource.pooled.PooledDataSource >> Method: org.apache.ibatis.datasource.pooled.PooledDataSource.pushConnection(PooledDataSource.java:391) ]
+DEBUG:Returned connection 1604002113 to pool.
+2020-07-01 15:33:38 下午 [Thread: main][ Class:org.apache.ibatis.logging.LogFactory >> Method: org.apache.ibatis.logging.LogFactory.setImplementation(LogFactory.java:105) ]
+DEBUG:Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+2020-07-01 15:33:38 下午 [Thread: main][ Class:org.apache.ibatis.datasource.pooled.PooledDataSource >> Method: org.apache.ibatis.datasource.pooled.PooledDataSource.forceCloseAll(PooledDataSource.java:363) ]
+DEBUG:PooledDataSource forcefully closed/removed all connections.
+2020-07-01 15:33:38 下午 [Thread: main][ Class:org.apache.ibatis.datasource.pooled.PooledDataSource >> Method: org.apache.ibatis.datasource.pooled.PooledDataSource.forceCloseAll(PooledDataSource.java:363) ]
+DEBUG:PooledDataSource forcefully closed/removed all connections.
+2020-07-01 15:33:38 下午 [Thread: main][ Class:org.apache.ibatis.datasource.pooled.PooledDataSource >> Method: org.apache.ibatis.datasource.pooled.PooledDataSource.forceCloseAll(PooledDataSource.java:363) ]
+DEBUG:PooledDataSource forcefully closed/removed all connections.
+2020-07-01 15:33:38 下午 [Thread: main][ Class:org.apache.ibatis.datasource.pooled.PooledDataSource >> Method: org.apache.ibatis.datasource.pooled.PooledDataSource.forceCloseAll(PooledDataSource.java:363) ]
+DEBUG:PooledDataSource forcefully closed/removed all connections.
+2020-07-01 15:33:38 下午 [Thread: main][ Class:org.apache.ibatis.transaction.jdbc.JdbcTransaction >> Method: org.apache.ibatis.transaction.jdbc.JdbcTransaction.openConnection(JdbcTransaction.java:137) ]
+DEBUG:Opening JDBC Connection
+2020-07-01 15:33:39 下午 [Thread: main][ Class:org.apache.ibatis.datasource.pooled.PooledDataSource >> Method: org.apache.ibatis.datasource.pooled.PooledDataSource.popConnection(PooledDataSource.java:434) ]
+DEBUG:Created connection 27084827.
+2020-07-01 15:33:39 下午 [Thread: main][ Class:org.apache.ibatis.transaction.jdbc.JdbcTransaction >> Method: org.apache.ibatis.transaction.jdbc.JdbcTransaction.setDesiredAutoCommit(JdbcTransaction.java:101) ]
+DEBUG:Setting autocommit to false on JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@19d481b]
+2020-07-01 15:33:39 下午 [Thread: main][ Class:com.fengfang.dao.IAccountDao.findAll >> Method: org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug(BaseJdbcLogger.java:137) ]
+DEBUG:==>  Preparing: select * from Account
+2020-07-01 15:33:39 下午 [Thread: main][ Class:com.fengfang.dao.IAccountDao.findAll >> Method: org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug(BaseJdbcLogger.java:137) ]
+DEBUG:==> Parameters: 
+2020-07-01 15:33:39 下午 [Thread: main][ Class:com.fengfang.dao.IAccountDao.findAll >> Method: org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug(BaseJdbcLogger.java:137) ]
+DEBUG:<==      Total: 8
+2020-07-01 15:33:39 下午 [Thread: main][ Class:org.apache.ibatis.transaction.jdbc.JdbcTransaction >> Method: org.apache.ibatis.transaction.jdbc.JdbcTransaction.resetAutoCommit(JdbcTransaction.java:123) ]
+DEBUG:Resetting autocommit to true on JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@19d481b]
+2020-07-01 15:33:39 下午 [Thread: main][ Class:org.apache.ibatis.transaction.jdbc.JdbcTransaction >> Method: org.apache.ibatis.transaction.jdbc.JdbcTransaction.close(JdbcTransaction.java:91) ]
+DEBUG:Closing JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@19d481b]
+2020-07-01 15:33:39 下午 [Thread: main][ Class:org.apache.ibatis.datasource.pooled.PooledDataSource >> Method: org.apache.ibatis.datasource.pooled.PooledDataSource.pushConnection(PooledDataSource.java:391) ]
+DEBUG:Returned connection 27084827 to pool.
