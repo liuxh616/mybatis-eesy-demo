@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.fengfang.dao.IAccountDao">
+    <resultMap id="accountMap" type="com.fengfang.domain.Account">
+        <!--        配置主键字段的匹配-->
+       <!-- <id column="id" property="id"></id>-->
+        <!--        配置非主键字段的匹配-->
+    <!--    <result property="userAddress" column="address"></result>-->
+    </resultMap>
+<!--    定义SQL代码片断，用于去掉重复代码 -->
+    <sql id="defaultUser">
+        select * from Account
+    </sql>
+    <!--    配置查询所有数据-->
+    <select id="findAll" resultMap="accountMap" resultType="com.fengfang.domain.Account">
+        <!--使用代码片断-->
+        <include refid="defaultUser"></include>
+  </select>
+
+    <update id="saveAccount" parameterType="com.fengfang.domain.Account"  >
+        <!--配置插入操作后，获取插入数据的Id -->
+        <selectKey keyProperty="id" keyColumn="id" resultType="java.lang.Integer" order="AFTER">
+            select last_insert_id();
+        </selectKey>
+        insert into account(username,birthday,sex,address) values(#{username},#{birthday},#{sex},#{address});
+    </update>
+
+    <update id="updateAccount" parameterType="com.fengfang.domain.Account" >
+        update account set username=#{username},birthday=#{birthday},sex=#{sex},address=#{address} where id=#{id};
+    </update>
+    <delete id="deleteAccount" parameterType="java.lang.Integer">
+        delete from  account where id=#{uid}
+    </delete>
+
+    <select id="findById" parameterType="java.lang.Integer" resultType="com.fengfang.domain.Account" resultMap="accountMap">
+        select * from account where id=#{uid};
+    </select>
+    <!--    模糊查询用户信息
+    -->
+
+    <select id="findByName" parameterType="java.lang.String" resultType="com.fengfang.domain.Account" resultMap="accountMap">
+        select * from account  where username like #{username};
+        <!--   select * from account  where username like '%${value}%'; -->
+    </select>
+    <!--测试查询总记录条数-->
+    <select id="findAccountCount" resultType="java.lang.Integer">
+        select count(1) from account;
+    </select>
+    <!--    根据QueryVo查询用户信息-->
+    <select id="findAccountByVO" parameterType="com.fengfang.domain.QueryVo" resultType="com.fengfang.domain.Account" resultMap="accountMap">
+        select * from account where username like #{account.username};
+    </select>
+<!--    根据动态条件查询用户数据，使用If语句-->
+<!--    <select id="findAccountByCondition" parameterType="com.fengfang.domain.Account" resultType="com.fengfang.domain.Account" >
+        select * from account where 1=1
+        <if test="username != null ">
+            and username like #{username}
+        </if>
+       <if test="address != null ">
+           and  address  like #{address}
+        </if>
+    </select>-->
+    <select id="findAccountByCondition" parameterType="com.fengfang.domain.Account" resultType="com.fengfang.domain.Account" >
+         select * from account
+         <where>
+             <if test="username != null ">
+                 and username like #{username}
+             </if>
+             <if test="address != null ">
+                 and  address  like #{address}
+             </if>
+         </where>
+    </select>
+<!--    根据QueryVO中的ids集合实现查询用户列表-->
+    <select id="findAccountInIds" parameterType="com.fengfang.domain.QueryVo" resultType="com.fengfang.domain.Account">
+        select * from account
+        <where>
+            <if test="ids != null and  ids.size>0 ">
+                <foreach collection="ids" open=" and id in(" close=")" item="id" separator=",">
+                    #{id}
+                </foreach>
+            </if>
+        </where>
+    </select>
+</mapper>
