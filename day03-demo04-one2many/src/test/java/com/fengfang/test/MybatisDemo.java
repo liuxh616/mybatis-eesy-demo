@@ -47,12 +47,5 @@ public class MybatisDemo {
         }
     }
 
-    @Test
-    public void testFindAccountInfo(){
-//        List<AccountFundInfo> acf = accountDao.findAccountInfo();
-//        for(AccountFundInfo temp :acf){
-//            System.out.println(temp);
-//        }
-    }
 
 }
