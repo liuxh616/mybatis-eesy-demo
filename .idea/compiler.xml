@@ -14,6 +14,7 @@
         <module name="day01-demo02-anno" />
         <module name="day02-demo02-mybatisdao" />
         <module name="day01-demo04-design" />
+        <module name="day03-demo06-jndi" />
         <module name="day03-demo04-one2many" />
         <module name="day03-demo02-transaction" />
       </profile>
@@ -29,6 +30,7 @@
       <module name="day03-demo03-dynamicSQL" target="1.5" />
       <module name="day03-demo04-one2many" target="1.5" />
       <module name="day03-demo05-many2many" target="1.5" />
+      <module name="day03-demo06-jndi" target="1.8" />
     </bytecodeTargetLevel>
   </component>
 </project>
