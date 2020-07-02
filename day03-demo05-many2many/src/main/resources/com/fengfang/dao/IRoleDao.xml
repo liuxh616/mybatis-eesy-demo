@@ -20,6 +20,6 @@
     <select id="findAll"  resultMap="roleMap">
         select a.*,r.id as rid,r.role_name ,r.role_desc from role r
         left outer join account_role ac on r.id =ac.roleid
-        inner join account a on ac.accountid=a.id
+        left join account a on ac.accountid=a.id
     </select>
 </mapper>
