@@ -18,5 +18,6 @@
 <!--    配置mapper文件，用于查询或其它操作-->
     <mappers>
         <mapper resource="com/fengfang/dao/IAccountDao.xml"></mapper>
+        <mapper resource="com/fengfang/dao/IRoleDao.xml"></mapper>
     </mappers>
 </configuration>

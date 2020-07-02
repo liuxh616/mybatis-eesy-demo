@@ -13,6 +13,7 @@
         <option value="$PROJECT_DIR$/day03-demo03-transaction/pom.xml" />
         <option value="$PROJECT_DIR$/day03-demo03-dynamicSQL/pom.xml" />
         <option value="$PROJECT_DIR$/day03-demo04-one2many/pom.xml" />
+        <option value="$PROJECT_DIR$/day03-demo05-many2many/pom.xml" />
       </list>
     </option>
   </component>

@@ -11,6 +11,7 @@
       <module fileurl="file://$PROJECT_DIR$/day03-demo02-transaction/day03-demo02-transaction.iml" filepath="$PROJECT_DIR$/day03-demo02-transaction/day03-demo02-transaction.iml" />
       <module fileurl="file://$PROJECT_DIR$/day03-demo03-dynamicSQL/day03-demo03-dynamicSQL.iml" filepath="$PROJECT_DIR$/day03-demo03-dynamicSQL/day03-demo03-dynamicSQL.iml" />
       <module fileurl="file://$PROJECT_DIR$/day03-demo04-one2many/day03-demo04-one2many.iml" filepath="$PROJECT_DIR$/day03-demo04-one2many/day03-demo04-one2many.iml" />
+      <module fileurl="file://$PROJECT_DIR$/day03-demo05-many2many/day03-demo05-many2many.iml" filepath="$PROJECT_DIR$/day03-demo05-many2many/day03-demo05-many2many.iml" />
     </modules>
   </component>
 </project>

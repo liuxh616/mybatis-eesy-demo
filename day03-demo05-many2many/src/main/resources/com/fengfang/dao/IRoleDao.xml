@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.fengfang.dao.IRoleDao">
+    <resultMap id="roleMap" type="com.fengfang.domain.Role">
+        <id property="roleId" column="rid"></id>
+        <result property="roleName" column="role_name"></result>
+        <result property="roleDesc" column="role_desc"></result>
+        <collection property="accounts" ofType="com.fengfang.domain.Account">
+            <id property="id" column="id"></id>
+            <result property="username" column="username"></result>
+            <result property="sex" column="sex"></result>
+            <result property="bithday" column="bithday"></result>
+            <result property="address" column="address"></result>
+        </collection>
+    </resultMap>
+<!--    可以使用查询语句的别名和实体对应，也可以使用resultMap来定义，让实体属性名称和数据库字段名称相对应-->
+<!--    select id as roleId,role_name as roleName,role_desc as  roleDesc from role-->
+    <select id="findAll"  resultMap="roleMap">
+        select a.*,r.id as rid,r.role_name ,r.role_desc from role r
+        left outer join account_role ac on r.id =ac.roleid
+        inner join account a on ac.accountid=a.id
+    </select>
+</mapper>
