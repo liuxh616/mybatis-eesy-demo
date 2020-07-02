@@ -2,6 +2,7 @@ package com.fengfang.domain;
 
 import java.io.Serializable;
 import java.util.Date;
+import java.util.List;
 
 /**
  * @Description TODO
@@ -14,6 +15,16 @@ public class Account implements Serializable {
     private Date birthday;
     private String sex;
     private String address;
+    //用户的账户信息，一个用户可以有多个账户信息
+    public List<FundInfo> getFundInfos() {
+        return fundInfos;
+    }
+
+    public void setFundInfos(List<FundInfo> fundInfos) {
+        this.fundInfos = fundInfos;
+    }
+
+    private List<FundInfo> fundInfos;
 
     public Integer getId() {
         return id;
@@ -60,7 +71,7 @@ public class Account implements Serializable {
         return "Account{" +
                 "id=" + id +
                 ", username='" + username + '\'' +
-                ", birthday=" + birthday +
+                ", birthday=" + birthday +'\'' +
                 ", sex='" + sex + '\'' +
                 ", address='" + address + '\'' +
                 '}';

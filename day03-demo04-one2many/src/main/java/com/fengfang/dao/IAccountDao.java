@@ -18,8 +18,8 @@ public interface IAccountDao {
     public List<Account> findAll();
 
     /**
-     * 查询用户和账户信息
+     * 连表查询，返回自定义封装对象
      * @return
      */
-//    public List<AccountFundInfo> findAccountInfo();
+    public List<AccountFundInfo> findAccountInfo();
 }

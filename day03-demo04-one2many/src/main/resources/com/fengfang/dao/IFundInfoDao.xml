@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.fengfang.dao.IFundInfoDao">
+<!--    封装fundInfo 和account的resultmap-->
+    <resultMap id="accountFundInfoMap" type="com.fengfang.domain.FundInfo">
+        <id property="id" column="id"></id>
+        <result property="accountid" column="accountid"></result>
+        <result property="avimoney" column="avimoney"></result>
+        <result property="rechargemoney" column="rechargemoney"></result>
+        <association property="account" column="accountid" javaType="com.fengfang.domain.Account">
+            <id property="id" column="aid"></id>
+            <result property="username" column="username"></result>
+            <result property="address" column="address"></result>
+            <result property="sex" column="sex"></result>
+            <result property="birthday" column="birthday"></result>
+        </association>
+    </resultMap>
+    <select id="findAll" resultMap="accountFundInfoMap">
+         select f.*,a.username,a.address,a.sex,a.birthday,a.id as aid from account a inner join fundinfo f on a.id=f.accountid
+    </select>
+</mapper>

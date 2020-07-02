@@ -3,6 +3,7 @@ package com.fengfang.test;
 import com.fengfang.dao.IAccountDao;
 import com.fengfang.domain.Account;
 import com.fengfang.domain.AccountFundInfo;
+import com.fengfang.domain.FundInfo;
 import org.apache.ibatis.io.Resources;
 import org.apache.ibatis.session.SqlSession;
 import org.apache.ibatis.session.SqlSessionFactory;
@@ -13,6 +14,7 @@ import org.junit.Test;
 
 import java.io.IOException;
 import java.io.InputStream;
+import java.text.DecimalFormat;
 import java.util.List;
 
 /**
@@ -44,6 +46,26 @@ public class MybatisDemo {
         List<Account> accounts = accountDao.findAll();
         for(Account account :accounts){
             System.out.println(account);
+            for(FundInfo fundInfo :account.getFundInfos()){
+                System.out.println(fundInfo);
+            }
+            System.out.println("---------------------------");
+        }
+    }
+
+    /**
+     * 连表查询，返回自定义封装对象
+     */
+    @Test
+    public void testFindAccountInfo(){
+        List<AccountFundInfo> accounts = accountDao.findAccountInfo();
+        DecimalFormat format = new DecimalFormat("##,##0.00");
+        for(AccountFundInfo account :accounts){
+            System.out.println(account);
+            System.out.println("---------------------------");
+            System.out.println(format.format(account.getAvimoney()));
+            System.out.println("---------------------------");
+            System.out.println(String.format("%.2f",account.getAvimoney()));
         }
     }
 

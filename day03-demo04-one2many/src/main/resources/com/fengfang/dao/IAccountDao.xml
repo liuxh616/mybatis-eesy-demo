@@ -3,7 +3,30 @@
         PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
         "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
 <mapper namespace="com.fengfang.dao.IAccountDao">
-    <select id="findAll" resultType="com.fengfang.domain.Account">
-        select * from Account
+    <resultMap id="accountFundInfo" type="com.fengfang.domain.Account">
+        <id property="id" column="id"></id>
+        <result property="username" column="username"></result>
+        <result property="sex" column="sex"></result>
+        <result property="birthday" column="birthday"></result>
+        <result property="address" column="address"></result>
+        <!--配置Account对象中FundInfo对像信息
+        fundInfos 对应实体里面list对象的属性
+        ofType：对应List对象的属性的实体
+        -->
+        <collection property="fundInfos" ofType="com.fengfang.domain.FundInfo">
+            <id property="id" column="fid"></id>
+            <result  property="accountid" column="accountid"></result>
+            <result  property="avimoney" column="avimoney"></result>
+            <result  property="rechargemoney" column="rechargemoney"></result>
+        </collection>
+    </resultMap>
+<!--    一对多的查询时，记得要用left join ，而不能使用inner join ,否则会导致部分数据不能查询出来-->
+    <select id="findAll" resultMap="accountFundInfo">
+    select a.*,f.id as fid,f.accountid,f.avimoney,f.rechargemoney from account a left join fundinfo f on a.id=f.accountid
     </select>
+<!--    查看所有用户和账户信息，连表查询，返回自定义封装对象-->
+    <select id="findAccountInfo" resultType="com.fengfang.domain.AccountFundInfo">
+        select f.*,a.username,a.address from account a inner join fundinfo f on a.id=f.accountid
+    </select>
+
 </mapper>
