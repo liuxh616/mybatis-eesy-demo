@@ -10,6 +10,7 @@
         <module name="day01-demo03-mybatisdao" />
         <module name="day01-demo01" />
         <module name="day03-demo01-datasource" />
+        <module name="day04-demo01-lazy" />
         <module name="day03-demo05-many2many" />
         <module name="day01-demo02-anno" />
         <module name="day02-demo02-mybatisdao" />
@@ -31,6 +32,7 @@
       <module name="day03-demo04-one2many" target="1.5" />
       <module name="day03-demo05-many2many" target="1.5" />
       <module name="day03-demo06-jndi" target="1.8" />
+      <module name="day04-demo01-lazy" target="1.5" />
     </bytecodeTargetLevel>
   </component>
 </project>
