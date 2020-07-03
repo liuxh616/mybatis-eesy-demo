@@ -41,10 +41,10 @@ public class AccountTest {
 
     @Test
     public void testFindAll(){
-//        List<Account> accounts = accountDao.findAll();
-//        for(Account account :accounts){
-//            System.out.println("每个用户的信息:");
-//            System.out.println(account);
-//        }
+        List<Account> accounts = accountDao.findAll();
+        for(Account account :accounts){
+            System.out.println("每个用户的信息:");
+            System.out.println(account);
+        }
     }
 }
