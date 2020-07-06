@@ -19,6 +19,7 @@
         <option value="$PROJECT_DIR$/day03-demo05-many2many/pom.xml" />
         <option value="$PROJECT_DIR$/day03-demo06-jndi/pom.xml" />
         <option value="$PROJECT_DIR$/day04-demo01-lazy/pom.xml" />
+        <option value="$PROJECT_DIR$/day04-demo02-cache/pom.xml" />
       </list>
     </option>
   </component>
