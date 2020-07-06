@@ -1,6 +1,7 @@
 package com.fengfang.test;
 
 import com.fengfang.dao.IAccountDao;
+import com.fengfang.dao.IFundInfoDao;
 import com.fengfang.domain.Account;
 import com.fengfang.domain.Fundinfo;
 import org.apache.ibatis.io.Resources;
@@ -18,18 +19,18 @@ import java.util.List;
 /**
  * @Description TODO
  * @Author liuxh
- * @Date 2020/7/6 9:49
+ * @Date 2020/7/6 10:20
  **/
-public class AccountTest {
-    private  InputStream inputStream;
+public class FundInfoTest {
+    private InputStream inputStream;
     SqlSession session;
-    IAccountDao accountDao;
+    IFundInfoDao fundInfoDao;
     @Before
     public void  init() throws IOException {
         inputStream = Resources.getResourceAsStream("sqlMapConfig.xml");
         SqlSessionFactory factory = new SqlSessionFactoryBuilder().build(inputStream);
         session = factory.openSession();
-        accountDao = session.getMapper(IAccountDao.class);
+        fundInfoDao = session.getMapper(IFundInfoDao.class);
 
     }
 
@@ -42,19 +43,15 @@ public class AccountTest {
 
     @Test
     public void testFindAll(){
-        List<Account> accounts = accountDao.findAll();
-        //若没有获取账户明细时，是不会再查询的，即延迟加载
-//        for(Account account :accounts){
-//            System.out.println(account);
-//            System.out.println(account.getFundinfos());
-//        }
+        List<Fundinfo> fundinfos = fundInfoDao.findAll();
 
     }
 
     @Test
-    public void testFindById(){
-        Account account = accountDao.findById(2);
-        System.out.println(account);
-
+    public void testFindByUid(){
+        List<Fundinfo> fundinfos = fundInfoDao.findByUid(8);
+        for(Fundinfo fundinfo :fundinfos){
+            System.out.println(fundinfo);
+        }
     }
 }

@@ -1,9 +1,25 @@
-﻿<?xml version="1.0" encoding="UTF-8" ?>
+<?xml version="1.0" encoding="UTF-8" ?>
 <!DOCTYPE mapper
         PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
         "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
 <mapper namespace="com.fengfang.dao.IAccountDao">
-    <select id="findAll" resultType="com.fengfang.domain.Account">
-        select * from Account;
+    <resultMap id="accountInfo" type="com.fengfang.domain.Account">
+        <id property="id" column="id"></id>
+        <result property="username" column="username"></result>
+        <result property="birthday" column="birthday"></result>
+        <result property="sex" column="sex"></result>
+        <result property="address" column="address"></result>
+<!--        配置account对象中一对多的的fundInfo-->
+        <collection property="fundinfos" ofType="com.fengfang.domain.Fundinfo" column="id" select="com.fengfang.dao.IFundInfoDao.findByUid">
+
+        </collection>
+    </resultMap>
+<!--    查询所有用户数据，并延迟加载账户数据-->
+    <select id="findAll" resultMap="accountInfo">
+        select * from account
+    </select>
+<!--    根据用户ID查询用户数据-->
+    <select id="findById" resultType="com.fengfang.domain.Account" parameterType="java.lang.Integer">
+        select * from Account where id= #{id}
     </select>
 </mapper>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.fengfang.dao.IFundInfoDao">
+    <resultMap id="accountFundInfo" type="com.fengfang.domain.Fundinfo">
+        <id property="id" column="id"></id>
+        <result property="accountid" column="accountid"></result>
+        <result property="avimoney" column="avimoney"></result>
+        <result property="rechargemoney" column="rechargemoney"></result>
+<!--        一对一的关系映射，配置封装Account的映射
+            延迟加载：需使用select属性及column属性       -->
+        <association property="account" column="accountid" javaType="com.fengfang.domain.Account" select="com.fengfang.dao.IAccountDao.findById">
+
+        </association>
+    </resultMap>
+<!--    查询所有账户数据，并延迟加载用户数据-->
+    <select id="findAll" resultMap="accountFundInfo">
+        select * from fundInfo
+    </select>
+<!--    根据用户id查询账户数据-->
+    <select id="findByUid" resultType="com.fengfang.domain.Fundinfo">
+        select * from fundinfo where accountid=#{uid}
+    </select>
+</mapper>

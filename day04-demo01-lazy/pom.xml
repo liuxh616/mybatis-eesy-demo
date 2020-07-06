@@ -8,6 +8,7 @@
     <artifactId>day04-demo01-lazy</artifactId>
     <version>1.0-SNAPSHOT</version>
     <packaging>jar</packaging>
+
     <dependencies>
         <dependency>
             <groupId>org.mybatis</groupId>
@@ -30,5 +31,4 @@
             <version>4.13</version>
         </dependency>
     </dependencies>
-
 </project>

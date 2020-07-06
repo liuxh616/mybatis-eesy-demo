@@ -1,19 +1,32 @@
-﻿package com.fengfang.domain;
+package com.fengfang.domain;
 
+import java.io.InputStream;
 import java.io.Serializable;
 import java.util.Date;
+import java.util.List;
 
 /**
  * @Description TODO
  * @Author liuxh
- * @Date 2020/7/3 17:15
+ * @Date 2020/7/6 9:34
  **/
 public class Account implements Serializable {
     private Integer id;
     private String username;
     private Date birthday;
     private String sex;
-    private String address;
+    private  String address;
+
+
+    public List<Fundinfo> getFundinfos() {
+        return fundinfos;
+    }
+
+    public void setFundinfos(List<Fundinfo> fundinfos) {
+        this.fundinfos = fundinfos;
+    }
+
+    private List<Fundinfo> fundinfos;
 
     public Integer getId() {
         return id;
