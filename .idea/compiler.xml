@@ -6,19 +6,20 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="day03-demo03-dynamicSQL" />
+        <module name="day04-demo02-cache" />
+        <module name="day03-demo05-many2many" />
+        <module name="day03-demo02-transaction" />
+        <module name="day03-demo06-jndi" />
+        <module name="day02-demo02-mybatisdao" />
         <module name="day01-demo03-mybatisdao" />
         <module name="day01-demo01" />
-        <module name="day03-demo01-datasource" />
-        <module name="day04-demo02-cache" />
-        <module name="day04-demo01-lazy" />
-        <module name="day03-demo05-many2many" />
         <module name="day01-demo02-anno" />
-        <module name="day02-demo02-mybatisdao" />
+        <module name="day03-demo03-dynamicSQL" />
+        <module name="day03-demo01-datasource" />
         <module name="day01-demo04-design" />
-        <module name="day03-demo06-jndi" />
         <module name="day03-demo04-one2many" />
-        <module name="day03-demo02-transaction" />
+        <module name="day04-demo01-lazy" />
+        <module name="day04-demo03-annotation" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel target="8">
@@ -35,6 +36,7 @@
       <module name="day03-demo06-jndi" target="1.8" />
       <module name="day04-demo01-lazy" target="1.5" />
       <module name="day04-demo02-cache" target="1.5" />
+      <module name="day04-demo03-annotation" target="1.5" />
     </bytecodeTargetLevel>
   </component>
 </project>

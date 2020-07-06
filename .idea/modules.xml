@@ -15,6 +15,7 @@
       <module fileurl="file://$PROJECT_DIR$/day03-demo06-jndi/day03-demo06-jndi.iml" filepath="$PROJECT_DIR$/day03-demo06-jndi/day03-demo06-jndi.iml" />
       <module fileurl="file://$PROJECT_DIR$/day04-demo01-lazy/day04-demo01-lazy.iml" filepath="$PROJECT_DIR$/day04-demo01-lazy/day04-demo01-lazy.iml" />
       <module fileurl="file://$PROJECT_DIR$/day04-demo02-cache/day04-demo02-cache.iml" filepath="$PROJECT_DIR$/day04-demo02-cache/day04-demo02-cache.iml" />
+      <module fileurl="file://$PROJECT_DIR$/day04-demo03-annotation/day04-demo03-annotation.iml" filepath="$PROJECT_DIR$/day04-demo03-annotation/day04-demo03-annotation.iml" />
     </modules>
   </component>
 </project>
