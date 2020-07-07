@@ -17,6 +17,7 @@
         <module name="day03-demo03-dynamicSQL" />
         <module name="day03-demo01-datasource" />
         <module name="day01-demo04-design" />
+        <module name="day04-demo04-anno-one2many" />
         <module name="day03-demo04-one2many" />
         <module name="day04-demo01-lazy" />
         <module name="day04-demo03-annotation" />
@@ -37,6 +38,7 @@
       <module name="day04-demo01-lazy" target="1.5" />
       <module name="day04-demo02-cache" target="1.5" />
       <module name="day04-demo03-annotation" target="1.5" />
+      <module name="day04-demo04-anno-one2many" target="1.5" />
     </bytecodeTargetLevel>
   </component>
 </project>
